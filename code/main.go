@@ -1,4 +1,4 @@
-//go:generate gotext -srclang=zh update -out=catalog_gen.go -lang=zh,vi
+//go:generate gotext -srclang=zh update -out=catalog_gen.go -lang=zh,vi,en,ja,en
 
 package main
 

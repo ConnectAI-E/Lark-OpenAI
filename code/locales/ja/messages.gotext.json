@@ -1,60 +1,60 @@
 {
-    "language": "vi",
+    "language": "ja",
     "messages": [
         {
             "id": "已选择AI模式:",
             "message": "已选择AI模式:",
-            "translation": "Đã chọn chế độ AI:"
+            "translation": ""
         },
         {
             "id": "️🆑 机器人提醒",
             "message": "️🆑 机器人提醒",
-            "translation": "️🆑 Nhắc nhở robot"
+            "translation": ""
         },
         {
             "id": "已删除此话题的上下文信息",
             "message": "已删除此话题的上下文信息",
-            "translation": "Đã xóa thông tin bối cảnh của chủ đề này"
+            "translation": ""
         },
         {
             "id": "我们可以开始一个全新的话题，继续找我聊天吧",
             "message": "我们可以开始一个全新的话题，继续找我聊天吧",
-            "translation": "Chúng ta có thể bắt đầu một chủ đề hoàn toàn mới, tiếp tục tìm tôi để trò chuyện nhé"
+            "translation": ""
         },
         {
             "id": "依旧保留此话题的上下文信息",
             "message": "依旧保留此话题的上下文信息",
-            "translation": "Vẫn giữ thông tin bối cảnh của chủ đề này"
+            "translation": ""
         },
         {
             "id": "我们可以继续探讨这个话题,期待和您聊天。如果您有其他问题或者想要讨论的话题，请告诉我哦",
             "message": "我们可以继续探讨这个话题,期待和您聊天。如果您有其他问题或者想要讨论的话题，请告诉我哦",
-            "translation": "Chúng ta có thể tiếp tục thảo luận về chủ đề này, mong được trò chuyện với bạn. Nếu bạn có câu hỏi khác hoặc muốn thảo luận về chủ đề khác, vui lòng cho tôi biết nhé"
+            "translation": ""
         },
         {
             "id": "已更新图片分辨率为",
             "message": "已更新图片分辨率为",
-            "translation": "Đã cập nhật độ phân giải hình ảnh thành"
+            "translation": ""
         },
         {
             "id": "🖼️ 已进入图片创作模式",
             "message": "🖼️ 已进入图片创作模式",
-            "translation": "🖼️ Đã vào chế độ tạo hình ảnh"
+            "translation": ""
         },
         {
             "id": "提醒：回复文本或图片，让AI生成相关的图片。",
             "message": "提醒：回复文本或图片，让AI生成相关的图片。",
-            "translation": "Nhắc nhở: Trả lời văn bản hoặc hình ảnh để AI tạo ra hình ảnh liên quan."
+            "translation": ""
         },
         {
             "id": "️🎒 机器人提醒",
             "message": "️🎒 机器人提醒",
-            "translation": "️🎒 Nhắc nhở robot"
+            "translation": ""
         },
         {
             "id": "🤖️：语音转换失败，请稍后再试～\n错误信息: {Err}",
             "message": "🤖️：语音转换失败，请稍后再试～\n错误信息: {Err}",
-            "translation": "🤖️: Chuyển đổi giọng nói không thành công, vui lòng thử lại sau~\nThông báo lỗi: {Err}",
+            "translation": "",
             "placeholders": [
                 {
                     "id": "Err",
@@ -69,37 +69,37 @@
         {
             "id": "🤖️：你想知道什么呢~",
             "message": "🤖️：你想知道什么呢~",
-            "translation": "🤖️: Bạn muốn biết gì đó không ~"
+            "translation": ""
         },
         {
             "id": "清除",
             "message": "清除",
-            "translation": "Xóa"
+            "translation": ""
         },
         {
             "id": "角色扮演",
             "message": "角色扮演",
-            "translation": "Vai trò mô hình"
+            "translation": ""
         },
         {
             "id": "余额",
             "message": "余额",
-            "translation": "Số dư"
+            "translation": ""
         },
         {
             "id": "角色列表",
             "message": "角色列表",
-            "translation": "Danh sách vai trò"
+            "translation": ""
         },
         {
             "id": "AI模式",
             "message": "AI模式",
-            "translation": "Chế độ AI"
+            "translation": ""
         },
         {
             "id": "🤖️：消息机器人摆烂了，请稍后再试～\n错误信息: {Err}",
             "message": "🤖️：消息机器人摆烂了，请稍后再试～\n错误信息: {Err}",
-            "translation": "🤖️:Robot nhắn tin bị hỏng\nvui lòng thử lại sau: {Err}",
+            "translation": "",
             "placeholders": [
                 {
                     "id": "Err",
@@ -114,12 +114,12 @@
         {
             "id": "图片创作",
             "message": "图片创作",
-            "translation": "Tạo hình ảnh"
+            "translation": ""
         },
         {
             "id": "🤖️：图片下载失败，请稍后再试～\n 错误信息: {Err}",
             "message": "🤖️：图片下载失败，请稍后再试～\n 错误信息: {Err}",
-            "translation": "🤖️: Tải xuống hình ảnh không thành công, vui lòng thử lại sau~\nThông báo lỗi: {Err}",
+            "translation": "",
             "placeholders": [
                 {
                     "id": "Err",
@@ -134,12 +134,12 @@
         {
             "id": "🤖️：无法解析图片，请发送原图并尝试重新操作～",
             "message": "🤖️：无法解析图片，请发送原图并尝试重新操作～",
-            "translation": "🤖️: Không thể phân tích hình ảnh, vui lòng gửi hình gốc và thử lại~"
+            "translation": ""
         },
         {
             "id": "🤖️：图片生成失败，请稍后再试～\n错误信息: {Err}",
             "message": "🤖️：图片生成失败，请稍后再试～\n错误信息: {Err}",
-            "translation": "🤖️: Hình ảnh không tạo thành công, vui lòng thử lại sau~ \n Thông tin lỗi: {Err}",
+            "translation": "",
             "placeholders": [
                 {
                     "id": "Err",
@@ -154,67 +154,67 @@
         {
             "id": "🤖️机器人提醒",
             "message": "🤖️机器人提醒",
-            "translation": "🤖️ Nhắc nhở robot"
+            "translation": ""
         },
         {
             "id": "确认清除",
             "message": "确认清除",
-            "translation": "Xác nhận xóa"
+            "translation": ""
         },
         {
             "id": "我再想想",
             "message": "我再想想",
-            "translation": "Tôi suy nghĩ thêm"
+            "translation": ""
         },
         {
             "id": "切换模式",
             "message": "切换模式",
-            "translation": "Chuyển đổi chế độ"
+            "translation": ""
         },
         {
             "id": "默认分辨率",
             "message": "默认分辨率",
-            "translation": "Phân giải mặc định"
+            "translation": ""
         },
         {
             "id": "选择角色分类",
             "message": "选择角色分类",
-            "translation": "Chọn phân loại vai diễn"
+            "translation": ""
         },
         {
             "id": "查看内置角色",
             "message": "查看内置角色",
-            "translation": "Xem các vai diễn nội bộ"
+            "translation": ""
         },
         {
             "id": "选择模式",
             "message": "选择模式",
-            "translation": "Chọn chế độ"
+            "translation": ""
         },
         {
             "id": "🆑 机器人提醒",
             "message": "🆑 机器人提醒",
-            "translation": "🆑 Cảnh báo từ robot"
+            "translation": ""
         },
         {
             "id": "您确定要清除对话上下文吗？",
             "message": "您确定要清除对话上下文吗？",
-            "translation": "Bạn có chắc chắn muốn xóa bỏ ngữ cảnh của cuộc trò chuyện không?"
+            "translation": ""
         },
         {
             "id": "请注意，这将开始一个全新的对话，您将无法利用之前话题的历史信息",
             "message": "请注意，这将开始一个全新的对话，您将无法利用之前话题的历史信息",
-            "translation": "Vui lòng lưu ý, điều này sẽ bắt đầu một cuộc trò chuyện hoàn toàn mới, bạn sẽ không thể sử dụng thông tin lịch sử của chủ đề trước đó"
+            "translation": ""
         },
         {
             "id": "🥷  已进入角色扮演模式",
             "message": "🥷  已进入角色扮演模式",
-            "translation": "🥷  Đã vào chế độ thủ vai"
+            "translation": ""
         },
         {
             "id": "🖼️ 机器人提醒",
             "message": "🖼️ 机器人提醒",
-            "translation": "🖼️ Cảnh báo từ robot"
+            "translation": ""
         },
         {
             "id": "收到图片，是否进入图片创作模式？",
