@@ -65,7 +65,7 @@ type EmptyAction struct { /*空消息*/
 
 func (*EmptyAction) Execute(a *ActionInfo) bool {
 	if len(a.info.qParsed) == 0 {
-		sendMsg(*a.ctx, "🤖️：你想知道什么呢~", a.info.chatId)
+		sendMsg(*a.ctx, utils.I18n.Sprint("🤖️：你想知道什么呢~"), a.info.chatId)
 		utils.I18n.Println("msgId", *a.info.msgId,
 			"message.text is empty")
 		return false
@@ -78,7 +78,7 @@ type ClearAction struct { /*清除消息*/
 
 func (*ClearAction) Execute(a *ActionInfo) bool {
 	if _, foundClear := utils.EitherTrimEqual(a.info.qParsed,
-		"/clear", "清除"); foundClear {
+		"/clear", utils.I18n.Sprint("清除")); foundClear {
 		sendClearCacheCheckCard(*a.ctx, a.info.sessionId,
 			a.info.msgId)
 		return false
@@ -91,7 +91,7 @@ type RolePlayAction struct { /*角色扮演*/
 
 func (*RolePlayAction) Execute(a *ActionInfo) bool {
 	if system, foundSystem := utils.EitherCutPrefix(a.info.qParsed,
-		"/system ", "角色扮演 "); foundSystem {
+		"/system ", utils.I18n.Sprint("角色扮演")); foundSystem {
 		a.handler.sessionCache.Clear(*a.info.sessionId)
 		systemMsg := append([]openai.Messages{}, openai.Messages{
 			Role: "system", Content: system,
@@ -121,7 +121,7 @@ type BalanceAction struct { /*余额*/
 
 func (*BalanceAction) Execute(a *ActionInfo) bool {
 	if _, foundBalance := utils.EitherTrimEqual(a.info.qParsed,
-		"/balance", "余额"); foundBalance {
+		"/balance", utils.I18n.Sprint("余额")); foundBalance {
 		balanceResp, err := a.handler.gpt.GetBalance()
 		if err != nil {
 			replyMsg(*a.ctx, "查询余额失败，请稍后再试", a.info.msgId)
@@ -138,7 +138,7 @@ type RoleListAction struct { /*角色列表*/
 
 func (*RoleListAction) Execute(a *ActionInfo) bool {
 	if _, foundSystem := utils.EitherTrimEqual(a.info.qParsed,
-		"/roles", "角色列表"); foundSystem {
+		"/roles", utils.I18n.Sprint("角色列表")); foundSystem {
 		//a.handler.sessionCache.Clear(*a.info.sessionId)
 		//systemMsg := append([]openai.Messages{}, openai.Messages{
 		//	Role: "system", Content: system,
@@ -158,7 +158,7 @@ type AIModeAction struct { /*AI模式*/
 
 func (*AIModeAction) Execute(a *ActionInfo) bool {
 	if _, foundMode := utils.EitherCutPrefix(a.info.qParsed,
-		"/ai_mode", "AI模式"); foundMode {
+		"/ai_mode", utils.I18n.Sprint("AI模式")); foundMode {
 		SendAIModeListsCard(*a.ctx, a.info.sessionId, a.info.msgId, openai.AIModeStrs)
 		return false
 	}

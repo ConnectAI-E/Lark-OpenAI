@@ -5,6 +5,7 @@ import (
 
 	"start-feishubot/services"
 	"start-feishubot/services/openai"
+	"start-feishubot/utils"
 
 	larkcard "github.com/larksuite/oapi-sdk-go/v3/card"
 )
@@ -31,7 +32,7 @@ func CommonProcessAIMode(msg CardMsg, cardAction *larkcard.CardAction,
 	cache services.SessionServiceCacheInterface) (interface{},
 	error, bool) {
 	option := cardAction.Action.Option
-	replyMsg(context.Background(), "已选择AI模式:"+option,
+	replyMsg(context.Background(), utils.I18n.Sprint("已选择AI模式:")+option,
 		&msg.MsgId)
 	cache.SetAIMode(msg.SessionId, openai.AIModeMap[option])
 	return nil, nil, true
