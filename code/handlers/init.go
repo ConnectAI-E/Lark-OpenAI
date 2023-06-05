@@ -2,6 +2,7 @@ package handlers
 
 import (
 	"context"
+	"github.com/nicksnyder/go-i18n/v2/i18n"
 
 	"start-feishubot/initialization"
 	"start-feishubot/services/openai"
@@ -25,8 +26,9 @@ const (
 // handlers 所有消息类型类型的处理器
 var handlers MessageHandlerInterface
 
-func InitHandlers(gpt *openai.ChatGPT, config initialization.Config) {
-	handlers = NewMessageHandler(gpt, config)
+func InitHandlers(gpt *openai.ChatGPT,
+	config initialization.Config, locale *i18n.Localizer) {
+	handlers = NewMessageHandler(gpt, config, locale)
 }
 
 func Handler(ctx context.Context, event *larkim.P2MessageReceiveV1) error {

@@ -2,14 +2,16 @@ package handlers
 
 import (
 	"fmt"
+	"github.com/nicksnyder/go-i18n/v2/i18n"
 
 	"start-feishubot/services/openai"
 )
 
 type MessageAction struct { /*消息*/
+	locale *i18n.Localizer
 }
 
-func (*MessageAction) Execute(a *ActionInfo) bool {
+func (m *MessageAction) Execute(a *ActionInfo) bool {
 	msg := a.handler.sessionCache.GetMsg(*a.info.sessionId)
 	msg = append(msg, openai.Messages{
 		Role: "user", Content: a.info.qParsed,
@@ -28,7 +30,7 @@ func (*MessageAction) Execute(a *ActionInfo) bool {
 	if len(msg) == 2 {
 		//fmt.Println("new topic", msg[1].Content)
 		sendNewTopicCard(*a.ctx, a.info.sessionId, a.info.msgId,
-			completions.Content)
+			completions.Content, m.locale)
 		return false
 	}
 	err = replyMsg(*a.ctx, completions.Content, a.info.msgId)

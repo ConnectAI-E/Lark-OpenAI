@@ -25,8 +25,10 @@ func main() {
 	pflag.Parse()
 	config := initialization.LoadConfig(*cfg)
 	initialization.LoadLarkClient(*config)
+	localizer := initialization.LoadLocalizer()
+
 	gpt := openai.NewChatGPT(*config)
-	handlers.InitHandlers(gpt, *config)
+	handlers.InitHandlers(gpt, *config, localizer)
 
 	eventHandler := dispatcher.NewEventDispatcher(
 		config.FeishuAppVerificationToken, config.FeishuAppEncryptKey).

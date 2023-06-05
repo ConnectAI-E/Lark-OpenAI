@@ -3,6 +3,7 @@ package handlers
 import (
 	"context"
 	"fmt"
+	"github.com/nicksnyder/go-i18n/v2/i18n"
 	"strings"
 
 	"start-feishubot/initialization"
@@ -28,6 +29,7 @@ type MessageHandler struct {
 	msgCache     services.MsgCacheInterface
 	gpt          *openai.ChatGPT
 	config       initialization.Config
+	locale       *i18n.Localizer
 }
 
 func (m MessageHandler) cardHandler(ctx context.Context,
@@ -99,7 +101,9 @@ func (m MessageHandler) msgReceivedHandler(ctx context.Context, event *larkim.P2
 		&HelpAction{},            //帮助处理
 		&BalanceAction{},         //余额处理
 		&RolePlayAction{},        //角色扮演处理
-		&MessageAction{},         //消息处理
+		&MessageAction{
+			locale: m.locale,
+		}, //消息处理
 
 	}
 	chain(data, actions...)
@@ -109,12 +113,14 @@ func (m MessageHandler) msgReceivedHandler(ctx context.Context, event *larkim.P2
 var _ MessageHandlerInterface = (*MessageHandler)(nil)
 
 func NewMessageHandler(gpt *openai.ChatGPT,
-	config initialization.Config) MessageHandlerInterface {
+	config initialization.Config, locale *i18n.Localizer,
+) MessageHandlerInterface {
 	return &MessageHandler{
 		sessionCache: services.GetSessionCache(),
 		msgCache:     services.GetMsgCache(),
 		gpt:          gpt,
 		config:       config,
+		locale:       locale,
 	}
 }
 

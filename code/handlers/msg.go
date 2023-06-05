@@ -6,7 +6,7 @@ import (
 	"encoding/base64"
 	"errors"
 	"fmt"
-
+	"github.com/nicksnyder/go-i18n/v2/i18n"
 	"start-feishubot/initialization"
 	"start-feishubot/services"
 	"start-feishubot/services/openai"
@@ -655,9 +655,16 @@ func sendPicModeCheckCard(ctx context.Context,
 }
 
 func sendNewTopicCard(ctx context.Context,
-	sessionId *string, msgId *string, content string) {
+	sessionId *string, msgId *string, content string, locale *i18n.Localizer) {
+	newHeader := locale.MustLocalize(&i18n.LocalizeConfig{
+		DefaultMessage: &i18n.Message{
+			ID:    "new_topic_header",
+			Other: "👻️ New Topic Opened",
+		},
+	})
+
 	newCard, _ := newSendCard(
-		withHeader("👻️ 已开启新的话题", larkcard.TemplateBlue),
+		withHeader(newHeader, larkcard.TemplateBlue),
 		withMainText(content),
 		withNote("提醒：点击对话框参与回复，可保持话题连贯"))
 	replyCard(ctx, msgId, newCard)
