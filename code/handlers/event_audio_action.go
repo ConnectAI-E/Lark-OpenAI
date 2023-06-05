@@ -6,6 +6,7 @@ import (
 	"os"
 
 	"start-feishubot/initialization"
+	"start-feishubot/utils"
 	"start-feishubot/utils/audio"
 
 	larkim "github.com/larksuite/oapi-sdk-go/v3/service/im/v1"
@@ -54,11 +55,11 @@ func (*AudioAction) Execute(a *ActionInfo) bool {
 		if err != nil {
 			fmt.Println(err)
 
-			sendMsg(*a.ctx, fmt.Sprintf("🤖️：语音转换失败，请稍后再试～\n错误信息: %v", err), a.info.msgId)
+			sendMsg(*a.ctx, utils.I18n.Sprintf("🤖️：语音转换失败，请稍后再试～\n错误信息: %v", err), a.info.msgId)
 			return false
 		}
 
-		replyMsg(*a.ctx, fmt.Sprintf("🤖️：%s", text), a.info.msgId)
+		replyMsg(*a.ctx, utils.I18n.Sprintf("🤖️：%s", text), a.info.msgId)
 		//fmt.Println("text: ", text)
 		a.info.qParsed = text
 		return true

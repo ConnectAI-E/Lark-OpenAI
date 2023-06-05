@@ -1,0 +1,56 @@
+{
+    "language": "zh",
+    "messages": [
+        {
+            "id": "🤖️：语音转换失败，请稍后再试～\n错误信息: {Err}",
+            "message": "🤖️：语音转换失败，请稍后再试～\n错误信息: {Err}",
+            "translation": "🤖️：语音转换失败，请稍后再试～\n错误信息: {Err}",
+            "translatorComment": "Copied from source.",
+            "placeholders": [
+                {
+                    "id": "Err",
+                    "string": "%[1]v",
+                    "type": "error",
+                    "underlyingType": "interface{Error() string}",
+                    "argNum": 1,
+                    "expr": "err"
+                }
+            ],
+            "fuzzy": true
+        },
+        {
+            "id": "🤖️：{Text}",
+            "message": "🤖️：{Text}",
+            "translation": "🤖️：{Text}",
+            "translatorComment": "Copied from source.",
+            "placeholders": [
+                {
+                    "id": "Text",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "text"
+                }
+            ],
+            "fuzzy": true
+        },
+        {
+            "id": "🤖️：消息机器人摆烂了，请稍后再试～\n错误信息: {Err}",
+            "message": "🤖️：消息机器人摆烂了，请稍后再试～\n错误信息: {Err}",
+            "translation": "🤖️：消息机器人摆烂了，请稍后再试～\n错误信息: {Err}",
+            "translatorComment": "Copied from source.",
+            "placeholders": [
+                {
+                    "id": "Err",
+                    "string": "%[1]v",
+                    "type": "error",
+                    "underlyingType": "interface{Error() string}",
+                    "argNum": 1,
+                    "expr": "err"
+                }
+            ],
+            "fuzzy": true
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "language": "vi",
+    "messages": [
+        {
+            "id": "🤖️：语音转换失败，请稍后再试～\n错误信息: {Err}",
+            "message": "🤖️：语音转换失败，请稍后再试～\n错误信息: {Err}",
+            "translation": "Chuyển đổi giọng nói không thành công, vui lòng thử lại sau~Thông báo lỗi: {Err}",
+            "placeholders": [
+                {
+                    "id": "Err",
+                    "string": "%[1]v",
+                    "type": "error",
+                    "underlyingType": "interface{Error() string}",
+                    "argNum": 1,
+                    "expr": "err"
+                }
+            ]
+        },
+        {
+            "id": "🤖️：{Text}",
+            "message": "🤖️：{Text}",
+            "translation": "",
+            "placeholders": [
+                {
+                    "id": "Text",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "text"
+                }
+            ]
+        },
+        {
+            "id": "🤖️：消息机器人摆烂了，请稍后再试～\n错误信息: {Err}",
+            "message": "🤖️：消息机器人摆烂了，请稍后再试～\n错误信息: {Err}",
+            "translation": "",
+            "placeholders": [
+                {
+                    "id": "Err",
+                    "string": "%[1]v",
+                    "type": "error",
+                    "underlyingType": "interface{Error() string}",
+                    "argNum": 1,
+                    "expr": "err"
+                }
+            ]
+        }
+    ]
+}

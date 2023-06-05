@@ -1,3 +1,5 @@
+//go:generate gotext -srclang=zh update -out=catalog_gen.go -lang=zh,vi
+
 package main
 
 import (
