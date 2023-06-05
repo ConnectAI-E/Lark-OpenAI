@@ -51,6 +51,140 @@
                 }
             ],
             "fuzzy": true
+        },
+        {
+            "id": "🤖️：图片下载失败，请稍后再试～\n 错误信息: {Err}",
+            "message": "🤖️：图片下载失败，请稍后再试～\n 错误信息: {Err}",
+            "translation": "🤖️：图片下载失败，请稍后再试～\n 错误信息: {Err}",
+            "translatorComment": "Copied from source.",
+            "placeholders": [
+                {
+                    "id": "Err",
+                    "string": "%[1]v",
+                    "type": "error",
+                    "underlyingType": "interface{Error() string}",
+                    "argNum": 1,
+                    "expr": "err"
+                }
+            ],
+            "fuzzy": true
+        },
+        {
+            "id": "{ImageKey}.png",
+            "message": "{ImageKey}.png",
+            "translation": "{ImageKey}.png",
+            "translatorComment": "Copied from source.",
+            "placeholders": [
+                {
+                    "id": "ImageKey",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "imageKey"
+                }
+            ],
+            "fuzzy": true
+        },
+        {
+            "id": "🤖️：无法解析图片，请发送原图并尝试重新操作～",
+            "message": "🤖️：无法解析图片，请发送原图并尝试重新操作～",
+            "translation": "🤖️：无法解析图片，请发送原图并尝试重新操作～",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "🤖️：图片生成失败，请稍后再试～\n错误信息: {Err}",
+            "message": "🤖️：图片生成失败，请稍后再试～\n错误信息: {Err}",
+            "translation": "🤖️：图片生成失败，请稍后再试～\n错误信息: {Err}",
+            "translatorComment": "Copied from source.",
+            "placeholders": [
+                {
+                    "id": "Err",
+                    "string": "%[1]v",
+                    "type": "error",
+                    "underlyingType": "interface{Error() string}",
+                    "argNum": 1,
+                    "expr": "err"
+                }
+            ],
+            "fuzzy": true
+        },
+        {
+            "id": "总额度: {TotalGranted}$",
+            "message": "总额度: {TotalGranted}$",
+            "translation": "总额度: {TotalGranted}$",
+            "translatorComment": "Copied from source.",
+            "placeholders": [
+                {
+                    "id": "TotalGranted",
+                    "string": "%.2[1]f",
+                    "type": "float64",
+                    "underlyingType": "float64",
+                    "argNum": 1,
+                    "expr": "balance.TotalGranted"
+                }
+            ],
+            "fuzzy": true
+        },
+        {
+            "id": "已用额度: {TotalUsed}$",
+            "message": "已用额度: {TotalUsed}$",
+            "translation": "已用额度: {TotalUsed}$",
+            "translatorComment": "Copied from source.",
+            "placeholders": [
+                {
+                    "id": "TotalUsed",
+                    "string": "%.2[1]f",
+                    "type": "float64",
+                    "underlyingType": "float64",
+                    "argNum": 1,
+                    "expr": "balance.TotalUsed"
+                }
+            ],
+            "fuzzy": true
+        },
+        {
+            "id": "可用额度: {TotalAvailable}$",
+            "message": "可用额度: {TotalAvailable}$",
+            "translation": "可用额度: {TotalAvailable}$",
+            "translatorComment": "Copied from source.",
+            "placeholders": [
+                {
+                    "id": "TotalAvailable",
+                    "string": "%.2[1]f",
+                    "type": "float64",
+                    "underlyingType": "float64",
+                    "argNum": 1,
+                    "expr": "balance.TotalAvailable"
+                }
+            ],
+            "fuzzy": true
+        },
+        {
+            "id": "有效期: {Format2006_01_02_150405} - {Format2006_01_02_150405_1}",
+            "message": "有效期: {Format2006_01_02_150405} - {Format2006_01_02_150405_1}",
+            "translation": "有效期: {Format2006_01_02_150405} - {Format2006_01_02_150405_1}",
+            "translatorComment": "Copied from source.",
+            "placeholders": [
+                {
+                    "id": "Format2006_01_02_150405",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "balance.EffectiveAt.Format(\"2006-01-02 15:04:05\")"
+                },
+                {
+                    "id": "Format2006_01_02_150405_1",
+                    "string": "%[2]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 2,
+                    "expr": "balance.ExpiresAt.Format(\"2006-01-02 15:04:05\")"
+                }
+            ],
+            "fuzzy": true
         }
     ]
 }

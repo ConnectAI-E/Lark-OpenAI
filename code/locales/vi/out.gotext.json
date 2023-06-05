@@ -45,6 +45,124 @@
                     "expr": "err"
                 }
             ]
+        },
+        {
+            "id": "🤖️：图片下载失败，请稍后再试～\n 错误信息: {Err}",
+            "message": "🤖️：图片下载失败，请稍后再试～\n 错误信息: {Err}",
+            "translation": "",
+            "placeholders": [
+                {
+                    "id": "Err",
+                    "string": "%[1]v",
+                    "type": "error",
+                    "underlyingType": "interface{Error() string}",
+                    "argNum": 1,
+                    "expr": "err"
+                }
+            ]
+        },
+        {
+            "id": "{ImageKey}.png",
+            "message": "{ImageKey}.png",
+            "translation": "",
+            "placeholders": [
+                {
+                    "id": "ImageKey",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "imageKey"
+                }
+            ]
+        },
+        {
+            "id": "🤖️：无法解析图片，请发送原图并尝试重新操作～",
+            "message": "🤖️：无法解析图片，请发送原图并尝试重新操作～",
+            "translation": ""
+        },
+        {
+            "id": "🤖️：图片生成失败，请稍后再试～\n错误信息: {Err}",
+            "message": "🤖️：图片生成失败，请稍后再试～\n错误信息: {Err}",
+            "translation": "",
+            "placeholders": [
+                {
+                    "id": "Err",
+                    "string": "%[1]v",
+                    "type": "error",
+                    "underlyingType": "interface{Error() string}",
+                    "argNum": 1,
+                    "expr": "err"
+                }
+            ]
+        },
+        {
+            "id": "总额度: {TotalGranted}$",
+            "message": "总额度: {TotalGranted}$",
+            "translation": "",
+            "placeholders": [
+                {
+                    "id": "TotalGranted",
+                    "string": "%.2[1]f",
+                    "type": "float64",
+                    "underlyingType": "float64",
+                    "argNum": 1,
+                    "expr": "balance.TotalGranted"
+                }
+            ]
+        },
+        {
+            "id": "已用额度: {TotalUsed}$",
+            "message": "已用额度: {TotalUsed}$",
+            "translation": "",
+            "placeholders": [
+                {
+                    "id": "TotalUsed",
+                    "string": "%.2[1]f",
+                    "type": "float64",
+                    "underlyingType": "float64",
+                    "argNum": 1,
+                    "expr": "balance.TotalUsed"
+                }
+            ]
+        },
+        {
+            "id": "可用额度: {TotalAvailable}$",
+            "message": "可用额度: {TotalAvailable}$",
+            "translation": "",
+            "placeholders": [
+                {
+                    "id": "TotalAvailable",
+                    "string": "%.2[1]f",
+                    "type": "float64",
+                    "underlyingType": "float64",
+                    "argNum": 1,
+                    "expr": "balance.TotalAvailable"
+                }
+            ]
+        },
+        {
+            "id": "有效期: {Format2006_01_02_150405} - {Format2006_01_02_150405_1}",
+            "message": "有效期: {Format2006_01_02_150405} - {Format2006_01_02_150405_1}",
+            "translation": "",
+            "placeholders": [
+                {
+                    "id": "Format2006_01_02_150405",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "balance.EffectiveAt.Format(\"2006-01-02 15:04:05\")"
+                },
+                {
+                    "id": "Format2006_01_02_150405_1",
+                    "string": "%[2]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 2,
+                    "expr": "balance.ExpiresAt.Format(\"2006-01-02 15:04:05\")"
+                }
+            ]
         }
     ]
 }
