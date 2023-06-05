@@ -39,25 +39,26 @@ func init() {
 }
 
 var messageKeyToIndex = map[string]int{
-	"🤖️：%s": 1,
-	"🤖️：消息机器人摆烂了，请稍后再试～\n错误信息: %v": 2,
+	"🤖️：%s": 2,
+	"🤖️：消息机器人摆烂了，请稍后再试～\n错误信息: %v": 1,
 	"🤖️：语音转换失败，请稍后再试～\n错误信息: %v":   0,
 }
 
 var viIndex = []uint32{ // 4 elements
-	0x00000000, 0x00000065, 0x00000065, 0x00000065,
+	0x00000000, 0x00000066, 0x000000ae, 0x000000ae,
 } // Size: 40 bytes
 
-const viData string = "" + // Size: 101 bytes
-	"\x02Chuyển đổi giọng nói không thành công, vui lòng thử lại sau~Thông bá" +
-	"o lỗi: %[1]v"
+const viData string = "" + // Size: 174 bytes
+	"\x02Chuyển đổi giọng nói không thành công, vui lòng thử lại sau~\x0aThôn" +
+	"g báo lỗi: %[1]v\x02🤖️：Robot nhắn tin bị hỏng\x0avui lòng thử lại sau: %" +
+	"[1]v"
 
 var zhIndex = []uint32{ // 4 elements
-	0x00000000, 0x00000046, 0x00000056, 0x000000a2,
+	0x00000000, 0x00000046, 0x00000092, 0x000000a2,
 } // Size: 40 bytes
 
 const zhData string = "" + // Size: 162 bytes
-	"\x02🤖️：语音转换失败，请稍后再试～\x0a错误信息: %[1]v\x02🤖️：%[1]s\x02🤖️：消息机器人摆烂了，请稍后再试～" +
-	"\x0a错误信息: %[1]v"
+	"\x02🤖️：语音转换失败，请稍后再试～\x0a错误信息: %[1]v\x02🤖️：消息机器人摆烂了，请稍后再试～\x0a错误信息: %[1]v" +
+	"\x02🤖️：%[1]s"
 
-	// Total table size 343 bytes (0KiB); checksum: EF48A9F
+	// Total table size 416 bytes (0KiB); checksum: FE811469

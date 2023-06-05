@@ -4,7 +4,7 @@
         {
             "id": "🤖️：语音转换失败，请稍后再试～\n错误信息: {Err}",
             "message": "🤖️：语音转换失败，请稍后再试～\n错误信息: {Err}",
-            "translation": "Chuyển đổi giọng nói không thành công, vui lòng thử lại sau~Thông báo lỗi: {Err}",
+            "translation": "Chuyển đổi giọng nói không thành công, vui lòng thử lại sau~\nThông báo lỗi: {Err}",
             "placeholders": [
                 {
                     "id": "Err",
@@ -34,7 +34,7 @@
         {
             "id": "🤖️：消息机器人摆烂了，请稍后再试～\n错误信息: {Err}",
             "message": "🤖️：消息机器人摆烂了，请稍后再试～\n错误信息: {Err}",
-            "translation": "",
+            "translation": "🤖️：Robot nhắn tin bị hỏng\nvui lòng thử lại sau: {Err}",
             "placeholders": [
                 {
                     "id": "Err",
