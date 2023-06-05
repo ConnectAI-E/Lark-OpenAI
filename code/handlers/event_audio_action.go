@@ -59,7 +59,7 @@ func (*AudioAction) Execute(a *ActionInfo) bool {
 			return false
 		}
 
-		replyMsg(*a.ctx, utils.I18n.Sprintf("🤖️：%s", text), a.info.msgId)
+		replyMsg(*a.ctx, fmt.Sprintf("🤖️：%s", text), a.info.msgId)
 		//fmt.Println("text: ", text)
 		a.info.qParsed = text
 		return true

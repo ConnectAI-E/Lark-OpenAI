@@ -2,6 +2,7 @@ package handlers
 
 import (
 	"context"
+	"fmt"
 	"os"
 
 	"start-feishubot/initialization"
@@ -22,7 +23,7 @@ func (*PicAction) Execute(a *ActionInfo) bool {
 	}
 	// 开启图片创作模式
 	if _, foundPic := utils.EitherTrimEqual(a.info.qParsed,
-		"/picture", utils.I18n.Sprint("图片创作")); foundPic {
+		"/picture", utils.I18n.Sprintf("图片创作")); foundPic {
 		a.handler.sessionCache.Clear(*a.info.sessionId)
 		a.handler.sessionCache.SetMode(*a.info.sessionId,
 			services.ModePicCreate)
@@ -59,7 +60,7 @@ func (*PicAction) Execute(a *ActionInfo) bool {
 			return false
 		}
 
-		f := utils.I18n.Sprintf("%s.png", imageKey)
+		f := fmt.Sprintf("%s.png", imageKey)
 		resp.WriteFile(f)
 		defer os.Remove(f)
 		resolution := a.handler.sessionCache.GetPicResolution(*a.
