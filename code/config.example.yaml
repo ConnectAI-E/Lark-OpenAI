@@ -1,5 +1,5 @@
-# 语言vi 越南
-APP_LANG: vi
+# 国际化语言支持 en, zh, ja, vi
+APP_LANG: ja
 #  飞书
 APP_ID: cli_axxx
 APP_SECRET: xxx
