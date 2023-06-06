@@ -360,7 +360,7 @@ Card callback address: http://IP:9000/webhook/card
 
 - Get [OpenAI](https://platform.openai.com/account/api-keys) KEY( 🙉 Below are free keys available for everyone to test deployment )
 - Create [lark](https://open.larksuit.com/) Bot
-    1. Go [开发者平台](https://open.feishu.cn/?lang=en-US) creat app , get APPID and Secret
+    1. Go [Feishu Open Platform](https://open.feishu.cn/?lang=en-US) creat app , get APPID and Secret
     2. Go `Features-Bot` , creat bot
     3. Obtain the public address from cpolar, serverless, or Railway, and fill it in the "Event Subscription" section of the Lark bot backend. For example,
    - `http://xxxx.r6.cpolar.top` is the public address exposed by cpolar.
