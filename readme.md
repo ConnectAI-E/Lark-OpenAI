@@ -37,7 +37,7 @@
 
 
 
-## 👻 机器人功能
+## 👻 Feature
 
 🗣Voice Communication: Private Direct Says with Robots
 
@@ -79,13 +79,13 @@
 
 
 
-## 🌟 Feature
+## 🌟 Base
 
 - 🍏 The dialogue is based on OpenAI-[GPT4](https://platform.openai.com/account/api-keys) and [Lark](https://www.larksuite.com/)
 - 🥒 support [Serverless ](https://github.com/serverless-devs/serverless-devs)、[local](https://dashboard.cpolar.com/login)、[Docker](https://www.docker.com/)、[binary package](https://github.com/Leizhenpeng/feishu-chatgpt/releases/)
 
 
-## 项目部署
+## 🛵 Development
 
 ###### Description of configuration files for lark，**[➡︎ see more](#Detailed configuration steps)**
 
@@ -129,7 +129,7 @@ kill -9 PID
 </details>
 
 <details>
-    <summary>serverless Development</summary>
+    <summary>Serverless Development</summary>
 <br>
 
 ```bash
@@ -251,7 +251,7 @@ Uncertainty about success or failure of self-determination，can be passed throu
 </details>
 
 <details>
-    <summary>docker development</summary>
+    <summary>Docker Development</summary>
 <br>
 
 ```bash
@@ -330,7 +330,7 @@ feishu-chatgpt:latest
 </details>
 
 <details>
-    <summary>docker-compose deployment</summary>
+    <summary>Docker-Compose Development</summary>
 <br>
 
 Edit docker-compose.yaml, configure the corresponding environment variable through environment (or mount the corresponding configuration file through volumes), and then run the following command
@@ -351,7 +351,7 @@ Card callback address: http://IP:9000/webhook/card
 </details>
 
 <details>
-    <summary>Binary package deployment</summary>
+    <summary>Binary Package Development</summary>
 <br>
 
 1. Enter the [release page](https://github.com/Leizhenpeng/feishu - chatgpt/releases/) to download the corresponding installation package
