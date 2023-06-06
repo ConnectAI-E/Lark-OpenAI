@@ -82,6 +82,11 @@
             "translation": "Vai trò mô hình"
         },
         {
+            "id": "帮助",
+            "message": "帮助",
+            "translation": "Giúp đỡ"
+        },
+        {
             "id": "余额",
             "message": "余额",
             "translation": "Số dư"
@@ -311,7 +316,6 @@
             "message": "🎰️ 余额查询",
             "translation": "🎰️ Tra cứu số dư"
         },
-
         {
             "id": "总额度: {TotalGranted}$",
             "message": "总额度: {TotalGranted}$",

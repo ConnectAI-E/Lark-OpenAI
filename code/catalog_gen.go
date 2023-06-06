@@ -41,96 +41,97 @@ func init() {
 }
 
 var messageKeyToIndex = map[string]int{
-	"** 🆑 清除话题上下文**\n文本回复 *清除* 或 */clear*": 40,
-	"**我是小飞机，一款基于chatGpt技术的智能聊天机器人！**":     39,
-	"AI模式": 16,
-	"余额":   14,
+	"** 🆑 清除话题上下文**\n文本回复 *清除* 或 */clear*": 41,
+	"**我是小飞机，一款基于chatGpt技术的智能聊天机器人！**":     40,
+	"AI模式": 17,
+	"余额":   15,
 	"依旧保留此话题的上下文信息": 4,
-	"再来一张":          52,
-	"切换模式":          25,
-	"可用额度: %.2f$":   56,
-	"图片创作":          18,
+	"再来一张":          53,
+	"切换模式":          26,
+	"可用额度: %.2f$":   57,
+	"图片创作":          19,
 	"已删除此话题的上下文信息":  2,
 	"已更新图片分辨率为":     6,
-	"已用额度: %.2f$":   55,
+	"已用额度: %.2f$":   56,
 	"已选择AI模式:":      0,
-	"总额度: %.2f$":    54,
-	"您确定要清除对话上下文吗？": 31,
+	"帮助":            14,
+	"总额度: %.2f$":    55,
+	"您确定要清除对话上下文吗？": 32,
 	"我们可以开始一个全新的话题，继续找我聊天吧":                       3,
 	"我们可以继续探讨这个话题,期待和您聊天。如果您有其他问题或者想要讨论的话题，请告诉我哦": 5,
-	"我再想想": 24,
+	"我再想想": 25,
 	"提醒：回复文本或图片，让AI生成相关的图片。":      8,
-	"提醒：点击对话框参与回复，可保持话题连贯":        37,
-	"提醒：选择内置场景，快速进入角色扮演模式。":       61,
-	"提醒：选择内置模式，让AI更好的理解您的需求。":     63,
-	"提醒：选择角色所属分类，以便我们为您推荐更多相关角色。": 59,
-	"收到图片，是否进入图片创作模式？":            35,
-	"有效期: %s - %s": 57,
-	"查看内置角色":       28,
+	"提醒：点击对话框参与回复，可保持话题连贯":        38,
+	"提醒：选择内置场景，快速进入角色扮演模式。":       62,
+	"提醒：选择内置模式，让AI更好的理解您的需求。":     64,
+	"提醒：选择角色所属分类，以便我们为您推荐更多相关角色。": 60,
+	"收到图片，是否进入图片创作模式？":            36,
+	"有效期: %s - %s": 58,
+	"查看内置角色":       29,
 	"清除":           12,
-	"确认清除":         23,
-	"立刻清除":         41,
-	"角色列表":         15,
+	"确认清除":         24,
+	"立刻清除":         42,
+	"角色列表":         16,
 	"角色扮演":         13,
-	"请注意，这将开始一个全新的对话，您将无法利用之前话题的历史信息": 32,
-	"选择模式":     29,
-	"选择角色分类":   27,
-	"默认分辨率":    26,
+	"请注意，这将开始一个全新的对话，您将无法利用之前话题的历史信息": 33,
+	"选择模式":     30,
+	"选择角色分类":   28,
+	"默认分辨率":    27,
 	"️🆑 机器人提醒": 1,
 	"️🎒 机器人提醒": 9,
-	"🆑 机器人提醒":  30,
-	"🎒 **需要更多帮助**\n文本回复 *帮助* 或 */help*": 51,
-	"🎒需要帮助吗？":                              38,
-	"🎤 **AI语音对话**\n私聊模式下直接发送语音":            45,
-	"🎨 **图片创作模式**\n回复*图片创作* 或 */picture*":  46,
-	"🎰 **Token余额查询**\n回复*余额* 或 */balance*": 47,
-	"🎰 **连续对话与多话题模式**\n 点击对话框参与回复，可保持话题连贯。同时，单独提问即可开启全新新话题": 50,
-	"🎰️ 余额查询":    53,
-	"👻️ 已开启新的话题": 36,
-	"📤 **话题内容导出** 🚧\n 文本回复 *导出* 或 */export*":             49,
-	"🔃️ **历史话题回档** 🚧\n 进入话题的回复详情页,文本回复 *恢复* 或 */reload*": 48,
+	"🆑 机器人提醒":  31,
+	"🎒 **需要更多帮助**\n文本回复 *帮助* 或 */help*": 52,
+	"🎒需要帮助吗？":                              39,
+	"🎤 **AI语音对话**\n私聊模式下直接发送语音":            46,
+	"🎨 **图片创作模式**\n回复*图片创作* 或 */picture*":  47,
+	"🎰 **Token余额查询**\n回复*余额* 或 */balance*": 48,
+	"🎰 **连续对话与多话题模式**\n 点击对话框参与回复，可保持话题连贯。同时，单独提问即可开启全新新话题": 51,
+	"🎰️ 余额查询":    54,
+	"👻️ 已开启新的话题": 37,
+	"📤 **话题内容导出** 🚧\n 文本回复 *导出* 或 */export*":             50,
+	"🔃️ **历史话题回档** 🚧\n 进入话题的回复详情页,文本回复 *恢复* 或 */reload*": 49,
 	"🖼️ 已进入图片创作模式":                                       7,
-	"🖼️ 机器人提醒":                                           34,
-	"🛖 **内置角色列表** \n 文本回复 *角色列表* 或 */roles*":             43,
-	"🛖 角色列表":    60,
-	"🛖 请选择角色类别": 58,
-	"🤖 **AI模式选择** \n 文本回复 *AI模式* 或 */ai_mode*": 42,
-	"🤖 AI模式选择":    62,
-	"🤖️机器人提醒":     22,
+	"🖼️ 机器人提醒":                                           35,
+	"🛖 **内置角色列表** \n 文本回复 *角色列表* 或 */roles*":             44,
+	"🛖 角色列表":    61,
+	"🛖 请选择角色类别": 59,
+	"🤖 **AI模式选择** \n 文本回复 *AI模式* 或 */ai_mode*": 43,
+	"🤖 AI模式选择":    63,
+	"🤖️机器人提醒":     23,
 	"🤖️：你想知道什么呢~": 11,
-	"🤖️：图片下载失败，请稍后再试～\n 错误信息: %v":                  19,
-	"🤖️：图片生成失败，请稍后再试～\n错误信息: %v":                   21,
-	"🤖️：无法解析图片，请发送原图并尝试重新操作～":                      20,
-	"🤖️：消息机器人摆烂了，请稍后再试～\n错误信息: %v":                 17,
+	"🤖️：图片下载失败，请稍后再试～\n 错误信息: %v":                  20,
+	"🤖️：图片生成失败，请稍后再试～\n错误信息: %v":                   22,
+	"🤖️：无法解析图片，请发送原图并尝试重新操作～":                      21,
+	"🤖️：消息机器人摆烂了，请稍后再试～\n错误信息: %v":                 18,
 	"🤖️：语音转换失败，请稍后再试～\n错误信息: %v":                   10,
-	"🥷  已进入角色扮演模式":                                 33,
-	"🥷 **角色扮演模式**\n文本回复*角色扮演* 或 */system*+空格+角色信息": 44,
+	"🥷  已进入角色扮演模式":                                 34,
+	"🥷 **角色扮演模式**\n文本回复*角色扮演* 或 */system*+空格+角色信息": 45,
 }
 
-var enIndex = []uint32{ // 65 elements
+var enIndex = []uint32{ // 66 elements
 	// Entry 0 - 1F
 	0x00000000, 0x00000012, 0x00000029, 0x0000005c,
 	0x00000093, 0x000000c8, 0x00000163, 0x00000188,
 	0x000001ac, 0x000001f3, 0x0000020a, 0x00000259,
-	0x0000027c, 0x00000282, 0x0000028f, 0x00000297,
-	0x000002a1, 0x000002a9, 0x000002f9, 0x00000308,
-	0x00000355, 0x000003a7, 0x000003f6, 0x0000040c,
-	0x0000041a, 0x0000042d, 0x00000439, 0x0000044c,
-	0x00000461, 0x00000475, 0x00000481, 0x00000495,
+	0x0000027c, 0x00000282, 0x0000028f, 0x00000294,
+	0x0000029c, 0x000002a6, 0x000002ae, 0x000002fe,
+	0x0000030d, 0x0000035a, 0x000003ac, 0x000003fb,
+	0x00000411, 0x0000041f, 0x00000432, 0x0000043e,
+	0x00000451, 0x00000466, 0x0000047a, 0x00000486,
 	// Entry 20 - 3F
-	0x000004ce, 0x00000560, 0x0000057f, 0x00000596,
-	0x000005d5, 0x000005fa, 0x00000653, 0x00000662,
-	0x000006ad, 0x000006eb, 0x000006fd, 0x0000073b,
-	0x0000077a, 0x000007d3, 0x0000081b, 0x00000862,
-	0x000008a4, 0x0000091c, 0x00000960, 0x00000a27,
-	0x00000a5c, 0x00000a65, 0x00000a7d, 0x00000a93,
-	0x00000aa8, 0x00000ac2, 0x00000ada, 0x00000afd,
-	0x00000b49, 0x00000b58, 0x00000b9d, 0x00000bb4,
+	0x0000049a, 0x000004d3, 0x00000565, 0x00000584,
+	0x0000059b, 0x000005da, 0x000005ff, 0x00000658,
+	0x00000667, 0x00000699, 0x000006d7, 0x000006e9,
+	0x00000727, 0x00000766, 0x000007bf, 0x00000807,
+	0x0000084e, 0x00000890, 0x00000908, 0x0000094c,
+	0x00000a13, 0x00000a48, 0x00000a51, 0x00000a69,
+	0x00000a7f, 0x00000a94, 0x00000aae, 0x00000ac6,
+	0x00000ae9, 0x00000b35, 0x00000b44, 0x00000b89,
 	// Entry 40 - 5F
-	0x00000bfd,
-} // Size: 284 bytes
+	0x00000ba0, 0x00000be9,
+} // Size: 288 bytes
 
-const enData string = "" + // Size: 3069 bytes
+const enData string = "" + // Size: 3049 bytes
 	"\x02Selected AI mode:\x02️🆑 Robot reminder\x02Context information of thi" +
 	"s topic has been deleted\x02We can start a brand new topic, continue tal" +
 	"king to me\x02Context information of this topic is still preserved\x02We" +
@@ -140,121 +141,121 @@ const enData string = "" + // Size: 3069 bytes
 	"ation mode\x02Reminder: Reply with text or images to let AI generate rel" +
 	"ated images.\x02️🎒 Robot reminder\x02🤖️: Voice conversion failed, please" +
 	" try again later~\x0aError message: %[1]v\x02🤖️: What do you want to kno" +
-	"w?\x02Clear\x02Role-playing\x02Balance\x02Role list\x02AI mode\x02🤖️: Me" +
-	"ssage bot is acting up, please try again later~\x0aError message: %[1]v" +
-	"\x02Image creation\x02🤖️: Image download failed, please try again later~" +
-	"\x0aError message: %[1]v\x02🤖️: Unable to parse the image, please send t" +
-	"he original image and try again~\x02🤖️: Image generation failed, please " +
-	"try again later~\x0aError message: %[1]v\x02🤖️Robot reminder\x02Confirm " +
-	"clear\x02Let me think again\x02Switch mode\x02Default resolution\x02Sele" +
-	"ct role category\x02View built-in roles\x02Select mode\x02🆑 Robot remind" +
-	"er\x02Are you sure you want to clear the conversation context?\x02Please" +
-	" note that this will start a completely new conversation, and you will n" +
-	"ot be able to leverage historical information from previous topics.\x02🥷" +
-	" Entered role-playing mode\x02🖼️ Robot reminder\x02Received image, would" +
-	" you like to enter picture creation mode?\x02👻️ New topic has been initi" +
-	"ated\x02Reminder: Click the dialog box to participate in the reply and m" +
-	"aintain topic continuity\x02🎒Need help?\x02**I am Little Plane, an intel" +
-	"ligent chatbot based on chatGpt technology!**\x02** 🆑 Clear topic contex" +
-	"t **\x0aReply with *clear* or */clear*\x02Clear immediately\x02🤖 **AI mo" +
-	"de selection**\x0aReply with *AI mode* or */ai_mode*\x02🛖 **Built-in rol" +
-	"e list**\x0aReply with *role list* or */roles*\x02🥷 **Role-playing mode*" +
-	"*\x0aReply with *role-playing* or */system*+space+role information\x02🎤 " +
-	"**AI voice conversation**\x0aSend voice directly in private chat mode" +
-	"\x02🎨 **Image creation mode**\x0aReply with *image creation* or */pictur" +
-	"e*\x02🎰 **Token balance inquiry**\x0aReply with *balance* or */balance*" +
-	"\x02🔃️ **Historical topic rollback** 🚧\x0aGo to the reply details page o" +
-	"f the topic, reply with *restore* or */reload*\x02📤 **Export topic conte" +
-	"nt** 🚧\x0aReply with *export* or */export*\x02🎰 **Continuous conversatio" +
-	"n and multi-topic mode**\x0aClick the dialog box to participate in the r" +
-	"eply and maintain topic continuity. Also, asking separate questions can " +
-	"start a completely new topic\x02🎒 **Need more help**\x0aReply with *help" +
-	"* or */help*\x02One more\x02🎰️ Balance inquiry\x02Total limit: %.2[1]f$" +
-	"\x02Used limit: %.2[1]f$\x02Available limit: %.2[1]f$\x02Validity: %[1]s" +
-	" - %[2]s\x02🛖 Please select a role category\x02Reminder: Select the cate" +
-	"gory of the role to receive more recommended roles\x02🛖 Role list\x02Rem" +
-	"inder: Select a built-in scene to quickly enter role-playing mode\x02🤖 A" +
-	"I mode selection\x02Reminder: Select a built-in mode to help AI better u" +
-	"nderstand your needs"
+	"w?\x02Clear\x02Role-playing\x02help\x02Balance\x02Role list\x02AI mode" +
+	"\x02🤖️: Message bot is acting up, please try again later~\x0aError messa" +
+	"ge: %[1]v\x02Image creation\x02🤖️: Image download failed, please try aga" +
+	"in later~\x0aError message: %[1]v\x02🤖️: Unable to parse the image, plea" +
+	"se send the original image and try again~\x02🤖️: Image generation failed" +
+	", please try again later~\x0aError message: %[1]v\x02🤖️Robot reminder" +
+	"\x02Confirm clear\x02Let me think again\x02Switch mode\x02Default resolu" +
+	"tion\x02Select role category\x02View built-in roles\x02Select mode\x02🆑 " +
+	"Robot reminder\x02Are you sure you want to clear the conversation contex" +
+	"t?\x02Please note that this will start a completely new conversation, an" +
+	"d you will not be able to leverage historical information from previous " +
+	"topics.\x02🥷 Entered role-playing mode\x02🖼️ Robot reminder\x02Received " +
+	"image, would you like to enter picture creation mode?\x02👻️ New topic ha" +
+	"s been initiated\x02Reminder: Click the dialog box to participate in the" +
+	" reply and maintain topic continuity\x02🎒Need help?\x02**I am an intelli" +
+	"gent chatBot based on chatGpt!**\x02** 🆑 Clear topic context **\x0aReply" +
+	" with *clear* or */clear*\x02Clear immediately\x02🤖 **AI mode selection*" +
+	"*\x0aReply with *AI mode* or */ai_mode*\x02🛖 **Built-in role list**\x0aR" +
+	"eply with *role list* or */roles*\x02🥷 **Role-playing mode**\x0aReply wi" +
+	"th *role-playing* or */system*+space+role information\x02🎤 **AI voice co" +
+	"nversation**\x0aSend voice directly in private chat mode\x02🎨 **Image cr" +
+	"eation mode**\x0aReply with *image creation* or */picture*\x02🎰 **Token " +
+	"balance inquiry**\x0aReply with *balance* or */balance*\x02🔃️ **Historic" +
+	"al topic rollback** 🚧\x0aGo to the reply details page of the topic, repl" +
+	"y with *restore* or */reload*\x02📤 **Export topic content** 🚧\x0aReply w" +
+	"ith *export* or */export*\x02🎰 **Continuous conversation and multi-topic" +
+	" mode**\x0aClick the dialog box to participate in the reply and maintain" +
+	" topic continuity. Also, asking separate questions can start a completel" +
+	"y new topic\x02🎒 **Need more help**\x0aReply with *help* or */help*\x02O" +
+	"ne more\x02🎰️ Balance inquiry\x02Total limit: %.2[1]f$\x02Used limit: %." +
+	"2[1]f$\x02Available limit: %.2[1]f$\x02Validity: %[1]s - %[2]s\x02🛖 Plea" +
+	"se select a role category\x02Reminder: Select the category of the role t" +
+	"o receive more recommended roles\x02🛖 Role list\x02Reminder: Select a bu" +
+	"ilt-in scene to quickly enter role-playing mode\x02🤖 AI mode selection" +
+	"\x02Reminder: Select a built-in mode to help AI better understand your n" +
+	"eeds"
 
-var jaIndex = []uint32{ // 65 elements
+var jaIndex = []uint32{ // 66 elements
 	// Entry 0 - 1F
 	0x00000000, 0x00000025, 0x0000004f, 0x00000095,
 	0x000000f0, 0x00000130, 0x000001c7, 0x000001f2,
 	0x00000222, 0x0000028b, 0x000002a3, 0x00000318,
-	0x00000340, 0x0000034a, 0x0000035d, 0x00000364,
-	0x00000380, 0x0000038c, 0x00000416, 0x00000423,
-	0x000004aa, 0x0000050e, 0x00000589, 0x000005b2,
-	0x000005c5, 0x000005de, 0x000005f7, 0x00000613,
-	0x0000063b, 0x00000663, 0x00000676, 0x0000069d,
+	0x00000340, 0x0000034a, 0x0000035d, 0x00000367,
+	0x0000036e, 0x0000038a, 0x00000396, 0x00000420,
+	0x0000042d, 0x000004b4, 0x00000518, 0x00000593,
+	0x000005bc, 0x000005cf, 0x000005e8, 0x00000601,
+	0x0000061d, 0x00000645, 0x0000066d, 0x00000680,
 	// Entry 20 - 3F
-	0x000006e6, 0x0000077d, 0x000007b0, 0x000007da,
-	0x00000826, 0x0000085c, 0x000008e7, 0x00000907,
-	0x0000096a, 0x000009d1, 0x000009e4, 0x00000a53,
-	0x00000ae6, 0x00000b86, 0x00000bf0, 0x00000c4f,
-	0x00000cab, 0x00000d4d, 0x00000ddc, 0x00000ede,
-	0x00000f53, 0x00000f60, 0x00000f75, 0x00000f86,
-	0x00000f9d, 0x00000fb4, 0x00000fd0, 0x0000100f,
-	0x0000109d, 0x000010be, 0x0000112b, 0x00001145,
+	0x000006a7, 0x000006f0, 0x00000787, 0x000007ba,
+	0x000007e4, 0x00000830, 0x00000866, 0x000008f1,
+	0x00000911, 0x00000974, 0x000009db, 0x000009ee,
+	0x00000a5d, 0x00000af0, 0x00000b90, 0x00000bfa,
+	0x00000c59, 0x00000cb5, 0x00000d57, 0x00000de6,
+	0x00000ee8, 0x00000f5d, 0x00000f6a, 0x00000f7f,
+	0x00000f90, 0x00000fa7, 0x00000fbe, 0x00000fda,
+	0x00001019, 0x000010a7, 0x000010c8, 0x00001135,
 	// Entry 40 - 5F
-	0x000011b1,
-} // Size: 284 bytes
+	0x0000114f, 0x000011bb,
+} // Size: 288 bytes
 
-const jaData string = "" + // Size: 4529 bytes
+const jaData string = "" + // Size: 4539 bytes
 	"\x02AIモードが選択されました:\x02️🆑 ロボットのリマインダー\x02このトピックのコンテキスト情報が削除されました\x02新しいトピ" +
 	"ックを始めて、私とのチャットを続けることができます\x02このトピックのコンテキスト情報を保持します\x02このトピックをさらに議論し、チャ" +
 	"ットを楽しみにしています。他の質問や話題がある場合は、教えてください\x02画像の解像度が更新されました\x02🖼️ 画像作成モードに入りま" +
 	"した\x02リマインダー：テキストまたは画像で返信し、AIが関連する画像を生成します\x02️🎒 ロボットの\x02🤖: 音声変換に失敗しま" +
 	"した。後でもう一度お試しください~\\nエラー メッセージ: %[1]v\x02🤖️: 何を知りたいですか？\x02クリア\x02ロールプレ" +
-	"イ\x02残高\x02キャラクターリスト\x02AIモード\x02🤖️: メッセージボットがダウンしています。後でもう一度お試しください。" +
-	"\x0aエラーメッセージ: %[1]v\x02画像作成\x02🤖️: 画像のダウンロードに失敗しました。後でもう一度お試しください。\x0aエラ" +
-	"ーメッセージ: %[1]v\x02🤖️: 画像を解析できません。元の画像を送信して再試行してください。\x02🤖️: 画像の生成に失敗しまし" +
-	"た。後でもう一度お試しください~\\nエラー メッセージ: %[1]v\x02🤖️ロボットのリマインダー\x02クリアの確認\x02もう一度" +
-	"考えます\x02モードの切り替え\x02デフォルトの解像度\x02キャラクターカテゴリの選択\x02組み込みキャラクターの表示\x02モード" +
-	"の選択\x02🆑 ロボットのリマインダー\x02会話のコンテキストをクリアしてもよろしいですか？\x02注意してください。これにより、新しい" +
-	"会話が開始され、以前のトピックの履歴情報を利用できなくなります。\x02🥷 ロールプレイモードに入りました\x02🖼️ ロボットのリマインダ" +
-	"ー\x02画像を受け取りました。画像作成モードに入りますか？\x02👻️ 新しいトピックが開始されました\x02リマインダー：回答するために" +
-	"ダイアログボックスをクリックすると、トピックの連続性が保たれます\x02🎒助けが必要ですか？\x02**私はChatGPT技術に基づくスマー" +
-	"トチャットボットであるLittle Planeです！**\x02** 🆑 トピックのコンテキストをクリア**\\nテキスト返信 *clear" +
-	"* または */clear*\x02すぐにクリア\x02🤖 **AIモードの選択** \x0a テキストに *AIモード* または */ai_m" +
-	"ode* を返信してください\x02🛖 **組み込みのキャラクターリスト** \x0a テキストに *キャラクターリスト* または */role" +
-	"s* を返信してください\x02🥷 **ロールプレイモード**\x0aテキストに *ロールプレイ* または */system*+スペース+キャラ" +
-	"クター情報 を返信してください\x02🎤 **AI音声会話**\x0aプライベートチャットモードで直接音声を送信してください\x02🎨 **" +
-	"画像作成モード**\x0a*图片创作* または */picture* と返信してください\x02🎰 **トークン残高照会**\x0a*余额*" +
-	" または */balance* と返信してください\x02🔃️ **過去のトピックの巻き戻し** 🚧\x0aトピックの返信の詳細ページに入り、*" +
-	"恢复* または */reload* と返信してください\x02📤 **トピックの内容をエクスポート** 🚧\x0a テキストで *エクスポー" +
-	"ト* または */export* を返信してください\x02🎰 **連続対話とマルチトピックモード**\x0a ダイアログボックスをクリック" +
-	"して参加すると、トピックを継続させることができます。同時に、個別の質問をすると新しいトピックが開始されます\x02🎒 **さらなる支援が必要" +
-	"です**\x0aテキストで *ヘルプ* または */help* を返信してください\x02もう一枚\x02🎰️ 残高照会\x02総額: %." +
-	"2[1]f$\x02使用済み: %.2[1]f$\x02利用可能: %.2[1]f$\x02有効期限: %[1]s - %[2]s\x02🛖 キ" +
-	"ャラクターカテゴリを選択してください\x02リマインダー：キャラクターの所属カテゴリを選択して、関連するキャラクターをさらにおすすめします" +
-	"\x02🛖 キャラクターリスト\x02リマインダー：組み込みのシーンを選択して、素早くロールプレイモードに入る\x02🤖 AIモードの選択" +
-	"\x02リマインダー：組み込みのモードを選択して、AIによりよくニーズを理解させる"
+	"イ\x02ヘルプ\x02残高\x02キャラクターリスト\x02AIモード\x02🤖️: メッセージボットがダウンしています。後でもう一度お試" +
+	"しください。\x0aエラーメッセージ: %[1]v\x02画像作成\x02🤖️: 画像のダウンロードに失敗しました。後でもう一度お試しくださ" +
+	"い。\x0aエラーメッセージ: %[1]v\x02🤖️: 画像を解析できません。元の画像を送信して再試行してください。\x02🤖️: 画像の" +
+	"生成に失敗しました。後でもう一度お試しください~\\nエラー メッセージ: %[1]v\x02🤖️ロボットのリマインダー\x02クリアの確認" +
+	"\x02もう一度考えます\x02モードの切り替え\x02デフォルトの解像度\x02キャラクターカテゴリの選択\x02組み込みキャラクターの表示" +
+	"\x02モードの選択\x02🆑 ロボットのリマインダー\x02会話のコンテキストをクリアしてもよろしいですか？\x02注意してください。これによ" +
+	"り、新しい会話が開始され、以前のトピックの履歴情報を利用できなくなります。\x02🥷 ロールプレイモードに入りました\x02🖼️ ロボットの" +
+	"リマインダー\x02画像を受け取りました。画像作成モードに入りますか？\x02👻️ 新しいトピックが開始されました\x02リマインダー：回答" +
+	"するためにダイアログボックスをクリックすると、トピックの連続性が保たれます\x02🎒助けが必要ですか？\x02**私はChatGPT技術に基" +
+	"づくスマートチャットボットであるLittle Planeです！**\x02** 🆑 トピックのコンテキストをクリア**\\nテキスト返信 *" +
+	"clear* または */clear*\x02すぐにクリア\x02🤖 **AIモードの選択** \x0a テキストに *AIモード* または *" +
+	"/ai_mode* を返信してください\x02🛖 **組み込みのキャラクターリスト** \x0a テキストに *キャラクターリスト* または *" +
+	"/roles* を返信してください\x02🥷 **ロールプレイモード**\x0aテキストに *ロールプレイ* または */system*+スペー" +
+	"ス+キャラクター情報 を返信してください\x02🎤 **AI音声会話**\x0aプライベートチャットモードで直接音声を送信してください" +
+	"\x02🎨 **画像作成モード**\x0a*图片创作* または */picture* と返信してください\x02🎰 **トークン残高照会**" +
+	"\x0a*余额* または */balance* と返信してください\x02🔃️ **過去のトピックの巻き戻し** 🚧\x0aトピックの返信の詳細" +
+	"ページに入り、*恢复* または */reload* と返信してください\x02📤 **トピックの内容をエクスポート** 🚧\x0a テキスト" +
+	"で *エクスポート* または */export* を返信してください\x02🎰 **連続対話とマルチトピックモード**\x0a ダイアログボ" +
+	"ックスをクリックして参加すると、トピックを継続させることができます。同時に、個別の質問をすると新しいトピックが開始されます\x02🎒 **さ" +
+	"らなる支援が必要です**\x0aテキストで *ヘルプ* または */help* を返信してください\x02もう一枚\x02🎰️ 残高照会" +
+	"\x02総額: %.2[1]f$\x02使用済み: %.2[1]f$\x02利用可能: %.2[1]f$\x02有効期限: %[1]s - %[" +
+	"2]s\x02🛖 キャラクターカテゴリを選択してください\x02リマインダー：キャラクターの所属カテゴリを選択して、関連するキャラクターをさらに" +
+	"おすすめします\x02🛖 キャラクターリスト\x02リマインダー：組み込みのシーンを選択して、素早くロールプレイモードに入る\x02🤖 AI" +
+	"モードの選択\x02リマインダー：組み込みのモードを選択して、AIによりよくニーズを理解させる"
 
-var viIndex = []uint32{ // 65 elements
+var viIndex = []uint32{ // 66 elements
 	// Entry 0 - 1F
 	0x00000000, 0x0000001c, 0x00000037, 0x00000070,
 	0x000000e6, 0x00000121, 0x00000204, 0x0000023c,
 	0x0000026c, 0x000002ce, 0x000002e9, 0x00000358,
-	0x00000387, 0x0000038c, 0x0000039f, 0x000003a8,
-	0x000003bc, 0x000003cb, 0x00000411, 0x00000423,
-	0x0000048f, 0x000004eb, 0x00000550, 0x0000056b,
-	0x0000057c, 0x00000591, 0x000005ad, 0x000005c8,
-	0x000005e7, 0x00000606, 0x00000619, 0x00000635,
+	0x00000387, 0x0000038c, 0x0000039f, 0x000003ab,
+	0x000003b4, 0x000003c8, 0x000003d7, 0x0000041d,
+	0x0000042f, 0x0000049b, 0x000004f7, 0x0000055c,
+	0x00000577, 0x00000588, 0x0000059d, 0x000005b9,
+	0x000005d4, 0x000005f3, 0x00000612, 0x00000625,
 	// Entry 20 - 3F
-	0x0000068e, 0x00000749, 0x0000076f, 0x0000078e,
-	0x000007e7, 0x0000080b, 0x0000087e, 0x000008a2,
-	0x0000090c, 0x00000971, 0x00000987, 0x000009d6,
-	0x00000a38, 0x00000ab3, 0x00000b1f, 0x00000b6e,
-	0x00000bb8, 0x00000c57, 0x00000cb6, 0x00000dbf,
-	0x00000e10, 0x00000e27, 0x00000e42, 0x00000e67,
-	0x00000e81, 0x00000e9f, 0x00000ec0, 0x00000ee6,
-	0x00000f67, 0x00000f80, 0x00000fd2, 0x00000fed,
+	0x00000641, 0x0000069a, 0x00000755, 0x0000077b,
+	0x0000079a, 0x000007f3, 0x00000817, 0x0000088a,
+	0x000008ae, 0x00000918, 0x0000097d, 0x00000993,
+	0x000009e2, 0x00000a44, 0x00000abf, 0x00000b2b,
+	0x00000b7a, 0x00000bc4, 0x00000c63, 0x00000cc2,
+	0x00000dcb, 0x00000e1c, 0x00000e33, 0x00000e4e,
+	0x00000e73, 0x00000e8d, 0x00000eab, 0x00000ecc,
+	0x00000ef2, 0x00000f73, 0x00000f8c, 0x00000fde,
 	// Entry 40 - 5F
-	0x0000104a,
-} // Size: 284 bytes
+	0x00000ff9, 0x00001056,
+} // Size: 288 bytes
 
-const viData string = "" + // Size: 4170 bytes
+const viData string = "" + // Size: 4182 bytes
 	"\x02Đã chọn chế độ AI:\x02️🆑 Nhắc nhở robot\x02Đã xóa thông tin bối cảnh" +
 	" của chủ đề này\x02Chúng ta có thể bắt đầu một chủ đề hoàn toàn mới, tiế" +
 	"p tục tìm tôi để trò chuyện nhé\x02Vẫn giữ thông tin bối cảnh của chủ đề" +
@@ -265,86 +266,86 @@ const viData string = "" + // Size: 4170 bytes
 	"h ảnh để AI tạo ra hình ảnh liên quan.\x02️🎒 Nhắc nhở robot\x02🤖️: Chuyể" +
 	"n đổi giọng nói không thành công, vui lòng thử lại sau~\x0aThông báo lỗi" +
 	": %[1]v\x02🤖️: Bạn muốn biết gì đó không ~\x02Xóa\x02Vai trò mô hình\x02" +
-	"Số dư\x02Danh sách vai trò\x02Chế độ AI\x02🤖️:Robot nhắn tin bị hỏng\x0a" +
-	"vui lòng thử lại sau: %[1]v\x02Tạo hình ảnh\x02🤖️: Tải xuống hình ảnh kh" +
-	"ông thành công, vui lòng thử lại sau~\x0aThông báo lỗi: %[1]v\x02🤖️: Kh" +
-	"ông thể phân tích hình ảnh, vui lòng gửi hình gốc và thử lại~\x02🤖️: Hì" +
-	"nh ảnh không tạo thành công, vui lòng thử lại sau~ \x0a Thông tin lỗi: %" +
-	"[1]v\x02🤖️ Nhắc nhở robot\x02Xác nhận xóa\x02Tôi suy nghĩ thêm\x02Chuyển" +
-	" đổi chế độ\x02Phân giải mặc định\x02Chọn phân loại vai diễn\x02Xem các " +
-	"vai diễn nội bộ\x02Chọn chế độ\x02🆑 Cảnh báo từ robot\x02Bạn có chắc chắ" +
-	"n muốn xóa bỏ ngữ cảnh của cuộc trò chuyện không?\x02Vui lòng lưu ý, điề" +
-	"u này sẽ bắt đầu một cuộc trò chuyện hoàn toàn mới, bạn sẽ không thể sử " +
-	"dụng thông tin lịch sử của chủ đề trước đó\x02🥷  Đã vào chế độ thủ vai" +
-	"\x02🖼️ Cảnh báo từ robot\x02Nhận được hình ảnh, bạn có muốn vào chế độ s" +
-	"áng tạo ảnh không?\x02👻️ Đã mở chủ đề mới\x02Nhắc nhở: Nhấp vào hộp tho" +
-	"ại để tham gia trả lời và duy trì sự liên tục của chủ đề\x02🎒Bạn cần g" +
-	"iúp đỡ không?\x02**Tôi là máy bay nhỏ, một trò chuyện trí tuệ nhân tạo d" +
-	"ựa trên công nghệ chatGpt!**\x02** 🆑 Xóa bỏ ngữ cảnh chủ đề**\x0aPhản " +
-	"hồi bằng văn bản *清除* hoặc */clear*\x02Xóa ngay lập tức\x02🤖 **Chế độ AI" +
-	"** \x0a Phản hồi văn bản *AI模式* hoặc */ai_mode*\x02🛖 **Danh sách vai trò" +
-	" tích hợp** \x0a Phản hồi văn bản *角色列表* hoặc */roles*\x02🥷 **Chế độ đón" +
-	"g vai**\x0aPhản hồi văn bản *角色扮演* hoặc */system*+ dấu cách + thông tin " +
-	"vai trò\x02🎤 **Trò chuyện giọng nói AI**\x0aGửi trực tiếp âm thanh trong" +
-	" chế độ trò chuyện riêng\x02🎨 **Chế độ tạo ảnh**\x0aPhản hồi *图片创作* hoặc" +
-	" */picture*\x02🎰 **Tra cứu số dư Token**\x0aPhản hồi *余额* hoặc */balance" +
-	"*\x02🔃️ **Lưu trữ chủ đề trước đó** 🚧\x0a Vào trang chi tiết phản hồi củ" +
-	"a chủ đề, phản hồi văn bản *恢复* hoặc */reload*\x02📤 **Xuất nội dung chủ " +
-	"đề** 🚧\x0a Phản hồi văn bản *导出* hoặc */export*\x02🎰 **Chế độ trò chuyệ" +
-	"n liên tục và đa chủ đề**\x0aNhấp vào hộp thoại để tham gia trả lời và d" +
-	"uy trì sự liên tục của chủ đề. Đồng thời, đặt câu hỏi riêng có thể khởi " +
-	"động chủ đề mới hoàn toàn\x02🎒 **Cần thêm trợ giúp**\x0aPhản hồi văn bả" +
-	"n *帮助* hoặc */help*\x02Gửi thêm một cái\x02🎰️ Tra cứu số dư\x02Giới hạn " +
-	"tổng cộng: %.2[1]f$\x02Số dùng đã: %.2[1]f$\x02Số dùng được: %.2[1]f$" +
-	"\x02Hạn sử dụng: %[1]s - %[2]s\x02🛖 Vui lòng chọn loại vai trò\x02Lưu ý:" +
-	" Chọn danh mục thuộc tính của vai trò để chúng tôi có thể đề xuất thêm c" +
-	"ác vai trò liên quan.\x02🛖 Danh sách vai trò\x02Lưu ý: Chọn cảnh nội bộ" +
-	" để nhanh chóng vào chế độ đóng vai.\x02🤖 Chọn chế độ AI\x02Lưu ý: Chọn " +
-	"chế độ nội bộ để cho AI hiểu nhu cầu của bạn tốt hơn."
+	"Giúp đỡ\x02Số dư\x02Danh sách vai trò\x02Chế độ AI\x02🤖️:Robot nhắn tin " +
+	"bị hỏng\x0avui lòng thử lại sau: %[1]v\x02Tạo hình ảnh\x02🤖️: Tải xuống " +
+	"hình ảnh không thành công, vui lòng thử lại sau~\x0aThông báo lỗi: %[1]v" +
+	"\x02🤖️: Không thể phân tích hình ảnh, vui lòng gửi hình gốc và thử lại~" +
+	"\x02🤖️: Hình ảnh không tạo thành công, vui lòng thử lại sau~ \x0a Thông " +
+	"tin lỗi: %[1]v\x02🤖️ Nhắc nhở robot\x02Xác nhận xóa\x02Tôi suy nghĩ thêm" +
+	"\x02Chuyển đổi chế độ\x02Phân giải mặc định\x02Chọn phân loại vai diễn" +
+	"\x02Xem các vai diễn nội bộ\x02Chọn chế độ\x02🆑 Cảnh báo từ robot\x02Bạn" +
+	" có chắc chắn muốn xóa bỏ ngữ cảnh của cuộc trò chuyện không?\x02Vui lòn" +
+	"g lưu ý, điều này sẽ bắt đầu một cuộc trò chuyện hoàn toàn mới, bạn sẽ k" +
+	"hông thể sử dụng thông tin lịch sử của chủ đề trước đó\x02🥷  Đã vào chế " +
+	"độ thủ vai\x02🖼️ Cảnh báo từ robot\x02Nhận được hình ảnh, bạn có muốn v" +
+	"ào chế độ sáng tạo ảnh không?\x02👻️ Đã mở chủ đề mới\x02Nhắc nhở: Nhấp " +
+	"vào hộp thoại để tham gia trả lời và duy trì sự liên tục của chủ đề\x02🎒" +
+	"Bạn cần giúp đỡ không?\x02**Tôi là máy bay nhỏ, một trò chuyện trí tuệ n" +
+	"hân tạo dựa trên công nghệ chatGpt!**\x02** 🆑 Xóa bỏ ngữ cảnh chủ đề**" +
+	"\x0aPhản hồi bằng văn bản *清除* hoặc */clear*\x02Xóa ngay lập tức\x02🤖 **" +
+	"Chế độ AI** \x0a Phản hồi văn bản *AI模式* hoặc */ai_mode*\x02🛖 **Danh sác" +
+	"h vai trò tích hợp** \x0a Phản hồi văn bản *角色列表* hoặc */roles*\x02🥷 **C" +
+	"hế độ đóng vai**\x0aPhản hồi văn bản *角色扮演* hoặc */system*+ dấu cách + t" +
+	"hông tin vai trò\x02🎤 **Trò chuyện giọng nói AI**\x0aGửi trực tiếp âm th" +
+	"anh trong chế độ trò chuyện riêng\x02🎨 **Chế độ tạo ảnh**\x0aPhản hồi *图" +
+	"片创作* hoặc */picture*\x02🎰 **Tra cứu số dư Token**\x0aPhản hồi *余额* hoặ" +
+	"c */balance*\x02🔃️ **Lưu trữ chủ đề trước đó** 🚧\x0a Vào trang chi tiết " +
+	"phản hồi của chủ đề, phản hồi văn bản *恢复* hoặc */reload*\x02📤 **Xuất nộ" +
+	"i dung chủ đề** 🚧\x0a Phản hồi văn bản *导出* hoặc */export*\x02🎰 **Chế độ" +
+	" trò chuyện liên tục và đa chủ đề**\x0aNhấp vào hộp thoại để tham gia tr" +
+	"ả lời và duy trì sự liên tục của chủ đề. Đồng thời, đặt câu hỏi riêng " +
+	"có thể khởi động chủ đề mới hoàn toàn\x02🎒 **Cần thêm trợ giúp**\x0aPhản" +
+	" hồi văn bản *帮助* hoặc */help*\x02Gửi thêm một cái\x02🎰️ Tra cứu số dư" +
+	"\x02Giới hạn tổng cộng: %.2[1]f$\x02Số dùng đã: %.2[1]f$\x02Số dùng được" +
+	": %.2[1]f$\x02Hạn sử dụng: %[1]s - %[2]s\x02🛖 Vui lòng chọn loại vai trò" +
+	"\x02Lưu ý: Chọn danh mục thuộc tính của vai trò để chúng tôi có thể đề x" +
+	"uất thêm các vai trò liên quan.\x02🛖 Danh sách vai trò\x02Lưu ý: Chọn cả" +
+	"nh nội bộ để nhanh chóng vào chế độ đóng vai.\x02🤖 Chọn chế độ AI\x02Lưu" +
+	" ý: Chọn chế độ nội bộ để cho AI hiểu nhu cầu của bạn tốt hơn."
 
-var zhIndex = []uint32{ // 65 elements
+var zhIndex = []uint32{ // 66 elements
 	// Entry 0 - 1F
 	0x00000000, 0x00000013, 0x0000002b, 0x00000050,
 	0x00000090, 0x000000b8, 0x00000138, 0x00000154,
 	0x00000178, 0x000001b7, 0x000001cf, 0x00000215,
 	0x00000236, 0x0000023d, 0x0000024a, 0x00000251,
-	0x0000025e, 0x00000267, 0x000002b3, 0x000002c0,
-	0x00000307, 0x0000034e, 0x00000394, 0x000003ab,
-	0x000003b8, 0x000003c5, 0x000003d2, 0x000003e2,
-	0x000003f5, 0x00000408, 0x00000415, 0x0000042a,
+	0x00000258, 0x00000265, 0x0000026e, 0x000002ba,
+	0x000002c7, 0x0000030e, 0x00000355, 0x0000039b,
+	0x000003b2, 0x000003bf, 0x000003cc, 0x000003d9,
+	0x000003e9, 0x000003fc, 0x0000040f, 0x0000041c,
 	// Entry 20 - 3F
-	0x00000452, 0x000004b0, 0x000004d2, 0x000004ea,
-	0x0000051b, 0x00000539, 0x00000576, 0x0000058d,
-	0x000005d8, 0x0000061b, 0x00000628, 0x00000669,
-	0x000006b0, 0x00000709, 0x00000743, 0x00000783,
-	0x000007bc, 0x00000824, 0x0000086a, 0x000008fa,
-	0x00000938, 0x00000945, 0x0000095a, 0x0000096e,
-	0x00000985, 0x0000099c, 0x000009b5, 0x000009d0,
-	0x00000a22, 0x00000a34, 0x00000a74, 0x00000a88,
+	0x00000431, 0x00000459, 0x000004b7, 0x000004d9,
+	0x000004f1, 0x00000522, 0x00000540, 0x0000057d,
+	0x00000594, 0x000005df, 0x00000622, 0x0000062f,
+	0x00000670, 0x000006b7, 0x00000710, 0x0000074a,
+	0x0000078a, 0x000007c3, 0x0000082b, 0x00000871,
+	0x00000901, 0x0000093f, 0x0000094c, 0x00000961,
+	0x00000975, 0x0000098c, 0x000009a3, 0x000009bc,
+	0x000009d7, 0x00000a29, 0x00000a3b, 0x00000a7b,
 	// Entry 40 - 5F
-	0x00000aca,
-} // Size: 284 bytes
+	0x00000a8f, 0x00000ad1,
+} // Size: 288 bytes
 
-const zhData string = "" + // Size: 2762 bytes
+const zhData string = "" + // Size: 2769 bytes
 	"\x02已选择AI模式:\x02️🆑 机器人提醒\x02已删除此话题的上下文信息\x02我们可以开始一个全新的话题，继续找我聊天吧\x02依旧保" +
 	"留此话题的上下文信息\x02我们可以继续探讨这个话题,期待和您聊天。如果您有其他问题或者想要讨论的话题，请告诉我哦\x02已更新图片分辨率为" +
 	"\x02🖼️ 已进入图片创作模式\x02提醒：回复文本或图片，让AI生成相关的图片。\x02️🎒 机器人提醒\x02🤖️：语音转换失败，请稍后再" +
-	"试～\x0a错误信息: %[1]v\x02🤖️：你想知道什么呢~\x02清除\x02角色扮演\x02余额\x02角色列表\x02AI模式" +
-	"\x02🤖️：消息机器人摆烂了，请稍后再试～\x0a错误信息: %[1]v\x02图片创作\x02🤖️：图片下载失败，请稍后再试～\x0a 错误" +
-	"信息: %[1]v\x02🤖️：无法解析图片，请发送原图并尝试重新操作～\x02🤖️：图片生成失败，请稍后再试～\x0a错误信息: %[1]" +
-	"v\x02🤖️机器人提醒\x02确认清除\x02我再想想\x02切换模式\x02默认分辨率\x02选择角色分类\x02查看内置角色\x02选择模" +
-	"式\x02🆑 机器人提醒\x02您确定要清除对话上下文吗？\x02请注意，这将开始一个全新的对话，您将无法利用之前话题的历史信息\x02🥷 " +
-	" 已进入角色扮演模式\x02🖼️ 机器人提醒\x02收到图片，是否进入图片创作模式？\x02👻️ 已开启新的话题\x02提醒：点击对话框参与回复" +
-	"，可保持话题连贯\x02🎒需要帮助吗？\x02**我是小飞机，一款基于chatGpt技术的智能聊天机器人！**\x02** 🆑 清除话题上下" +
-	"文**\x0a文本回复 *清除* 或 */clear*\x02立刻清除\x02🤖 **AI模式选择** \x0a 文本回复 *AI模式* 或" +
-	" */ai_mode*\x02🛖 **内置角色列表** \x0a 文本回复 *角色列表* 或 */roles*\x02🥷 **角色扮演模式**" +
-	"\x0a文本回复*角色扮演* 或 */system*+空格+角色信息\x02🎤 **AI语音对话**\x0a私聊模式下直接发送语音\x02🎨 *" +
-	"*图片创作模式**\x0a回复*图片创作* 或 */picture*\x02🎰 **Token余额查询**\x0a回复*余额* 或 */bala" +
-	"nce*\x02🔃️ **历史话题回档** 🚧\x0a 进入话题的回复详情页,文本回复 *恢复* 或 */reload*\x02📤 **话题内容" +
-	"导出** 🚧\x0a 文本回复 *导出* 或 */export*\x02🎰 **连续对话与多话题模式**\x0a 点击对话框参与回复，可保持" +
-	"话题连贯。同时，单独提问即可开启全新新话题\x02🎒 **需要更多帮助**\x0a文本回复 *帮助* 或 */help*\x02再来一张" +
-	"\x02🎰️ 余额查询\x02总额度: %.2[1]f$\x02已用额度: %.2[1]f$\x02可用额度: %.2[1]f$\x02有效期:" +
-	" %[1]s - %[2]s\x02🛖 请选择角色类别\x02提醒：选择角色所属分类，以便我们为您推荐更多相关角色。\x02🛖 角色列表\x02" +
-	"提醒：选择内置场景，快速进入角色扮演模式。\x02🤖 AI模式选择\x02提醒：选择内置模式，让AI更好的理解您的需求。"
+	"试～\x0a错误信息: %[1]v\x02🤖️：你想知道什么呢~\x02清除\x02角色扮演\x02帮助\x02余额\x02角色列表\x02" +
+	"AI模式\x02🤖️：消息机器人摆烂了，请稍后再试～\x0a错误信息: %[1]v\x02图片创作\x02🤖️：图片下载失败，请稍后再试～" +
+	"\x0a 错误信息: %[1]v\x02🤖️：无法解析图片，请发送原图并尝试重新操作～\x02🤖️：图片生成失败，请稍后再试～\x0a错误信息:" +
+	" %[1]v\x02🤖️机器人提醒\x02确认清除\x02我再想想\x02切换模式\x02默认分辨率\x02选择角色分类\x02查看内置角色" +
+	"\x02选择模式\x02🆑 机器人提醒\x02您确定要清除对话上下文吗？\x02请注意，这将开始一个全新的对话，您将无法利用之前话题的历史信息" +
+	"\x02🥷  已进入角色扮演模式\x02🖼️ 机器人提醒\x02收到图片，是否进入图片创作模式？\x02👻️ 已开启新的话题\x02提醒：点击对" +
+	"话框参与回复，可保持话题连贯\x02🎒需要帮助吗？\x02**我是小飞机，一款基于chatGpt技术的智能聊天机器人！**\x02** 🆑 " +
+	"清除话题上下文**\x0a文本回复 *清除* 或 */clear*\x02立刻清除\x02🤖 **AI模式选择** \x0a 文本回复 *A" +
+	"I模式* 或 */ai_mode*\x02🛖 **内置角色列表** \x0a 文本回复 *角色列表* 或 */roles*\x02🥷 **角色扮" +
+	"演模式**\x0a文本回复*角色扮演* 或 */system*+空格+角色信息\x02🎤 **AI语音对话**\x0a私聊模式下直接发送语音" +
+	"\x02🎨 **图片创作模式**\x0a回复*图片创作* 或 */picture*\x02🎰 **Token余额查询**\x0a回复*余额* 或" +
+	" */balance*\x02🔃️ **历史话题回档** 🚧\x0a 进入话题的回复详情页,文本回复 *恢复* 或 */reload*\x02📤" +
+	" **话题内容导出** 🚧\x0a 文本回复 *导出* 或 */export*\x02🎰 **连续对话与多话题模式**\x0a 点击对话框参与回" +
+	"复，可保持话题连贯。同时，单独提问即可开启全新新话题\x02🎒 **需要更多帮助**\x0a文本回复 *帮助* 或 */help*\x02再" +
+	"来一张\x02🎰️ 余额查询\x02总额度: %.2[1]f$\x02已用额度: %.2[1]f$\x02可用额度: %.2[1]f$" +
+	"\x02有效期: %[1]s - %[2]s\x02🛖 请选择角色类别\x02提醒：选择角色所属分类，以便我们为您推荐更多相关角色。\x02🛖 " +
+	"角色列表\x02提醒：选择内置场景，快速进入角色扮演模式。\x02🤖 AI模式选择\x02提醒：选择内置模式，让AI更好的理解您的需求。"
 
-	// Total table size 15666 bytes (15KiB); checksum: 120FBC36
+	// Total table size 15691 bytes (15KiB); checksum: D9152031

@@ -109,7 +109,7 @@ type HelpAction struct { /*帮助*/
 
 func (*HelpAction) Execute(a *ActionInfo) bool {
 	if _, foundHelp := utils.EitherTrimEqual(a.info.qParsed, "/help",
-		"帮助"); foundHelp {
+		utils.I18n.Sprintf("帮助")); foundHelp {
 		sendHelpCard(*a.ctx, a.info.sessionId, a.info.msgId)
 		return false
 	}
