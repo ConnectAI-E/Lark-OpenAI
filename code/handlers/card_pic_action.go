@@ -4,6 +4,7 @@ import (
 	"context"
 
 	"start-feishubot/services"
+	"start-feishubot/utils"
 
 	larkcard "github.com/larksuite/oapi-sdk-go/v3/card"
 )
@@ -50,7 +51,7 @@ func CommonProcessPicResolution(msg CardMsg,
 	//fmt.Println(larkcore.Prettify(msg))
 	cache.SetPicResolution(msg.SessionId, services.Resolution(option))
 	//send text
-	replyMsg(context.Background(), "已更新图片分辨率为"+option,
+	replyMsg(context.Background(), utils.I18n.Sprintf("已更新图片分辨率为")+option,
 		&msg.MsgId)
 }
 
@@ -78,16 +79,16 @@ func CommonProcessPicModeChange(cardMsg CardMsg,
 
 		newCard, _ :=
 			newSendCard(
-				withHeader("🖼️ 已进入图片创作模式", larkcard.TemplateBlue),
+				withHeader(utils.I18n.Sprintf("🖼️ 已进入图片创作模式"), larkcard.TemplateBlue),
 				withPicResolutionBtn(&sessionId),
-				withNote("提醒：回复文本或图片，让AI生成相关的图片。"))
+				withNote(utils.I18n.Sprintf("提醒：回复文本或图片，让AI生成相关的图片。")))
 		return newCard, nil, true
 	}
 	if cardMsg.Value == "0" {
 		newCard, _ := newSendCard(
-			withHeader("️🎒 机器人提醒", larkcard.TemplateGreen),
-			withMainMd("依旧保留此话题的上下文信息"),
-			withNote("我们可以继续探讨这个话题,期待和您聊天。如果您有其他问题或者想要讨论的话题，请告诉我哦"),
+			withHeader(utils.I18n.Sprintf("️🎒 机器人提醒"), larkcard.TemplateGreen),
+			withMainMd(utils.I18n.Sprintf("依旧保留此话题的上下文信息")),
+			withNote(utils.I18n.Sprintf("我们可以继续探讨这个话题,期待和您聊天。如果您有其他问题或者想要讨论的话题，请告诉我哦")),
 		)
 		return newCard, nil, true
 	}

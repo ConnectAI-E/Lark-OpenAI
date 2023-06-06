@@ -3,6 +3,7 @@ package initialization
 import (
 	"fmt"
 	"os"
+	"start-feishubot/utils"
 	"strconv"
 	"strings"
 
@@ -10,6 +11,7 @@ import (
 )
 
 type Config struct {
+	AppLang                    string
 	FeishuAppId                string
 	FeishuAppSecret            string
 	FeishuAppEncryptKey        string
@@ -41,6 +43,7 @@ func LoadConfig(cfg string) *Config {
 	//fmt.Println(string(content))
 
 	config := &Config{
+		AppLang:                    getViperStringValue("APP_LANG", ""),
 		FeishuAppId:                getViperStringValue("APP_ID", ""),
 		FeishuAppSecret:            getViperStringValue("APP_SECRET", ""),
 		FeishuAppEncryptKey:        getViperStringValue("APP_ENCRYPT_KEY", ""),
@@ -61,6 +64,8 @@ func LoadConfig(cfg string) *Config {
 		AzureOpenaiToken:           getViperStringValue("AZURE_OPENAI_TOKEN", ""),
 	}
 
+	utils.SetI18n(config.AppLang)
+
 	return config
 }
 
@@ -72,8 +77,8 @@ func getViperStringValue(key string, defaultValue string) string {
 	return value
 }
 
-//OPENAI_KEY: sk-xxx,sk-xxx,sk-xxx
-//result:[sk-xxx sk-xxx sk-xxx]
+// OPENAI_KEY: sk-xxx,sk-xxx,sk-xxx
+// result:[sk-xxx sk-xxx sk-xxx]
 func getViperStringArray(key string, defaultValue []string) []string {
 	value := viper.GetString(key)
 	if value == "" {

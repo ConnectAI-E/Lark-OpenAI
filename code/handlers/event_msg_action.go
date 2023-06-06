@@ -1,9 +1,8 @@
 package handlers
 
 import (
-	"fmt"
-
 	"start-feishubot/services/openai"
+	"start-feishubot/utils"
 )
 
 type MessageAction struct { /*消息*/
@@ -18,7 +17,7 @@ func (*MessageAction) Execute(a *ActionInfo) bool {
 	aiMode := a.handler.sessionCache.GetAIMode(*a.info.sessionId)
 	completions, err := a.handler.gpt.Completions(msg, aiMode)
 	if err != nil {
-		replyMsg(*a.ctx, fmt.Sprintf(
+		replyMsg(*a.ctx, utils.I18n.Sprintf(
 			"🤖️：消息机器人摆烂了，请稍后再试～\n错误信息: %v", err), a.info.msgId)
 		return false
 	}
@@ -33,7 +32,7 @@ func (*MessageAction) Execute(a *ActionInfo) bool {
 	}
 	err = replyMsg(*a.ctx, completions.Content, a.info.msgId)
 	if err != nil {
-		replyMsg(*a.ctx, fmt.Sprintf(
+		replyMsg(*a.ctx, utils.I18n.Sprintf(
 			"🤖️：消息机器人摆烂了，请稍后再试～\n错误信息: %v", err), a.info.msgId)
 		return false
 	}

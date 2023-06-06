@@ -1,0 +1,541 @@
+{
+    "language": "zh",
+    "messages": [
+        {
+            "id": "已选择AI模式:",
+            "message": "已选择AI模式:",
+            "translation": "已选择AI模式:",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "️🆑 机器人提醒",
+            "message": "️🆑 机器人提醒",
+            "translation": "️🆑 机器人提醒",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "已删除此话题的上下文信息",
+            "message": "已删除此话题的上下文信息",
+            "translation": "已删除此话题的上下文信息",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "我们可以开始一个全新的话题，继续找我聊天吧",
+            "message": "我们可以开始一个全新的话题，继续找我聊天吧",
+            "translation": "我们可以开始一个全新的话题，继续找我聊天吧",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "依旧保留此话题的上下文信息",
+            "message": "依旧保留此话题的上下文信息",
+            "translation": "依旧保留此话题的上下文信息",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "我们可以继续探讨这个话题,期待和您聊天。如果您有其他问题或者想要讨论的话题，请告诉我哦",
+            "message": "我们可以继续探讨这个话题,期待和您聊天。如果您有其他问题或者想要讨论的话题，请告诉我哦",
+            "translation": "我们可以继续探讨这个话题,期待和您聊天。如果您有其他问题或者想要讨论的话题，请告诉我哦",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "已更新图片分辨率为",
+            "message": "已更新图片分辨率为",
+            "translation": "已更新图片分辨率为",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "🖼️ 已进入图片创作模式",
+            "message": "🖼️ 已进入图片创作模式",
+            "translation": "🖼️ 已进入图片创作模式",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "提醒：回复文本或图片，让AI生成相关的图片。",
+            "message": "提醒：回复文本或图片，让AI生成相关的图片。",
+            "translation": "提醒：回复文本或图片，让AI生成相关的图片。",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "️🎒 机器人提醒",
+            "message": "️🎒 机器人提醒",
+            "translation": "️🎒 机器人提醒",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "🤖️：语音转换失败，请稍后再试～\n错误信息: {Err}",
+            "message": "🤖️：语音转换失败，请稍后再试～\n错误信息: {Err}",
+            "translation": "🤖️：语音转换失败，请稍后再试～\n错误信息: {Err}",
+            "translatorComment": "Copied from source.",
+            "placeholders": [
+                {
+                    "id": "Err",
+                    "string": "%[1]v",
+                    "type": "error",
+                    "underlyingType": "interface{Error() string}",
+                    "argNum": 1,
+                    "expr": "err"
+                }
+            ],
+            "fuzzy": true
+        },
+        {
+            "id": "🤖️：你想知道什么呢~",
+            "message": "🤖️：你想知道什么呢~",
+            "translation": "🤖️：你想知道什么呢~",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "清除",
+            "message": "清除",
+            "translation": "清除",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "角色扮演",
+            "message": "角色扮演",
+            "translation": "角色扮演",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "余额",
+            "message": "余额",
+            "translation": "余额",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "角色列表",
+            "message": "角色列表",
+            "translation": "角色列表",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "AI模式",
+            "message": "AI模式",
+            "translation": "AI模式",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "🤖️：消息机器人摆烂了，请稍后再试～\n错误信息: {Err}",
+            "message": "🤖️：消息机器人摆烂了，请稍后再试～\n错误信息: {Err}",
+            "translation": "🤖️：消息机器人摆烂了，请稍后再试～\n错误信息: {Err}",
+            "translatorComment": "Copied from source.",
+            "placeholders": [
+                {
+                    "id": "Err",
+                    "string": "%[1]v",
+                    "type": "error",
+                    "underlyingType": "interface{Error() string}",
+                    "argNum": 1,
+                    "expr": "err"
+                }
+            ],
+            "fuzzy": true
+        },
+        {
+            "id": "图片创作",
+            "message": "图片创作",
+            "translation": "图片创作",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "🤖️：图片下载失败，请稍后再试～\n 错误信息: {Err}",
+            "message": "🤖️：图片下载失败，请稍后再试～\n 错误信息: {Err}",
+            "translation": "🤖️：图片下载失败，请稍后再试～\n 错误信息: {Err}",
+            "translatorComment": "Copied from source.",
+            "placeholders": [
+                {
+                    "id": "Err",
+                    "string": "%[1]v",
+                    "type": "error",
+                    "underlyingType": "interface{Error() string}",
+                    "argNum": 1,
+                    "expr": "err"
+                }
+            ],
+            "fuzzy": true
+        },
+        {
+            "id": "🤖️：无法解析图片，请发送原图并尝试重新操作～",
+            "message": "🤖️：无法解析图片，请发送原图并尝试重新操作～",
+            "translation": "🤖️：无法解析图片，请发送原图并尝试重新操作～",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "🤖️：图片生成失败，请稍后再试～\n错误信息: {Err}",
+            "message": "🤖️：图片生成失败，请稍后再试～\n错误信息: {Err}",
+            "translation": "🤖️：图片生成失败，请稍后再试～\n错误信息: {Err}",
+            "translatorComment": "Copied from source.",
+            "placeholders": [
+                {
+                    "id": "Err",
+                    "string": "%[1]v",
+                    "type": "error",
+                    "underlyingType": "interface{Error() string}",
+                    "argNum": 1,
+                    "expr": "err"
+                }
+            ],
+            "fuzzy": true
+        },
+        {
+            "id": "🤖️机器人提醒",
+            "message": "🤖️机器人提醒",
+            "translation": "🤖️机器人提醒",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "确认清除",
+            "message": "确认清除",
+            "translation": "确认清除",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "我再想想",
+            "message": "我再想想",
+            "translation": "我再想想",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "切换模式",
+            "message": "切换模式",
+            "translation": "切换模式",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "默认分辨率",
+            "message": "默认分辨率",
+            "translation": "默认分辨率",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "选择角色分类",
+            "message": "选择角色分类",
+            "translation": "选择角色分类",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "查看内置角色",
+            "message": "查看内置角色",
+            "translation": "查看内置角色",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "选择模式",
+            "message": "选择模式",
+            "translation": "选择模式",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "🆑 机器人提醒",
+            "message": "🆑 机器人提醒",
+            "translation": "🆑 机器人提醒",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "您确定要清除对话上下文吗？",
+            "message": "您确定要清除对话上下文吗？",
+            "translation": "您确定要清除对话上下文吗？",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "请注意，这将开始一个全新的对话，您将无法利用之前话题的历史信息",
+            "message": "请注意，这将开始一个全新的对话，您将无法利用之前话题的历史信息",
+            "translation": "请注意，这将开始一个全新的对话，您将无法利用之前话题的历史信息",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "🥷  已进入角色扮演模式",
+            "message": "🥷  已进入角色扮演模式",
+            "translation": "🥷  已进入角色扮演模式",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "🖼️ 机器人提醒",
+            "message": "🖼️ 机器人提醒",
+            "translation": "🖼️ 机器人提醒",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "收到图片，是否进入图片创作模式？",
+            "message": "收到图片，是否进入图片创作模式？",
+            "translation": "收到图片，是否进入图片创作模式？",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "👻️ 已开启新的话题",
+            "message": "👻️ 已开启新的话题",
+            "translation": "👻️ 已开启新的话题",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "提醒：点击对话框参与回复，可保持话题连贯",
+            "message": "提醒：点击对话框参与回复，可保持话题连贯",
+            "translation": "提醒：点击对话框参与回复，可保持话题连贯",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "🎒需要帮助吗？",
+            "message": "🎒需要帮助吗？",
+            "translation": "🎒需要帮助吗？",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "**我是小飞机，一款基于chatGpt技术的智能聊天机器人！**",
+            "message": "**我是小飞机，一款基于chatGpt技术的智能聊天机器人！**",
+            "translation": "**我是小飞机，一款基于chatGpt技术的智能聊天机器人！**",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "** 🆑 清除话题上下文**\n文本回复 *清除* 或 */clear*",
+            "message": "** 🆑 清除话题上下文**\n文本回复 *清除* 或 */clear*",
+            "translation": "** 🆑 清除话题上下文**\n文本回复 *清除* 或 */clear*",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "立刻清除",
+            "message": "立刻清除",
+            "translation": "立刻清除",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "🤖 **AI模式选择** \n 文本回复 *AI模式* 或 */ai_mode*",
+            "message": "🤖 **AI模式选择** \n 文本回复 *AI模式* 或 */ai_mode*",
+            "translation": "🤖 **AI模式选择** \n 文本回复 *AI模式* 或 */ai_mode*",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "🛖 **内置角色列表** \n 文本回复 *角色列表* 或 */roles*",
+            "message": "🛖 **内置角色列表** \n 文本回复 *角色列表* 或 */roles*",
+            "translation": "🛖 **内置角色列表** \n 文本回复 *角色列表* 或 */roles*",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "🥷 **角色扮演模式**\n文本回复*角色扮演* 或 */system*+空格+角色信息",
+            "message": "🥷 **角色扮演模式**\n文本回复*角色扮演* 或 */system*+空格+角色信息",
+            "translation": "🥷 **角色扮演模式**\n文本回复*角色扮演* 或 */system*+空格+角色信息",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "🎤 **AI语音对话**\n私聊模式下直接发送语音",
+            "message": "🎤 **AI语音对话**\n私聊模式下直接发送语音",
+            "translation": "🎤 **AI语音对话**\n私聊模式下直接发送语音",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "🎨 **图片创作模式**\n回复*图片创作* 或 */picture*",
+            "message": "🎨 **图片创作模式**\n回复*图片创作* 或 */picture*",
+            "translation": "🎨 **图片创作模式**\n回复*图片创作* 或 */picture*",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "🎰 **Token余额查询**\n回复*余额* 或 */balance*",
+            "message": "🎰 **Token余额查询**\n回复*余额* 或 */balance*",
+            "translation": "🎰 **Token余额查询**\n回复*余额* 或 */balance*",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "🔃️ **历史话题回档** 🚧\n 进入话题的回复详情页,文本回复 *恢复* 或 */reload*",
+            "message": "🔃️ **历史话题回档** 🚧\n 进入话题的回复详情页,文本回复 *恢复* 或 */reload*",
+            "translation": "🔃️ **历史话题回档** 🚧\n 进入话题的回复详情页,文本回复 *恢复* 或 */reload*",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "📤 **话题内容导出** 🚧\n 文本回复 *导出* 或 */export*",
+            "message": "📤 **话题内容导出** 🚧\n 文本回复 *导出* 或 */export*",
+            "translation": "📤 **话题内容导出** 🚧\n 文本回复 *导出* 或 */export*",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "🎰 **连续对话与多话题模式**\n 点击对话框参与回复，可保持话题连贯。同时，单独提问即可开启全新新话题",
+            "message": "🎰 **连续对话与多话题模式**\n 点击对话框参与回复，可保持话题连贯。同时，单独提问即可开启全新新话题",
+            "translation": "🎰 **连续对话与多话题模式**\n 点击对话框参与回复，可保持话题连贯。同时，单独提问即可开启全新新话题",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "🎒 **需要更多帮助**\n文本回复 *帮助* 或 */help*",
+            "message": "🎒 **需要更多帮助**\n文本回复 *帮助* 或 */help*",
+            "translation": "🎒 **需要更多帮助**\n文本回复 *帮助* 或 */help*",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "再来一张",
+            "message": "再来一张",
+            "translation": "再来一张",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "🎰️ 余额查询",
+            "message": "🎰️ 余额查询",
+            "translation": "🎰️ 余额查询",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "总额度: {TotalGranted}$",
+            "message": "总额度: {TotalGranted}$",
+            "translation": "总额度: {TotalGranted}$",
+            "translatorComment": "Copied from source.",
+            "placeholders": [
+                {
+                    "id": "TotalGranted",
+                    "string": "%.2[1]f",
+                    "type": "float64",
+                    "underlyingType": "float64",
+                    "argNum": 1,
+                    "expr": "balance.TotalGranted"
+                }
+            ],
+            "fuzzy": true
+        },
+        {
+            "id": "已用额度: {TotalUsed}$",
+            "message": "已用额度: {TotalUsed}$",
+            "translation": "已用额度: {TotalUsed}$",
+            "translatorComment": "Copied from source.",
+            "placeholders": [
+                {
+                    "id": "TotalUsed",
+                    "string": "%.2[1]f",
+                    "type": "float64",
+                    "underlyingType": "float64",
+                    "argNum": 1,
+                    "expr": "balance.TotalUsed"
+                }
+            ],
+            "fuzzy": true
+        },
+        {
+            "id": "可用额度: {TotalAvailable}$",
+            "message": "可用额度: {TotalAvailable}$",
+            "translation": "可用额度: {TotalAvailable}$",
+            "translatorComment": "Copied from source.",
+            "placeholders": [
+                {
+                    "id": "TotalAvailable",
+                    "string": "%.2[1]f",
+                    "type": "float64",
+                    "underlyingType": "float64",
+                    "argNum": 1,
+                    "expr": "balance.TotalAvailable"
+                }
+            ],
+            "fuzzy": true
+        },
+        {
+            "id": "有效期: {Format2006_01_02_150405} - {Format2006_01_02_150405_1}",
+            "message": "有效期: {Format2006_01_02_150405} - {Format2006_01_02_150405_1}",
+            "translation": "有效期: {Format2006_01_02_150405} - {Format2006_01_02_150405_1}",
+            "translatorComment": "Copied from source.",
+            "placeholders": [
+                {
+                    "id": "Format2006_01_02_150405",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "balance.EffectiveAt.Format(\"2006-01-02 15:04:05\")"
+                },
+                {
+                    "id": "Format2006_01_02_150405_1",
+                    "string": "%[2]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 2,
+                    "expr": "balance.ExpiresAt.Format(\"2006-01-02 15:04:05\")"
+                }
+            ],
+            "fuzzy": true
+        },
+        {
+            "id": "🛖 请选择角色类别",
+            "message": "🛖 请选择角色类别",
+            "translation": "🛖 请选择角色类别",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "提醒：选择角色所属分类，以便我们为您推荐更多相关角色。",
+            "message": "提醒：选择角色所属分类，以便我们为您推荐更多相关角色。",
+            "translation": "提醒：选择角色所属分类，以便我们为您推荐更多相关角色。",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "🛖 角色列表",
+            "message": "🛖 角色列表",
+            "translation": "🛖 角色列表",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "提醒：选择内置场景，快速进入角色扮演模式。",
+            "message": "提醒：选择内置场景，快速进入角色扮演模式。",
+            "translation": "提醒：选择内置场景，快速进入角色扮演模式。",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "🤖 AI模式选择",
+            "message": "🤖 AI模式选择",
+            "translation": "🤖 AI模式选择",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "提醒：选择内置模式，让AI更好的理解您的需求。",
+            "message": "提醒：选择内置模式，让AI更好的理解您的需求。",
+            "translation": "提醒：选择内置模式，让AI更好的理解您的需求。",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        }
+    ]
+}

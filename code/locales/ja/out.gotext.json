@@ -1,0 +1,413 @@
+{
+    "language": "ja",
+    "messages": [
+        {
+            "id": "已选择AI模式:",
+            "message": "已选择AI模式:",
+            "translation": "AIモードが選択されました:"
+        },
+        {
+            "id": "️🆑 机器人提醒",
+            "message": "️🆑 机器人提醒",
+            "translation": "️🆑 ロボットのリマインダー"
+        },
+        {
+            "id": "已删除此话题的上下文信息",
+            "message": "已删除此话题的上下文信息",
+            "translation": "このトピックのコンテキスト情報が削除されました"
+        },
+        {
+            "id": "我们可以开始一个全新的话题，继续找我聊天吧",
+            "message": "我们可以开始一个全新的话题，继续找我聊天吧",
+            "translation": "新しいトピックを始めて、私とのチャットを続けることができます"
+        },
+        {
+            "id": "依旧保留此话题的上下文信息",
+            "message": "依旧保留此话题的上下文信息",
+            "translation": "このトピックのコンテキスト情報を保持します"
+        },
+        {
+            "id": "我们可以继续探讨这个话题,期待和您聊天。如果您有其他问题或者想要讨论的话题，请告诉我哦",
+            "message": "我们可以继续探讨这个话题,期待和您聊天。如果您有其他问题或者想要讨论的话题，请告诉我哦",
+            "translation": "このトピックをさらに議論し、チャットを楽しみにしています。他の質問や話題がある場合は、教えてください"
+        },
+        {
+            "id": "已更新图片分辨率为",
+            "message": "已更新图片分辨率为",
+            "translation": "画像の解像度が更新されました"
+        },
+        {
+            "id": "🖼️ 已进入图片创作模式",
+            "message": "🖼️ 已进入图片创作模式",
+            "translation": "🖼️ 画像作成モードに入りました"
+        },
+        {
+            "id": "提醒：回复文本或图片，让AI生成相关的图片。",
+            "message": "提醒：回复文本或图片，让AI生成相关的图片。",
+            "translation": "リマインダー：テキストまたは画像で返信し、AIが関連する画像を生成します"
+        },
+        {
+            "id": "️🎒 机器人提醒",
+            "message": "️🎒 机器人提醒",
+            "translation": "️🎒 ロボットの"
+        },
+        {
+            "id": "🤖️：语音转换失败，请稍后再试～\n错误信息: {Err}",
+            "message": "🤖️：语音转换失败，请稍后再试～\n错误信息: {Err}",
+            "translation": "",
+            "placeholders": [
+                {
+                    "id": "Err",
+                    "string": "%[1]v",
+                    "type": "error",
+                    "underlyingType": "interface{Error() string}",
+                    "argNum": 1,
+                    "expr": "err"
+                }
+            ]
+        },
+        {
+            "id": "🤖️：你想知道什么呢~",
+            "message": "🤖️：你想知道什么呢~",
+            "translation": "🤖️: 何を知りたいですか？"
+        },
+        {
+            "id": "清除",
+            "message": "清除",
+            "translation": "クリア"
+        },
+        {
+            "id": "角色扮演",
+            "message": "角色扮演",
+            "translation": "ロールプレイ"
+        },
+        {
+            "id": "余额",
+            "message": "余额",
+            "translation": "残高"
+        },
+        {
+            "id": "角色列表",
+            "message": "角色列表",
+            "translation": "キャラクターリスト"
+        },
+        {
+            "id": "AI模式",
+            "message": "AI模式",
+            "translation": "AIモード"
+        },
+        {
+            "id": "🤖️：消息机器人摆烂了，请稍后再试～\n错误信息: {Err}",
+            "message": "🤖️：消息机器人摆烂了，请稍后再试～\n错误信息: {Err}",
+            "translation": "🤖️: メッセージボットがダウンしています。後でもう一度お試しください。\nエラーメッセージ: {Err}",
+            "placeholders": [
+                {
+                    "id": "Err",
+                    "string": "%[1]v",
+                    "type": "error",
+                    "underlyingType": "interface{Error() string}",
+                    "argNum": 1,
+                    "expr": "err"
+                }
+            ]
+        },
+        {
+            "id": "图片创作",
+            "message": "图片创作",
+            "translation": "画像作成"
+        },
+        {
+            "id": "🤖️：图片下载失败，请稍后再试～\n 错误信息: {Err}",
+            "message": "🤖️：图片下载失败，请稍后再试～\n 错误信息: {Err}",
+            "translation": "🤖️: 画像のダウンロードに失敗しました。後でもう一度お試しください。\nエラーメッセージ: {Err}",
+            "placeholders": [
+                {
+                    "id": "Err",
+                    "string": "%[1]v",
+                    "type": "error",
+                    "underlyingType": "interface{Error() string}",
+                    "argNum": 1,
+                    "expr": "err"
+                }
+            ]
+        },
+        {
+            "id": "🤖️：无法解析图片，请发送原图并尝试重新操作～",
+            "message": "🤖️：无法解析图片，请发送原图并尝试重新操作～",
+            "translation": "🤖️: 画像を解析できません。元の画像を送信して再試行してください。"
+        },
+        {
+            "id": "🤖️：图片生成失败，请稍后再试～\n错误信息: {Err}",
+            "message": "🤖️：图片生成失败，请稍后再试～\n错误信息: {Err}",
+            "translation": "🤖️: 画像の生成に失敗しました。後でもう一度お試しください~\\nエラー メッセージ: {Err}",
+            "placeholders": [
+                {
+                    "id": "Err",
+                    "string": "%[1]v",
+                    "type": "error",
+                    "underlyingType": "interface{Error() string}",
+                    "argNum": 1,
+                    "expr": "err"
+                }
+            ]
+        },
+        {
+            "id": "🤖️机器人提醒",
+            "message": "🤖️机器人提醒",
+            "translation": "🤖️ロボットのリマインダー"
+        },
+        {
+            "id": "确认清除",
+            "message": "确认清除",
+            "translation": "クリアの確認"
+        },
+        {
+            "id": "我再想想",
+            "message": "我再想想",
+            "translation": "もう一度考えます"
+        },
+        {
+            "id": "切换模式",
+            "message": "切换模式",
+            "translation": "モードの切り替え"
+        },
+        {
+            "id": "默认分辨率",
+            "message": "默认分辨率",
+            "translation": "デフォルトの解像度"
+        },
+        {
+            "id": "选择角色分类",
+            "message": "选择角色分类",
+            "translation": "キャラクターカテゴリの選択"
+        },
+        {
+            "id": "查看内置角色",
+            "message": "查看内置角色",
+            "translation": "組み込みキャラクターの表示"
+        },
+        {
+            "id": "选择模式",
+            "message": "选择模式",
+            "translation": "モードの選択"
+        },
+        {
+            "id": "🆑 机器人提醒",
+            "message": "🆑 机器人提醒",
+            "translation": "🆑 ロボットのリマインダー"
+        },
+        {
+            "id": "您确定要清除对话上下文吗？",
+            "message": "您确定要清除对话上下文吗？",
+            "translation": "会話のコンテキストをクリアしてもよろしいですか？"
+        },
+        {
+            "id": "请注意，这将开始一个全新的对话，您将无法利用之前话题的历史信息",
+            "message": "请注意，这将开始一个全新的对话，您将无法利用之前话题的历史信息",
+            "translation": "注意してください。これにより、新しい会話が開始され、以前のトピックの履歴情報を利用できなくなります。"
+        },
+        {
+            "id": "🥷  已进入角色扮演模式",
+            "message": "🥷  已进入角色扮演模式",
+            "translation": "🥷 ロールプレイモードに入りました"
+        },
+        {
+            "id": "🖼️ 机器人提醒",
+            "message": "🖼️ 机器人提醒",
+            "translation": "🖼️ ロボットのリマインダー"
+        },
+        {
+            "id": "收到图片，是否进入图片创作模式？",
+            "message": "收到图片，是否进入图片创作模式？",
+            "translation": "画像を受け取りました。画像作成モードに入りますか？"
+        },
+        {
+            "id": "👻️ 已开启新的话题",
+            "message": "👻️ 已开启新的话题",
+            "translation": "👻️ 新しいトピックが開始されました"
+        },
+        {
+            "id": "提醒：点击对话框参与回复，可保持话题连贯",
+            "message": "提醒：点击对话框参与回复，可保持话题连贯",
+            "translation": "リマインダー：回答するためにダイアログボックスをクリックすると、トピックの連続性が保たれます"
+        },
+        {
+            "id": "🎒需要帮助吗？",
+            "message": "🎒需要帮助吗？",
+            "translation": "🎒助けが必要ですか？"
+        },
+        {
+            "id": "**我是小飞机，一款基于chatGpt技术的智能聊天机器人！**",
+            "message": "**我是小飞机，一款基于chatGpt技术的智能聊天机器人！**",
+            "translation": "**私はChatGPT技術に基づくスマートチャットボットであるLittle Planeです！**"
+        },
+        {
+            "id": "** 🆑 清除话题上下文**\n文本回复 *清除* 或 */clear*",
+            "message": "** 🆑 清除话题上下文**\n文本回复 *清除* 或 */clear*",
+            "translation": "** 🆑 トピックのコンテキストをクリア**\\nテキスト返信 *clear* または */clear*"
+        },
+        {
+            "id": "立刻清除",
+            "message": "立刻清除",
+            "translation": "すぐにクリア"
+        },
+        {
+            "id": "🤖 **AI模式选择** \n 文本回复 *AI模式* 或 */ai_mode*",
+            "message": "🤖 **AI模式选择** \n 文本回复 *AI模式* 或 */ai_mode*",
+            "translation": "🤖 **AIモードの選択** \n テキストに *AIモード* または */ai_mode* を返信してください"
+        },
+        {
+            "id": "🛖 **内置角色列表** \n 文本回复 *角色列表* 或 */roles*",
+            "message": "🛖 **内置角色列表** \n 文本回复 *角色列表* 或 */roles*",
+            "translation": "🛖 **組み込みのキャラクターリスト** \n テキストに *キャラクターリスト* または */roles* を返信してください"
+        },
+        {
+            "id": "🥷 **角色扮演模式**\n文本回复*角色扮演* 或 */system*+空格+角色信息",
+            "message": "🥷 **角色扮演模式**\n文本回复*角色扮演* 或 */system*+空格+角色信息",
+            "translation": "🥷 **ロールプレイモード**\nテキストに *ロールプレイ* または */system*+スペース+キャラクター情報 を返信してください"
+        },
+        {
+            "id": "🎤 **AI语音对话**\n私聊模式下直接发送语音",
+            "message": "🎤 **AI语音对话**\n私聊模式下直接发送语音",
+            "translation": "🎤 **AI音声会話**\nプライベートチャットモードで直接音声を送信してください"
+        },
+        {
+            "id": "🎨 **图片创作模式**\n回复*图片创作* 或 */picture*",
+            "message": "🎨 **图片创作模式**\n回复*图片创作* 或 */picture*",
+            "translation": "🎨 **画像作成モード**\n*图片创作* または */picture* と返信してください"
+        },
+        {
+            "id": "🎰 **Token余额查询**\n回复*余额* 或 */balance*",
+            "message": "🎰 **Token余额查询**\n回复*余额* 或 */balance*",
+            "translation": "🎰 **トークン残高照会**\n*余额* または */balance* と返信してください"
+        },
+        {
+            "id": "🔃️ **历史话题回档** 🚧\n 进入话题的回复详情页,文本回复 *恢复* 或 */reload*",
+            "message": "🔃️ **历史话题回档** 🚧\n 进入话题的回复详情页,文本回复 *恢复* 或 */reload*",
+            "translation": "🔃️ **過去のトピックの巻き戻し** 🚧\nトピックの返信の詳細ページに入り、*恢复* または */reload* と返信してください"
+        },
+        {
+            "id": "📤 **话题内容导出** 🚧\n 文本回复 *导出* 或 */export*",
+            "message": "📤 **话题内容导出** 🚧\n 文本回复 *导出* 或 */export*",
+            "translation": "📤 **トピックの内容をエクスポート** 🚧\n テキストで *エクスポート* または */export* を返信してください"
+        },
+        {
+            "id": "🎰 **连续对话与多话题模式**\n 点击对话框参与回复，可保持话题连贯。同时，单独提问即可开启全新新话题",
+            "message": "🎰 **连续对话与多话题模式**\n 点击对话框参与回复，可保持话题连贯。同时，单独提问即可开启全新新话题",
+            "translation": "🎰 **連続対話とマルチトピックモード**\n ダイアログボックスをクリックして参加すると、トピックを継続させることができます。同時に、個別の質問をすると新しいトピックが開始されます"
+        },
+        {
+            "id": "🎒 **需要更多帮助**\n文本回复 *帮助* 或 */help*",
+            "message": "🎒 **需要更多帮助**\n文本回复 *帮助* 或 */help*",
+            "translation": "🎒 **さらなる支援が必要です**\nテキストで *ヘルプ* または */help* を返信してください"
+        },
+        {
+            "id": "再来一张",
+            "message": "再来一张",
+            "translation": "もう一枚"
+        },
+        {
+            "id": "🎰️ 余额查询",
+            "message": "🎰️ 余额查询",
+            "translation": "🎰️ 残高照会"
+        },
+        {
+            "id": "总额度: {TotalGranted}$",
+            "message": "总额度: {TotalGranted}$",
+            "translation": "総額: {TotalGranted}$",
+            "placeholders": [
+                {
+                    "id": "TotalGranted",
+                    "string": "%.2[1]f",
+                    "type": "float64",
+                    "underlyingType": "float64",
+                    "argNum": 1,
+                    "expr": "balance.TotalGranted"
+                }
+            ]
+        },
+        {
+            "id": "已用额度: {TotalUsed}$",
+            "message": "已用额度: {TotalUsed}$",
+            "translation": "使用済み: {TotalUsed}$",
+            "placeholders": [
+                {
+                    "id": "TotalUsed",
+                    "string": "%.2[1]f",
+                    "type": "float64",
+                    "underlyingType": "float64",
+                    "argNum": 1,
+                    "expr": "balance.TotalUsed"
+                }
+            ]
+        },
+        {
+            "id": "可用额度: {TotalAvailable}$",
+            "message": "可用额度: {TotalAvailable}$",
+            "translation": "利用可能: {TotalAvailable}$",
+            "placeholders": [
+                {
+                    "id": "TotalAvailable",
+                    "string": "%.2[1]f",
+                    "type": "float64",
+                    "underlyingType": "float64",
+                    "argNum": 1,
+                    "expr": "balance.TotalAvailable"
+                }
+            ]
+        },
+        {
+            "id": "有效期: {Format2006_01_02_150405} - {Format2006_01_02_150405_1}",
+            "message": "有效期: {Format2006_01_02_150405} - {Format2006_01_02_150405_1}",
+            "translation": "有効期限: {Format2006_01_02_150405} - {Format2006_01_02_150405_1}",
+            "placeholders": [
+                {
+                    "id": "Format2006_01_02_150405",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "balance.EffectiveAt.Format(\"2006-01-02 15:04:05\")"
+                },
+                {
+                    "id": "Format2006_01_02_150405_1",
+                    "string": "%[2]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 2,
+                    "expr": "balance.ExpiresAt.Format(\"2006-01-02 15:04:05\")"
+                }
+            ]
+        },
+        {
+            "id": "🛖 请选择角色类别",
+            "message": "🛖 请选择角色类别",
+            "translation": "🛖 キャラクターカテゴリを選択してください"
+        },
+        {
+            "id": "提醒：选择角色所属分类，以便我们为您推荐更多相关角色。",
+            "message": "提醒：选择角色所属分类，以便我们为您推荐更多相关角色。",
+            "translation": "リマインダー：キャラクターの所属カテゴリを選択して、関連するキャラクターをさらにおすすめします"
+        },
+        {
+            "id": "🛖 角色列表",
+            "message": "🛖 角色列表",
+            "translation": "🛖 キャラクターリスト"
+        },
+        {
+            "id": "提醒：选择内置场景，快速进入角色扮演模式。",
+            "message": "提醒：选择内置场景，快速进入角色扮演模式。",
+            "translation": "リマインダー：組み込みのシーンを選択して、素早くロールプレイモードに入る"
+        },
+        {
+            "id": "🤖 AI模式选择",
+            "message": "🤖 AI模式选择",
+            "translation": "🤖 AIモードの選択"
+        },
+        {
+            "id": "提醒：选择内置模式，让AI更好的理解您的需求。",
+            "message": "提醒：选择内置模式，让AI更好的理解您的需求。",
+            "translation": "リマインダー：組み込みのモードを選択して、AIによりよくニーズを理解させる"
+        }
+    ]
+}
