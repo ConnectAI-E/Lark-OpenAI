@@ -98,7 +98,7 @@
 <br>
 
 ```bash
-git clone git@github.com:Leizhenpeng/feishu-chatgpt.git
+git clone git@github.com:ConnectAI-E/lark-openai.git
 cd feishu-chatgpt/code
 ```
 
@@ -137,7 +137,7 @@ kill -9 PID
 <br>
 
 ```bash
-git clone git@github.com:Leizhenpeng/feishu-chatgpt.git
+git clone git@github.com:ConnectAI/lark-openai.git
 cd feishu-chatgpt/code
 ```
 
@@ -158,7 +158,7 @@ After the installation is complete, please deploy according to your local enviro
 
 ```
 edition: 1.0.0
-name: feishuBot-chatGpt
+name: lark-openai
 access: "aliyun" #  Modify the custom key name.
 
 vars: # 全局变量
@@ -194,7 +194,7 @@ go env -w GOOS=linux
 
 ```
 edition: 1.0.0
-name: feishuBot-chatGpt
+name: lark-openai
 access: "aliyun" #  修改自定义的秘钥别称
 
 vars: # 全局变量
@@ -225,7 +225,7 @@ s deploy
 </details>
 
 <details>
-    <summary>Railway deployment </summary>
+    <summary>Railway Deployment </summary>
 
 
 Just configure environment variables on the platform. The process of deploying this project is as follows:
@@ -259,8 +259,9 @@ Uncertainty about success or failure of self-determination，can be passed throu
 <br>
 
 ```bash
-docker build -t feishu-chatgpt:latest .
-docker run -d --name feishu-chatgpt -p 9000:9000 \
+docker build -t lark-openai:latest .
+docker run -d --name lark-openai -p 9000:9000 \
+--env APP_LANG=en \
 --env APP_ID=xxx \
 --env APP_SECRET=xxx \
 --env APP_ENCRYPT_KEY=xxx \
@@ -279,36 +280,14 @@ feishu-chatgpt:latest
 - `HTTP_PROXY` 为宿主机的proxy地址，例如 `http://host.docker.internal:7890`,没有代理的话，可以不用设置
 - `API_URL` 为openai api 接口地址，例如 `https://api.openai.com`, 没有反向代理的话，可以不用设置
 
----
-
-小白简易化 docker 部署
-
-- docker: https://hub.docker.com/r/leizhenpeng/feishu-chatgpt
-
-```bash
-docker run -d --restart=always --name feishu-chatgpt2 -p 9000:9000 -v /etc/localtime:/etc/localtim:ro  \
---env APP_ID=xxx \
---env APP_SECRET=xxx \
---env APP_ENCRYPT_KEY=xxx \
---env APP_VERIFICATION_TOKEN=xxx \
---env BOT_NAME=chatGpt \
---env OPENAI_KEY="sk-xxx1,sk-xxx2,sk-xxx3" \
---env API_URL=https://api.openai.com \
---env HTTP_PROXY="" \
-dockerproxy.com/leizhenpeng/feishu-chatgpt:latest
-```
-Event callback address: http://IP:9000/webhook/event
-Card callback address: http://IP:9000/webhook/card
-
-Fill it into the background of Feishu
-
 --- 
 
 部署azure版本
 
 ```bash
-docker build -t feishu-chatgpt:latest .
-docker run -d --name feishu-chatgpt -p 9000:9000 \
+docker build -t lark-openai:latest .
+docker run -d --name lark-openai -p 9000:9000 \
+--env APP_LANG=en \
 --env APP_ID=xxx \
 --env APP_SECRET=xxx \
 --env APP_ENCRYPT_KEY=xxx \
@@ -350,27 +329,11 @@ docker compose down
 ```
 
 Event callback address: http://IP:9000/webhook/event
+    
 Card callback address: http://IP:9000/webhook/card
 
 </details>
 
-<details>
-    <summary>Binary Package Development</summary>
-<br>
-
-1. Enter the [release page](https://github.com/Leizhenpeng/feishu - chatgpt/releases/) to download the corresponding installation package
-
-2. Unzip the installation package, modify the configuration information in config.example.yml, and save it as config.yaml
-
-3. Add the file `role_list.yaml` in the directory, and customize the role, which can be obtained from here: [link](https://github.com/Leizhenpeng/feishu - chatgpt/blob/master/code/role_list .yaml)
-
-3. Run the program entry file `feishu - chatgpt`
-
-
-Event Callback Address: http://IP:9000/webhook/event
-Card callback address: http://IP:9000/webhook/card
-
-</details>
 
 ## Detailed configuration steps
 
