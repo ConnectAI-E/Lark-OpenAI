@@ -1,6 +1,6 @@
-# 可在此处提交你认为不错的角色预设，注意保持格式一致。
-# PR 时的 tag 暂时集中在 [ "Daily Office",  "生活助手" ,"Copy writing", "文案撰写"]
-# 更多点子可参考我另一个参与的项目: https://open-gpt.app/
+# You can submit the character presets you think are good here, pay attention to keep the format consistent
+# PR 时的 tag 暂时集中在 [ "Daily Office",  "Cooking" ,"Copy writing", "]
+# For more ideas, please refer to another project I participated in: https://open-gpt.app/
 
 - title: Weekly Report Generation
   content: Please help me fill in the following work content as a complete weekly report, output in markdown format with bullet points
