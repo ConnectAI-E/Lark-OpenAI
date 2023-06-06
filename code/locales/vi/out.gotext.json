@@ -219,102 +219,102 @@
         {
             "id": "收到图片，是否进入图片创作模式？",
             "message": "收到图片，是否进入图片创作模式？",
-            "translation": ""
+            "translation": "Nhận được hình ảnh, bạn có muốn vào chế độ sáng tạo ảnh không?"
         },
         {
             "id": "👻️ 已开启新的话题",
             "message": "👻️ 已开启新的话题",
-            "translation": ""
+            "translation": "👻️ Đã mở chủ đề mới"
         },
         {
             "id": "提醒：点击对话框参与回复，可保持话题连贯",
             "message": "提醒：点击对话框参与回复，可保持话题连贯",
-            "translation": ""
+            "translation": "Nhắc nhở: Nhấp vào hộp thoại để tham gia trả lời và duy trì sự liên tục của chủ đề"
         },
         {
             "id": "🎒需要帮助吗？",
             "message": "🎒需要帮助吗？",
-            "translation": ""
+            "translation": "🎒Bạn cần giúp đỡ không?"
         },
         {
             "id": "**我是小飞机，一款基于chatGpt技术的智能聊天机器人！**",
             "message": "**我是小飞机，一款基于chatGpt技术的智能聊天机器人！**",
-            "translation": ""
+            "translation": "**Tôi là máy bay nhỏ, một trò chuyện trí tuệ nhân tạo dựa trên công nghệ chatGpt!**"
         },
         {
             "id": "** 🆑 清除话题上下文**\n文本回复 *清除* 或 */clear*",
             "message": "** 🆑 清除话题上下文**\n文本回复 *清除* 或 */clear*",
-            "translation": ""
+            "translation": "** 🆑 Xóa bỏ ngữ cảnh chủ đề**\nPhản hồi bằng văn bản *清除* hoặc */clear*"
         },
         {
             "id": "立刻清除",
             "message": "立刻清除",
-            "translation": ""
+            "translation": "Xóa ngay lập tức"
         },
         {
             "id": "🤖 **AI模式选择** \n 文本回复 *AI模式* 或 */ai_mode*",
             "message": "🤖 **AI模式选择** \n 文本回复 *AI模式* 或 */ai_mode*",
-            "translation": ""
+            "translation": "🤖 **Chế độ AI** \n Phản hồi văn bản *AI模式* hoặc */ai_mode*"
         },
         {
             "id": "🛖 **内置角色列表** \n 文本回复 *角色列表* 或 */roles*",
             "message": "🛖 **内置角色列表** \n 文本回复 *角色列表* 或 */roles*",
-            "translation": ""
+            "translation": "🛖 **Danh sách vai trò tích hợp** \n Phản hồi văn bản *角色列表* hoặc */roles*"
         },
         {
             "id": "🥷 **角色扮演模式**\n文本回复*角色扮演* 或 */system*+空格+角色信息",
             "message": "🥷 **角色扮演模式**\n文本回复*角色扮演* 或 */system*+空格+角色信息",
-            "translation": ""
+            "translation": "🥷 **Chế độ đóng vai**\nPhản hồi văn bản *角色扮演* hoặc */system*+ dấu cách + thông tin vai trò"
         },
         {
             "id": "🎤 **AI语音对话**\n私聊模式下直接发送语音",
             "message": "🎤 **AI语音对话**\n私聊模式下直接发送语音",
-            "translation": ""
+            "translation": "🎤 **Trò chuyện giọng nói AI**\nGửi trực tiếp âm thanh trong chế độ trò chuyện riêng"
         },
         {
             "id": "🎨 **图片创作模式**\n回复*图片创作* 或 */picture*",
             "message": "🎨 **图片创作模式**\n回复*图片创作* 或 */picture*",
-            "translation": ""
+            "translation": "🎨 **Chế độ tạo ảnh**\nPhản hồi *图片创作* hoặc */picture*"
         },
         {
             "id": "🎰 **Token余额查询**\n回复*余额* 或 */balance*",
             "message": "🎰 **Token余额查询**\n回复*余额* 或 */balance*",
-            "translation": ""
+            "translation": "🎰 **Tra cứu số dư Token**\nPhản hồi *余额* hoặc */balance*"
         },
         {
             "id": "🔃️ **历史话题回档** 🚧\n 进入话题的回复详情页,文本回复 *恢复* 或 */reload*",
             "message": "🔃️ **历史话题回档** 🚧\n 进入话题的回复详情页,文本回复 *恢复* 或 */reload*",
-            "translation": ""
+            "translation": "🔃️ **Lưu trữ chủ đề trước đó** 🚧\n Vào trang chi tiết phản hồi của chủ đề, phản hồi văn bản *恢复* hoặc */reload*"
         },
         {
             "id": "📤 **话题内容导出** 🚧\n 文本回复 *导出* 或 */export*",
             "message": "📤 **话题内容导出** 🚧\n 文本回复 *导出* 或 */export*",
-            "translation": ""
+            "translation": "📤 **Xuất nội dung chủ đề** 🚧\n Phản hồi văn bản *导出* hoặc */export*"
         },
         {
             "id": "🎰 **连续对话与多话题模式**\n 点击对话框参与回复，可保持话题连贯。同时，单独提问即可开启全新新话题",
             "message": "🎰 **连续对话与多话题模式**\n 点击对话框参与回复，可保持话题连贯。同时，单独提问即可开启全新新话题",
-            "translation": ""
+            "translation": "🎰 **Chế độ trò chuyện liên tục và đa chủ đề**\nNhấp vào hộp thoại để tham gia trả lời và duy trì sự liên tục của chủ đề. Đồng thời, đặt câu hỏi riêng có thể khởi động chủ đề mới hoàn toàn"
         },
         {
             "id": "🎒 **需要更多帮助**\n文本回复 *帮助* 或 */help*",
             "message": "🎒 **需要更多帮助**\n文本回复 *帮助* 或 */help*",
-            "translation": ""
+            "translation": "🎒 **Cần thêm trợ giúp**\nPhản hồi văn bản *帮助* hoặc */help*"
         },
         {
             "id": "再来一张",
             "message": "再来一张",
-            "translation": ""
+            "translation": "Gửi thêm một cái"
         },
         {
             "id": "🎰️ 余额查询",
             "message": "🎰️ 余额查询",
-            "translation": ""
+            "translation": "🎰️ Tra cứu số dư"
         },
         {
             "id": "总额度: {TotalGranted}$",
             "message": "总额度: {TotalGranted}$",
-            "translation": "",
+            "translation": "Giới hạn tổng cộng: {TotalGranted}$",
             "placeholders": [
                 {
                     "id": "TotalGranted",
@@ -329,7 +329,7 @@
         {
             "id": "已用额度: {TotalUsed}$",
             "message": "已用额度: {TotalUsed}$",
-            "translation": "",
+            "translation": "Số dùng đã: {TotalUsed}$",
             "placeholders": [
                 {
                     "id": "TotalUsed",
@@ -344,7 +344,7 @@
         {
             "id": "可用额度: {TotalAvailable}$",
             "message": "可用额度: {TotalAvailable}$",
-            "translation": "",
+            "translation": "Số dùng được: {TotalAvailable}$",
             "placeholders": [
                 {
                     "id": "TotalAvailable",
@@ -359,7 +359,7 @@
         {
             "id": "有效期: {Format2006_01_02_150405} - {Format2006_01_02_150405_1}",
             "message": "有效期: {Format2006_01_02_150405} - {Format2006_01_02_150405_1}",
-            "translation": "",
+            "translation": "Hạn sử dụng: {Format2006_01_02_150405} - {Format2006_01_02_150405_1}",
             "placeholders": [
                 {
                     "id": "Format2006_01_02_150405",
@@ -382,32 +382,32 @@
         {
             "id": "🛖 请选择角色类别",
             "message": "🛖 请选择角色类别",
-            "translation": ""
+            "translation": "🛖 Vui lòng chọn loại vai trò"
         },
         {
             "id": "提醒：选择角色所属分类，以便我们为您推荐更多相关角色。",
             "message": "提醒：选择角色所属分类，以便我们为您推荐更多相关角色。",
-            "translation": ""
+            "translation": "Lưu ý: Chọn danh mục thuộc tính của vai trò để chúng tôi có thể đề xuất thêm các vai trò liên quan."
         },
         {
             "id": "🛖 角色列表",
             "message": "🛖 角色列表",
-            "translation": ""
+            "translation": "🛖 Danh sách vai trò"
         },
         {
             "id": "提醒：选择内置场景，快速进入角色扮演模式。",
             "message": "提醒：选择内置场景，快速进入角色扮演模式。",
-            "translation": ""
+            "translation": "Lưu ý: Chọn cảnh nội bộ để nhanh chóng vào chế độ đóng vai."
         },
         {
             "id": "🤖 AI模式选择",
             "message": "🤖 AI模式选择",
-            "translation": ""
+            "translation": "🤖 Chọn chế độ AI"
         },
         {
             "id": "提醒：选择内置模式，让AI更好的理解您的需求。",
             "message": "提醒：选择内置模式，让AI更好的理解您的需求。",
-            "translation": ""
+            "translation": "Lưu ý: Chọn chế độ nội bộ để cho AI hiểu nhu cầu của bạn tốt hơn."
         }
     ]
 }

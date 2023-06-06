@@ -4,57 +4,57 @@
         {
             "id": "已选择AI模式:",
             "message": "已选择AI模式:",
-            "translation": ""
+            "translation": "Selected AI mode:"
         },
         {
             "id": "️🆑 机器人提醒",
             "message": "️🆑 机器人提醒",
-            "translation": ""
+            "translation": "️🆑 Robot reminder"
         },
         {
             "id": "已删除此话题的上下文信息",
             "message": "已删除此话题的上下文信息",
-            "translation": ""
+            "translation": "Context information of this topic has been deleted"
         },
         {
             "id": "我们可以开始一个全新的话题，继续找我聊天吧",
             "message": "我们可以开始一个全新的话题，继续找我聊天吧",
-            "translation": ""
+            "translation": "We can start a brand new topic, continue talking to me"
         },
         {
             "id": "依旧保留此话题的上下文信息",
             "message": "依旧保留此话题的上下文信息",
-            "translation": ""
+            "translation": "Context information of this topic is still preserved"
         },
         {
             "id": "我们可以继续探讨这个话题,期待和您聊天。如果您有其他问题或者想要讨论的话题，请告诉我哦",
             "message": "我们可以继续探讨这个话题,期待和您聊天。如果您有其他问题或者想要讨论的话题，请告诉我哦",
-            "translation": ""
+            "translation": "We can continue discussing this topic, looking forward to chatting with you. If you have other questions or topics you want to discuss, please let me know"
         },
         {
             "id": "已更新图片分辨率为",
             "message": "已更新图片分辨率为",
-            "translation": ""
+            "translation": "Image resolution has been updated to"
         },
         {
             "id": "🖼️ 已进入图片创作模式",
             "message": "🖼️ 已进入图片创作模式",
-            "translation": ""
+            "translation": "🖼️ Entered image creation mode"
         },
         {
             "id": "提醒：回复文本或图片，让AI生成相关的图片。",
             "message": "提醒：回复文本或图片，让AI生成相关的图片。",
-            "translation": ""
+            "translation": "Reminder: Reply with text or images to let AI generate related images."
         },
         {
             "id": "️🎒 机器人提醒",
             "message": "️🎒 机器人提醒",
-            "translation": ""
+            "translation": "️🎒 Robot reminder"
         },
         {
             "id": "🤖️：语音转换失败，请稍后再试～\n错误信息: {Err}",
             "message": "🤖️：语音转换失败，请稍后再试～\n错误信息: {Err}",
-            "translation": "",
+            "translation": "🤖️: Voice conversion failed, please try again later~\nError message: {Err}",
             "placeholders": [
                 {
                     "id": "Err",
@@ -69,37 +69,37 @@
         {
             "id": "🤖️：你想知道什么呢~",
             "message": "🤖️：你想知道什么呢~",
-            "translation": ""
+            "translation": "🤖️: What do you want to know?"
         },
         {
             "id": "清除",
             "message": "清除",
-            "translation": ""
+            "translation": "Clear"
         },
         {
             "id": "角色扮演",
             "message": "角色扮演",
-            "translation": ""
+            "translation": "Role-playing"
         },
         {
             "id": "余额",
             "message": "余额",
-            "translation": ""
+            "translation": "Balance"
         },
         {
             "id": "角色列表",
             "message": "角色列表",
-            "translation": ""
+            "translation": "Role list"
         },
         {
             "id": "AI模式",
             "message": "AI模式",
-            "translation": ""
+            "translation": "AI mode"
         },
         {
             "id": "🤖️：消息机器人摆烂了，请稍后再试～\n错误信息: {Err}",
             "message": "🤖️：消息机器人摆烂了，请稍后再试～\n错误信息: {Err}",
-            "translation": "",
+            "translation": "🤖️: Message bot is acting up, please try again later~\nError message: {Err}",
             "placeholders": [
                 {
                     "id": "Err",
@@ -114,12 +114,12 @@
         {
             "id": "图片创作",
             "message": "图片创作",
-            "translation": ""
+            "translation": "Image creation"
         },
         {
             "id": "🤖️：图片下载失败，请稍后再试～\n 错误信息: {Err}",
             "message": "🤖️：图片下载失败，请稍后再试～\n 错误信息: {Err}",
-            "translation": "",
+            "translation": "🤖️: Image download failed, please try again later~\nError message: {Err}",
             "placeholders": [
                 {
                     "id": "Err",
@@ -134,12 +134,12 @@
         {
             "id": "🤖️：无法解析图片，请发送原图并尝试重新操作～",
             "message": "🤖️：无法解析图片，请发送原图并尝试重新操作～",
-            "translation": ""
+            "translation": "🤖️: Unable to parse the image, please send the original image and try again~"
         },
         {
             "id": "🤖️：图片生成失败，请稍后再试～\n错误信息: {Err}",
             "message": "🤖️：图片生成失败，请稍后再试～\n错误信息: {Err}",
-            "translation": "",
+            "translation": "🤖️: Image generation failed, please try again later~\nError message: {Err}",
             "placeholders": [
                 {
                     "id": "Err",
@@ -154,167 +154,167 @@
         {
             "id": "🤖️机器人提醒",
             "message": "🤖️机器人提醒",
-            "translation": ""
+            "translation": "🤖️Robot reminder"
         },
         {
             "id": "确认清除",
             "message": "确认清除",
-            "translation": ""
+            "translation": "Confirm clear"
         },
         {
             "id": "我再想想",
             "message": "我再想想",
-            "translation": ""
+            "translation": "Let me think again"
         },
         {
             "id": "切换模式",
             "message": "切换模式",
-            "translation": ""
+            "translation": "Switch mode"
         },
         {
             "id": "默认分辨率",
             "message": "默认分辨率",
-            "translation": ""
+            "translation": "Default resolution"
         },
         {
             "id": "选择角色分类",
             "message": "选择角色分类",
-            "translation": ""
+            "translation": "Select role category"
         },
         {
             "id": "查看内置角色",
             "message": "查看内置角色",
-            "translation": ""
+            "translation": "View built-in roles"
         },
         {
             "id": "选择模式",
             "message": "选择模式",
-            "translation": ""
+            "translation": "Select mode"
         },
         {
             "id": "🆑 机器人提醒",
             "message": "🆑 机器人提醒",
-            "translation": ""
+            "translation": "🆑 Robot reminder"
         },
         {
             "id": "您确定要清除对话上下文吗？",
             "message": "您确定要清除对话上下文吗？",
-            "translation": ""
+            "translation": "Are you sure you want to clear the conversation context?"
         },
         {
             "id": "请注意，这将开始一个全新的对话，您将无法利用之前话题的历史信息",
             "message": "请注意，这将开始一个全新的对话，您将无法利用之前话题的历史信息",
-            "translation": ""
+            "translation": "Please note that this will start a completely new conversation, and you will not be able to leverage historical information from previous topics."
         },
         {
             "id": "🥷  已进入角色扮演模式",
             "message": "🥷  已进入角色扮演模式",
-            "translation": ""
+            "translation": "🥷 Entered role-playing mode"
         },
         {
             "id": "🖼️ 机器人提醒",
             "message": "🖼️ 机器人提醒",
-            "translation": ""
+            "translation": "🖼️ Robot reminder"
         },
         {
             "id": "收到图片，是否进入图片创作模式？",
             "message": "收到图片，是否进入图片创作模式？",
-            "translation": ""
+            "translation": "Received image, would you like to enter picture creation mode?"
         },
         {
             "id": "👻️ 已开启新的话题",
             "message": "👻️ 已开启新的话题",
-            "translation": ""
+            "translation": "👻️ New topic has been initiated"
         },
         {
             "id": "提醒：点击对话框参与回复，可保持话题连贯",
             "message": "提醒：点击对话框参与回复，可保持话题连贯",
-            "translation": ""
+            "translation": "Reminder: Click the dialog box to participate in the reply and maintain topic continuity"
         },
         {
             "id": "🎒需要帮助吗？",
             "message": "🎒需要帮助吗？",
-            "translation": ""
+            "translation": "🎒Need help?"
         },
         {
             "id": "**我是小飞机，一款基于chatGpt技术的智能聊天机器人！**",
             "message": "**我是小飞机，一款基于chatGpt技术的智能聊天机器人！**",
-            "translation": ""
+            "translation": "**I am Little Plane, an intelligent chatbot based on chatGpt technology!**"
         },
         {
             "id": "** 🆑 清除话题上下文**\n文本回复 *清除* 或 */clear*",
             "message": "** 🆑 清除话题上下文**\n文本回复 *清除* 或 */clear*",
-            "translation": ""
+            "translation": "** 🆑 Clear topic context **\nReply with *clear* or */clear*"
         },
         {
             "id": "立刻清除",
             "message": "立刻清除",
-            "translation": ""
+            "translation": "Clear immediately"
         },
         {
             "id": "🤖 **AI模式选择** \n 文本回复 *AI模式* 或 */ai_mode*",
             "message": "🤖 **AI模式选择** \n 文本回复 *AI模式* 或 */ai_mode*",
-            "translation": ""
+            "translation": "🤖 **AI mode selection**\nReply with *AI mode* or */ai_mode*"
         },
         {
             "id": "🛖 **内置角色列表** \n 文本回复 *角色列表* 或 */roles*",
             "message": "🛖 **内置角色列表** \n 文本回复 *角色列表* 或 */roles*",
-            "translation": ""
+            "translation": "🛖 **Built-in role list**\nReply with *role list* or */roles*"
         },
         {
             "id": "🥷 **角色扮演模式**\n文本回复*角色扮演* 或 */system*+空格+角色信息",
             "message": "🥷 **角色扮演模式**\n文本回复*角色扮演* 或 */system*+空格+角色信息",
-            "translation": ""
+            "translation": "🥷 **Role-playing mode**\nReply with *role-playing* or */system*+space+role information"
         },
         {
             "id": "🎤 **AI语音对话**\n私聊模式下直接发送语音",
             "message": "🎤 **AI语音对话**\n私聊模式下直接发送语音",
-            "translation": ""
+            "translation": "🎤 **AI voice conversation**\nSend voice directly in private chat mode"
         },
         {
             "id": "🎨 **图片创作模式**\n回复*图片创作* 或 */picture*",
             "message": "🎨 **图片创作模式**\n回复*图片创作* 或 */picture*",
-            "translation": ""
+            "translation": "🎨 **Image creation mode**\nReply with *image creation* or */picture*"
         },
         {
             "id": "🎰 **Token余额查询**\n回复*余额* 或 */balance*",
             "message": "🎰 **Token余额查询**\n回复*余额* 或 */balance*",
-            "translation": ""
+            "translation": "🎰 **Token balance inquiry**\nReply with *balance* or */balance*"
         },
         {
             "id": "🔃️ **历史话题回档** 🚧\n 进入话题的回复详情页,文本回复 *恢复* 或 */reload*",
             "message": "🔃️ **历史话题回档** 🚧\n 进入话题的回复详情页,文本回复 *恢复* 或 */reload*",
-            "translation": ""
+            "translation": "🔃️ **Historical topic rollback** 🚧\nGo to the reply details page of the topic, reply with *restore* or */reload*"
         },
         {
             "id": "📤 **话题内容导出** 🚧\n 文本回复 *导出* 或 */export*",
             "message": "📤 **话题内容导出** 🚧\n 文本回复 *导出* 或 */export*",
-            "translation": ""
+            "translation": "📤 **Export topic content** 🚧\nReply with *export* or */export*"
         },
         {
             "id": "🎰 **连续对话与多话题模式**\n 点击对话框参与回复，可保持话题连贯。同时，单独提问即可开启全新新话题",
             "message": "🎰 **连续对话与多话题模式**\n 点击对话框参与回复，可保持话题连贯。同时，单独提问即可开启全新新话题",
-            "translation": ""
+            "translation": "🎰 **Continuous conversation and multi-topic mode**\nClick the dialog box to participate in the reply and maintain topic continuity. Also, asking separate questions can start a completely new topic"
         },
         {
             "id": "🎒 **需要更多帮助**\n文本回复 *帮助* 或 */help*",
             "message": "🎒 **需要更多帮助**\n文本回复 *帮助* 或 */help*",
-            "translation": ""
+            "translation": "🎒 **Need more help**\nReply with *help* or */help*"
         },
         {
             "id": "再来一张",
             "message": "再来一张",
-            "translation": ""
+            "translation": "One more"
         },
         {
             "id": "🎰️ 余额查询",
             "message": "🎰️ 余额查询",
-            "translation": ""
+            "translation": "🎰️ Balance inquiry"
         },
         {
             "id": "总额度: {TotalGranted}$",
             "message": "总额度: {TotalGranted}$",
-            "translation": "",
+            "translation": "Total limit: {TotalGranted}$",
             "placeholders": [
                 {
                     "id": "TotalGranted",
@@ -329,7 +329,7 @@
         {
             "id": "已用额度: {TotalUsed}$",
             "message": "已用额度: {TotalUsed}$",
-            "translation": "",
+            "translation": "Used limit: {TotalUsed}$",
             "placeholders": [
                 {
                     "id": "TotalUsed",
@@ -344,7 +344,7 @@
         {
             "id": "可用额度: {TotalAvailable}$",
             "message": "可用额度: {TotalAvailable}$",
-            "translation": "",
+            "translation": "Available limit: {TotalAvailable}$",
             "placeholders": [
                 {
                     "id": "TotalAvailable",
@@ -359,7 +359,7 @@
         {
             "id": "有效期: {Format2006_01_02_150405} - {Format2006_01_02_150405_1}",
             "message": "有效期: {Format2006_01_02_150405} - {Format2006_01_02_150405_1}",
-            "translation": "",
+            "translation": "Validity: {Format2006_01_02_150405} - {Format2006_01_02_150405_1}",
             "placeholders": [
                 {
                     "id": "Format2006_01_02_150405",
@@ -382,32 +382,32 @@
         {
             "id": "🛖 请选择角色类别",
             "message": "🛖 请选择角色类别",
-            "translation": ""
+            "translation": "🛖 Please select a role category"
         },
         {
             "id": "提醒：选择角色所属分类，以便我们为您推荐更多相关角色。",
             "message": "提醒：选择角色所属分类，以便我们为您推荐更多相关角色。",
-            "translation": ""
+            "translation": "Reminder: Select the category of the role to receive more recommended roles"
         },
         {
             "id": "🛖 角色列表",
             "message": "🛖 角色列表",
-            "translation": ""
+            "translation": "🛖 Role list"
         },
         {
             "id": "提醒：选择内置场景，快速进入角色扮演模式。",
             "message": "提醒：选择内置场景，快速进入角色扮演模式。",
-            "translation": ""
+            "translation": "Reminder: Select a built-in scene to quickly enter role-playing mode"
         },
         {
             "id": "🤖 AI模式选择",
             "message": "🤖 AI模式选择",
-            "translation": ""
+            "translation": "🤖 AI mode selection"
         },
         {
             "id": "提醒：选择内置模式，让AI更好的理解您的需求。",
             "message": "提醒：选择内置模式，让AI更好的理解您的需求。",
-            "translation": ""
+            "translation": "Reminder: Select a built-in mode to help AI better understand your needs"
         }
     ]
 }
