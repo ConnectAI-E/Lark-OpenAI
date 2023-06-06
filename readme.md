@@ -1,6 +1,8 @@
 <p align='center'>
-    <img src='https://github.com/ConnectAI-E/Feishu-OpenAI/assets/50035229/263f647a-858e-4c4f-8eb9-4cc4d66c31fd' alt='' width='800'/>
+    <img src='https://github.com/ConnectAI-E/Lark-OpenAI/assets/50035229/421327a5-1cf1-46ad-93b1-15c9c9d36490' alt='' width='800'/>
 </p>
+
+
 
 <details align='center'>
     <summary> 📷 Click to expand the full function of Connect-AI</summary>
