@@ -341,20 +341,19 @@ Card callback address: http://IP:9000/webhook/card
     <summary> 📸 Click to expand the step-by-step screenshot guide for lark robot configuration</summary>
     <br>
     <p align='center'>
-    <img src='https://user-images.githubusercontent.com/50035229/223943381-39e0466f-2a5e-472a-9863-94eafb5f17b0.png' alt='' width='800'/>
-    <img src='https://user-images.githubusercontent.com/50035229/223943448-228de5cb-0929-4d80-8087-8d8624dd6ddf.png' alt='' width='800'/>
-    <img src='https://user-images.githubusercontent.com/50035229/223943485-ef331784-7940-4657-b128-70c98391e72f.png' alt='' width='800'/>
-    <img src='https://user-images.githubusercontent.com/50035229/223943527-60e6653a-eb6e-4062-a076-b6c9da934352.png' alt='' width='800'/>
-    <img src='https://user-images.githubusercontent.com/50035229/223943972-f49adf9f-af5f-463a-8c7a-c1f0cac0e8c3.png' alt='' width='800'/>
-      <img src='https://user-images.githubusercontent.com/50035229/223944060-7ef630a4-4248-4509-852b-cad8bfffeefc.png' alt='' width='800'/>
-      <img src='https://user-images.githubusercontent.com/50035229/223944230-aff586be-31cc-40de-9b1a-7d4e259d54dd.png' alt='' width='800'/>
-      <img src='https://user-images.githubusercontent.com/50035229/223944350-917d115c-6c82-4d8b-9ec8-b5c82331a2dc.png' alt='' width='800'/>
-      <img src='https://user-images.githubusercontent.com/50035229/223944381-97396156-f5e2-467f-aaf6-b1f6e1c446b2.png' alt='' width='800'/>
-      <img src='https://user-images.githubusercontent.com/50035229/230003546-36450f2f-b6e9-4292-8b40-3a4aa8a05a64.png' alt='' width='800'/>
-      <img src='https://user-images.githubusercontent.com/50035229/223945122-f7ab3d9a-6742-43d2-970e-ddb0f284c7fa.png' alt='' width='800'/>
-      <img src='https://user-images.githubusercontent.com/50035229/223944507-8d1a08d7-8b5b-4f32-a90d-fd338164ec82.png' alt='' width='800'/>
-      <img src='https://user-images.githubusercontent.com/50035229/223944515-fb505e84-c840-484a-8df5-612f60bf27ea.png' alt='' width='800'/>
-      <img src='https://user-images.githubusercontent.com/50035229/223944590-ad61320f-c14a-4542-80ad-dee2e6469b67.png' alt='' width='800'/>
+    <img src='https://github.com/ConnectAI-E/Lark-OpenAI/assets/110169811/a2bf0588-0fff-48a7-a253-25d237c37f0e' alt='' width='800'/>
+    <img src='https://github.com/ConnectAI-E/Lark-OpenAI/assets/110169811/60b9dc76-3117-42c0-8086-6d5938161127' alt='' width='800'/>
+    <img src='https://github.com/ConnectAI-E/Lark-OpenAI/assets/110169811/1f46d819-a063-42fd-bf28-6d31086e1912' alt='' width='800'/>
+    <img src='https://github.com/ConnectAI-E/Lark-OpenAI/assets/110169811/47057139-1e09-48da-97ff-86f9021182f0' alt='' width='800'/>
+    <img src='https://github.com/ConnectAI-E/Lark-OpenAI/assets/110169811/91dc1b09-664e-4dea-b6b8-ca7a656d1ac4' alt='' width='800'/>
+      <img src='https://github.com/ConnectAI-E/Lark-OpenAI/assets/110169811/272bb80c-b9aa-49e2-9411-c0357ca03fe8' alt='' width='800'/>
+      <img src='https://github.com/ConnectAI-E/Lark-OpenAI/assets/110169811/aed03155-22cd-446a-96d8-54cfd95e04fb' alt='' width='800'/>
+      <img src='https://github.com/ConnectAI-E/Lark-OpenAI/assets/110169811/8f306e96-8767-480f-858f-41623038dbd2' alt='' width='800'/>
+      <img src='https://github.com/ConnectAI-E/Lark-OpenAI/assets/110169811/b9a6d27f-f225-4d02-8b05-b8ab4dd55fa5' alt='' width='800'/>
+      <img src='https://github.com/ConnectAI-E/Lark-OpenAI/assets/110169811/b2fbe22f-4920-4628-b673-011d036ae4fb' alt='' width='800'/>
+      <img src='https://github.com/ConnectAI-E/Lark-OpenAI/assets/110169811/607db6b7-07d2-4307-9ded-9e959bd15fcf' alt='' width='800'/>
+      <img src='https://github.com/ConnectAI-E/Lark-OpenAI/assets/110169811/fd8eded1-d248-4552-94d2-21e983d24dcd' alt='' width='800'/>
+      <img src='https://github.com/ConnectAI-E/Lark-OpenAI/assets/110169811/4d7b0a16-2871-4472-bd78-78d3989c050d' alt='' width='800'/>
     </p>
 </details>
 
