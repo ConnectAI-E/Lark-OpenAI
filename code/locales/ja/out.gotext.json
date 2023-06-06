@@ -82,6 +82,11 @@
             "translation": "ロールプレイ"
         },
         {
+            "id": "帮助",
+            "message": "帮助",
+            "translation": "ヘルプ"
+        },
+        {
             "id": "余额",
             "message": "余额",
             "translation": "残高"

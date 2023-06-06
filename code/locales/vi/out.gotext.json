@@ -82,6 +82,11 @@
             "translation": "Vai trò mô hình"
         },
         {
+            "id": "帮助",
+            "message": "帮助",
+            "translation": "Giúp đỡ"
+        },
+        {
             "id": "余额",
             "message": "余额",
             "translation": "Số dư"

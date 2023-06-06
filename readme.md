@@ -24,7 +24,7 @@
 <br>
     🚀 Lark OpenAI 🚀
 </p>
-  
+
 <p align='center'>
    www.qiniai.com
 </p>
@@ -427,7 +427,6 @@ Card callback address: http://IP:9000/webhook/card
 |     ⛳️ CLAUDE      |    [Go-Claude](https://github.com/ConnectAI-E/Go-Claude)     | [Feishu-Claude](https://github.com/ConnectAI-E/Feishu-Claude), [DingTalk-Claude](https://github.com/ConnectAI-E/DingTalk-Claude), [Wework-Claude](https://github.com/ConnectAI-E/Wework-Claude) |
 |     🎡 Prompt      |                                                              | [Prompt-Engineering-Tutior](https://github.com/ConnectAI-E/Prompt-Engineering-Tutior) |
 |     🤖️ ChatGLM     |                                                              | [Feishu-ChatGLM](https://github.com/ConnectAI-E/Feishu-ChatGLM) |
-
 
 
 

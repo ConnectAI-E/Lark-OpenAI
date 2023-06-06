@@ -110,6 +110,13 @@
             "fuzzy": true
         },
         {
+            "id": "帮助",
+            "message": "帮助",
+            "translation": "帮助",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
             "id": "余额",
             "message": "余额",
             "translation": "余额",

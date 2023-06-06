@@ -82,6 +82,11 @@
             "translation": "Role-playing"
         },
         {
+            "id": "帮助",
+            "message": "帮助",
+            "translation": "help"
+        },
+        {
             "id": "余额",
             "message": "余额",
             "translation": "Balance"
@@ -239,7 +244,7 @@
         {
             "id": "**我是小飞机，一款基于chatGpt技术的智能聊天机器人！**",
             "message": "**我是小飞机，一款基于chatGpt技术的智能聊天机器人！**",
-            "translation": "**I am Little Plane, an intelligent chatbot based on chatGpt technology!**"
+            "translation": "**I am an intelligent chatBot based on chatGpt!**"
         },
         {
             "id": "** 🆑 清除话题上下文**\n文本回复 *清除* 或 */clear*",
