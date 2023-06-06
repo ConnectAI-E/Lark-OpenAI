@@ -110,20 +110,20 @@ The server of Flying Book is very slow to access ngrok in China, so it is recomm
 - [natapp](https://natapp.cn/)
 
 ```bash
-# 配置config.yaml
+# Configure config.yaml
 mv config.example.yaml config.yaml
 
-//测试部署
+// Testing deployment.
 go run main.go
 cpolar http 9000
 
-//正式部署
+//Production deployment
 nohup cpolar http 9000 -log=stdout &
 
-//查看服务器状态
+//Check server status
 https://dashboard.cpolar.com/status
 
-// 下线服务
+// Take down the service
 ps -ef | grep cpolar
 kill -9 PID
 ```
@@ -144,9 +144,9 @@ cd feishu-chatgpt/code
 install [severless](https://docs.serverless-devs.com/serverless-devs/quick_start)tool
 
 ```bash
-# 配置config.yaml
+# Configure config.yaml
 mv config.example.yaml config.yaml
-# 安装severless cli
+# install severless cli
 npm install @serverless-devs/s -g
 ```
 
@@ -161,7 +161,7 @@ edition: 1.0.0
 name: lark-openai
 access: "aliyun" #  Modify the custom key name.
 
-vars: # 全局变量
+vars: # Global variables
 region: "cn-hongkong" # Modify the region where the cloud function wants to be deployed.
 
 ```
@@ -195,10 +195,10 @@ go env -w GOOS=linux
 ```
 edition: 1.0.0
 name: lark-openai
-access: "aliyun" #  修改自定义的秘钥别称
+access: "aliyun" #  Modify the custom key alias
 
-vars: # 全局变量
-  region: "cn-hongkong" #  修改云函数想要部署地区
+vars: # Global variables
+  region: "cn-hongkong" # Modify the desired deployment region for the cloud functions
 
 ```
 
@@ -275,14 +275,14 @@ feishu-chatgpt:latest
 
 注意:
 
-- `BOT_NAME` 为lark机器人名称，例如 `chatGpt`
-- `OPENAI_KEY` 为openai key，多个key用逗号分隔，例如 `sk-xxx1,sk-xxx2,sk-xxx3`
-- `HTTP_PROXY` 为宿主机的proxy地址，例如 `http://host.docker.internal:7890`,没有代理的话，可以不用设置
-- `API_URL` 为openai api 接口地址，例如 `https://api.openai.com`, 没有反向代理的话，可以不用设置
+- `BOT_NAME` is the name of the Lark bot, for example, `chatGpt`.
+- `OPENAI_KEY` is the OpenAI key. If you have multiple keys, separate them with commas, for example, `sk-xxx1,sk-xxx2,sk-xxx3`.
+- `HTTP_PROXY` is the proxy address of the host machine, for example, `http://host.docker.internal:7890`. If you don't have a proxy, you can leave this unset.
+- `API_URL` is the OpenAI API endpoint address, for example, `https://api.openai.com`. If you don't have a reverse proxy, you can leave this unset.
 
 --- 
 
-部署azure版本
+To deploy the Azure version
 
 ```bash
 docker build -t lark-openai:latest .
@@ -300,15 +300,15 @@ docker run -d --name lark-openai -p 9000:9000 \
 --env AZURE_OPENAI_TOKEN=xxx \
 feishu-chatgpt:latest
 ```
+    
+Note:
 
-注意:
-
-- `BOT_NAME` 为lark机器人名称，例如 `chatGpt`
-- `AZURE_ON` 为是否使用azure ,请填写 `true`
-- `AZURE_API_VERSION` 为azure api版本 例如 `2023-03-15-preview`
-- `AZURE_RESOURCE_NAME` 为azure 资源名称 类似 `https://{AZURE_RESOURCE_NAME}.openai.azure.com`
-- `AZURE_DEPLOYMENT_NAME` 为azure 部署名称 类似 `https://{AZURE_RESOURCE_NAME}.openai.azure.com/deployments/{AZURE_DEPLOYMENT_NAME}/chat/completions`
-- `AZURE_OPENAI_TOKEN` 为azure openai token
+- `BOT_NAME` is the name of the Lark bot, for example, `chatGpt`.
+- `AZURE_ON` indicates whether to use Azure. Please set it to `true`.
+- `AZURE_API_VERSION` is the Azure API version, for example, `2023-03-15-preview`.
+- `AZURE_RESOURCE_NAME` is the Azure resource name, similar to `https://{AZURE_RESOURCE_NAME}.openai.azure.com`.
+- `AZURE_DEPLOYMENT_NAME` is the Azure deployment name, similar to `https://{AZURE_RESOURCE_NAME}.openai.azure.com/deployments/{AZURE_DEPLOYMENT_NAME}/chat/completions`.
+- `AZURE_OPENAI_TOKEN` is the Azure OpenAI token.
 
 </details>
 
@@ -318,13 +318,13 @@ feishu-chatgpt:latest
 
 Edit docker-compose.yaml, configure the corresponding environment variable through environment (or mount the corresponding configuration file through volumes), and then run the following command
 ```bash
-# 构建镜像
+# Build the image
 docker compose build
 
-# 启动服务
+# Start the service
 docker compose up -d
 
-# 停止服务
+# Stop the service
 docker compose down
 ```
 
