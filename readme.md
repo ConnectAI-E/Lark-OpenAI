@@ -19,7 +19,7 @@
 <br>
 
 <p align='center'>
-   lark ×（GPT-4 + DALL·E + Whisper）
+   Lark ×（GPT-4 + DALL·E + Whisper）
 <br>
 <br>
     🚀 Lark OpenAI 🚀
@@ -29,6 +29,16 @@
    www.qiniai.com
 </p>
 
+
+
+
+<strong align="center">
+<samp>
+
+[**English**](./code/locales/en) · [**简体中文**](./code/locales/zh)· [**日本語**](./code/locales/ja)· [**Tiếng Việt**](./code/locales/vi)
+
+</samp>
+</strong>
 
 
 ## 👻 Feature
