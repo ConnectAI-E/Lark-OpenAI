@@ -1,20 +1,16 @@
 <p align='center'>
-    <img src='https://github.com/ConnectAI-E/Feishu-OpenAI/assets/50035229/263f647a-858e-4c4f-8eb9-4cc4d66c31fd' alt='' width='800'/>
+    <img src='https://github.com/ConnectAI-E/Lark-OpenAI/assets/50035229/421327a5-1cf1-46ad-93b1-15c9c9d36490' alt='' width='800'/>
 </p>
+
 
 <details align='center'>
     <summary> 📷 Click to expand the full function of Connect-AI</summary>
     <br>
     <p align='center'>
-    <img src='https://github.com/ConnectAI-E/Feishu-OpenAI/assets/50035229/8a589e42-c092-4878-83c3-dc12a801c2d6' alt='语音对话' width='800'/>
-    <img src='https://github.com/ConnectAI-E/Feishu-OpenAI/assets/50035229/263f647a-858e-4c4f-8eb9-4cc4d66c31fd' alt='角色扮演' width='800'/>
-    <img src='https://github.com/ConnectAI-E/Feishu-OpenAI/assets/50035229/39192ec8-9823-46c5-a56e-87fb1c9ce255' alt='角色扮演' width='800'/>
-    <img src='https://github.com/ConnectAI-E/Feishu-OpenAI/assets/50035229/8ff3decd-e0ae-436d-8f6f-4eb28f599866' alt='角色列表' width='800'/>
-    <img src='https://github.com/ConnectAI-E/Feishu-OpenAI/assets/50035229/92712155-eb0c-4dce-a005-c05a21dd8280' alt='文字成图' width='800'/>
-    <img src='https://github.com/ConnectAI-E/Feishu-OpenAI/assets/50035229/25cf595f-eaaf-4a52-8066-02afdc9fcdad' alt='余额查询' width='800'/>
-    <img src='https://github.com/ConnectAI-E/Feishu-OpenAI/assets/50035229/9ce7b941-2806-484c-94dc-0abc8e735a7f' alt='帮助菜单' width='800'/>
-    <img src='https://github.com/ConnectAI-E/Feishu-OpenAI/assets/50035229/d5128f44-53cc-4a49-9fd1-573bbb1fddff' alt='帮助菜单' width='800'/>
-    <img src='https://github.com/ConnectAI-E/Feishu-OpenAI/assets/50035229/43b52857-bde9-4c56-8cf1-bdafe31d4aaa' alt='帮助菜单' width='800'/>
+    <img src='https://github.com/ConnectAI-E/Lark-OpenAI/assets/50035229/b993c610-1c91-40dd-bdcd-85a992c17b74' alt='语音对话' width='800'/>
+    <img src='https://github.com/ConnectAI-E/Lark-OpenAI/assets/50035229/149f5fda-3fc4-49fa-8132-4825edfece1f' alt='角色扮演' width='800'/>
+    <img src='https://github.com/ConnectAI-E/Lark-OpenAI/assets/50035229/7dae5661-2d4c-4584-934c-747a8c68d3e9' alt='角色扮演' width='800'/>
+    <img src='https://github.com/ConnectAI-E/Lark-OpenAI/assets/50035229/942ffb30-fb48-4de4-a696-e0903a691665' alt='角色列表' width='800'/>
     </p>
 </details>
 
@@ -28,14 +24,14 @@
 <br>
     🚀 Lark OpenAI 🚀
 </p>
-  
+
 <p align='center'>
    www.qiniai.com
 </p>
 
 
 
-## 👻 机器人功能
+## 👻 Feature
 
 🗣Voice Communication: Private Direct Says with Robots
 
@@ -77,13 +73,13 @@
 
 
 
-## 🌟 Feature
+## 🌟 Base
 
 - 🍏 The dialogue is based on OpenAI-[GPT4](https://platform.openai.com/account/api-keys) and [Lark](https://www.larksuite.com/)
 - 🥒 support [Serverless ](https://github.com/serverless-devs/serverless-devs)、[local](https://dashboard.cpolar.com/login)、[Docker](https://www.docker.com/)、[binary package](https://github.com/Leizhenpeng/feishu-chatgpt/releases/)
 
 
-## 项目部署
+## 🛵 Development
 
 ###### Description of configuration files for lark，**[➡︎ see more](#Detailed configuration steps)**
 
@@ -127,7 +123,7 @@ kill -9 PID
 </details>
 
 <details>
-    <summary>serverless Development</summary>
+    <summary>Serverless Development</summary>
 <br>
 
 ```bash
@@ -249,7 +245,7 @@ Uncertainty about success or failure of self-determination，can be passed throu
 </details>
 
 <details>
-    <summary>docker development</summary>
+    <summary>Docker Development</summary>
 <br>
 
 ```bash
@@ -328,7 +324,7 @@ feishu-chatgpt:latest
 </details>
 
 <details>
-    <summary>docker-compose deployment</summary>
+    <summary>Docker-Compose Development</summary>
 <br>
 
 Edit docker-compose.yaml, configure the corresponding environment variable through environment (or mount the corresponding configuration file through volumes), and then run the following command
@@ -349,7 +345,7 @@ Card callback address: http://IP:9000/webhook/card
 </details>
 
 <details>
-    <summary>Binary package deployment</summary>
+    <summary>Binary Package Development</summary>
 <br>
 
 1. Enter the [release page](https://github.com/Leizhenpeng/feishu - chatgpt/releases/) to download the corresponding installation package
@@ -431,7 +427,6 @@ Card callback address: http://IP:9000/webhook/card
 |     ⛳️ CLAUDE      |    [Go-Claude](https://github.com/ConnectAI-E/Go-Claude)     | [Feishu-Claude](https://github.com/ConnectAI-E/Feishu-Claude), [DingTalk-Claude](https://github.com/ConnectAI-E/DingTalk-Claude), [Wework-Claude](https://github.com/ConnectAI-E/Wework-Claude) |
 |     🎡 Prompt      |                                                              | [Prompt-Engineering-Tutior](https://github.com/ConnectAI-E/Prompt-Engineering-Tutior) |
 |     🤖️ ChatGLM     |                                                              | [Feishu-ChatGLM](https://github.com/ConnectAI-E/Feishu-ChatGLM) |
-
 
 
 
