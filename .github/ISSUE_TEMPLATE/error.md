@@ -1,26 +1,26 @@
 ---
-name: 错误报告
-about: 提出关于此项目的错误报告
-title: "🐞 错误报告"
+name: Bug Report
+about: Submit a bug report for this project
+title: "🐞 Bug Report"
 labels: ["bug"]
 ---
 
-# 错误报告 🐞
+# Bug Report 🐞
 
-如果您在使用此项目时遇到了错误，请在此报告，我们会尽快解决此问题。
+If you have encountered any errors while using this project, please report them here, and we will resolve the issue as soon as possible.
 
-## 错误描述 🤔
+## Error Description 🤔
 
-请详细地描述您遇到的问题，包括出现问题的环境和步骤，以及您已经尝试过的解决方法。
+Please provide a detailed description of the problem you encountered, including the environment and steps where the issue occurred, as well as any attempted solutions.
 
-另外，如果您在解决问题时已经查看过其他 GitHub Issue，请务必在文本中说明并引用相关信息。
+Additionally, if you have already reviewed other GitHub issues while troubleshooting, please make sure to mention and reference relevant information in the text.
 
-## 附加信息 📝
+## Additional Information 📝
 
-请提供以下信息以帮助我们更快地解决问题：
+Please provide the following information to help us resolve the issue more quickly:
 
-- 输出日志，包括错误信息和堆栈跟踪
-- 相关的代码片段或文件
-- 您的操作系统、软件版本等环境信息
+- Output logs, including error messages and stack traces
+- Relevant code snippets or files
+- Information about your operating system, software versions, and other environmental details
 
-感谢您的反馈！🙏
+Thank you for your feedback! 🙏

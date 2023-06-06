@@ -1,29 +1,29 @@
 ---
-name: 项目维护
-about: 欢迎提交您的项目维护问题和建议！
-title: "🔧 项目维护"
+name: Project Maintenance
+about: Welcome to submit your project maintenance issues and suggestions!
+title: "🔧 Project Maintenance"
 labels: ["maintenance"]
 ---
 
-# 项目维护问题和建议 🔧
+# Project Maintenance Issues and Suggestions 🔧
 
-欢迎在此分享您对项目维护的问题和建议，我们期待听到您的想法和建议。
+Welcome to share your project maintenance issues and suggestions here. We look forward to hearing your thoughts and ideas.
 
-## 您的问题或建议是什么？ 🤔
+## What is your issue or suggestion? 🤔
 
-请简要描述您遇到的项目维护问题或者您的项目维护建议，包括您的目标和想法。
+Please provide a brief description of your project maintenance issue or your suggestions for project maintenance, including your goals and ideas.
 
-注意：如果您的建议涉及到以下方面，请在描述中加以说明，以帮助我们更好地理解您的意见。
+Note: If your suggestion relates to any of the following aspects, please specify in the description to help us better understand your feedback:
 
-- 代码重构
-- 设计模式加强
-- 优化算法
-- 依赖升级
+- Code refactoring
+- Reinforcing design patterns
+- Optimizing algorithms
+- Upgrading dependencies
 
-## 您期望的解决方案是什么？ 💡
+## What is your expected solution? 💡
 
-请简要描述您期望的解决方案，包括您的期望和想法。
+Please briefly describe your expected solution, including your expectations and ideas.
 
-如果您期望的解决方案是解决某个特定问题的，请尽可能提供更多的上下文和细节。
+If your expected solution aims to address a specific problem, please provide as much context and detail as possible.
 
-感谢您的分享和支持！🙏
+Thank you for sharing your thoughts and supporting us! 🙏

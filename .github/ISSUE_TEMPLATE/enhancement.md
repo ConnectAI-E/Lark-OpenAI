@@ -1,19 +1,18 @@
 ---
-name: 功能改善
-about: 欢迎分享您的改善建议！
-title: "🚀 功能改善"
+name: Feature Improvement
+about: Welcome to share your improvement suggestions!
+title: "🚀 Feature Improvement"
 labels: ["enhancement"]
 ---
 
-# 功能改善建议 🚀
+# Suggestions for Feature Improvement 🚀
 
-欢迎在此分享您对功能的改善建议，我们期待听到您的想法和建议。
+Welcome to share your suggestions for improving the features. We look forward to hearing your thoughts and ideas.
 
-## 您的建议是什么？ 🤔
+## What is your suggestion? 🤔
 
-请简要描述您的功能改善建议，包括您的目标和想法。
+Please provide a brief description of your suggestions for feature improvement, including your goals and ideas.
 
-如果您的建议是解决某个特定问题的，请尽可能提供更多的上下文和细节。
+If your suggestion is aimed at addressing a specific issue, please provide as much context and detail as possible.
 
-
-感谢您的分享和支持！🙏
+Thank you for sharing your thoughts and supporting us! 🙏

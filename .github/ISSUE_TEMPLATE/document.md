@@ -1,26 +1,26 @@
 ---
-name: 文档改善
-about: 欢迎分享您的文档改善建议！
-title: "📝 文档改善"
+name: Documentation Improvement
+about: Welcome to share your suggestions for improving the documentation!
+title: "📝 Documentation Improvement"
 labels: ["documentation"]
 ---
 
-# 文档改善建议 📝
+# Suggestions for Document Improvement 📝
 
-欢迎在此分享您对文档的改善建议，我们期待听到您的想法和建议。
+Welcome to share your suggestions for improving the documentation. We look forward to hearing your thoughts and ideas.
 
-## 您的建议是什么？ 🤔
+## What is your suggestion? 🤔
 
-请简要描述您的文档改善建议，包括您的目标和想法。
+Please provide a brief description of your suggestions for document improvement, including your goals and ideas.
 
-如果您的建议是解决某个特定问题的，请尽可能提供更多的上下文和细节。
+If your suggestion is aimed at addressing a specific issue, please provide as much context and detail as possible.
 
-## 您的建议有哪些优势？ 🌟
+## What are the advantages of your suggestion? 🌟
 
-请简要描述您的建议的优势和特点，比如：
+Please briefly describe the advantages and characteristics of your suggestion, such as:
 
-- 是否可以提高文档的可读性和易用性？
-- 是否可以使文档更加详细和准确？
-- 是否可以让文档更好地反映项目的实际情况？
+- Will it enhance the readability and usability of the document?
+- Will it make the document more detailed and accurate?
+- Will it better reflect the actual situation of the project in the document?
 
-感谢您的分享和支持！🙏
+Thank you for sharing your thoughts and supporting us! 🙏

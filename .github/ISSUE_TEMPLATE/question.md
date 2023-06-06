@@ -1,26 +1,26 @@
 ---
-name: 部署问题反馈
-about: 如果您在部署中遇到任何问题，欢迎在这里与我们交流。
-title: "🚰 部署问题反馈"
+name: Deployment Issue Feedback
+about: If you encounter any issues during deployment, feel free to communicate with us here.
+title: "🚰 Deployment Issue Feedback"
 labels: ["question"]
 ---
 
-# 问题交流 💬
+# Question & Discussion 💬
 
-欢迎在此提交您遇到的问题，我们会尽快回复您并提供帮助。
+Welcome to submit your questions here. We will respond to you as soon as possible and provide assistance.
 
-## 问题描述 🤔
+## Issue Description 🤔
 
-请详细描述您遇到的问题，包括出现问题的环境和步骤，以及您已经尝试过的解决方法。
+Please provide a detailed description of the issue you encountered, including the environment and steps where the issue occurred, as well as any attempted solutions.
 
-如果您在解决问题时已经查看过其他 GitHub Issue，请务必在文本中说明并引用相关信息。
+Additionally, if you have already reviewed other GitHub issues while troubleshooting, please make sure to mention and reference relevant information in the text.
 
-## 附加信息 📝
+## Additional Information 📝
 
-为了更好地了解您遇到的问题，我们需要您提供以下信息：
+To better understand the issue you are facing, we kindly ask you to provide the following information:
 
-- 输出日志，包括错误信息和堆栈跟踪。
-- 相关的代码片段或文件。
-- 操作系统、golang 版本等环境信息。
+- Output logs, including error messages and stack traces.
+- Relevant code snippets or files.
+- Information about your operating system, Golang version, and other environmental details.
 
-感谢您的反馈和支持！🙏
+Thank you for your feedback and support! 🙏
