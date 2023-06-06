@@ -358,30 +358,32 @@ Card callback address: http://IP:9000/webhook/card
 </details>
 
 
-- 获取 [OpenAI](https://platform.openai.com/account/api-keys) 的 KEY( 🙉 下面有免费的 KEY 供大家测试部署 )
-- 创建 [lark](https://open.larksuit.com/) 机器人
-    1. 前往[开发者平台](https://open.larksuite.com/app?lang=zh-CN)创建应用,并获取到 APPID 和 Secret
-    2. 前往`应用功能-机器人`, 创建机器人
-    3. 从 cpolar、serverless 或 Railway 获得公网地址，在lark机器人后台的 `事件订阅` 板块填写。例如，
-        - `http://xxxx.r6.cpolar.top`为 cpolar 暴露的公网地址
-        - `/webhook/event`为统一的应用路由
-        - 最终的回调地址为 `http://xxxx.r6.cpolar.top/webhook/event`
-    4. 在lark机器人后台的 `机器人` 板块，填写消息卡片请求网址。例如，
-        - `http://xxxx.r6.cpolar.top`为 cpolar 暴露的公网地址
-        - `/webhook/card`为统一的应用路由
-        - 最终的消息卡片请求网址为 `http://xxxx.r6.cpolar.top/webhook/card`
-    5. 在事件订阅板块，搜索三个词`机器人进群`、 `接收消息`、 `消息已读`, 把他们后面所有的权限全部勾选。
-       进入权限管理界面，搜索`图片`, 勾选`获取与上传图片或文件资源`。
-       最终会添加下列回调事件
-        - im:resource(获取与上传图片或文件资源)
+- Get [OpenAI](https://platform.openai.com/account/api-keys) KEY( 🙉 Below are free keys available for everyone to test deployment )
+- Create [lark](https://open.larksuit.com/) Bot
+    1. Go [开发者平台](https://open.feishu.cn/?lang=en-US) creat app , get APPID and Secret
+    2. Go `Features-Bot` , creat bot
+    3. Obtain the public address from cpolar, serverless, or Railway, and fill it in the "Event Subscription" section of the Lark bot backend. For example,
+   - `http://xxxx.r6.cpolar.top` is the public address exposed by cpolar.
+   - `/webhook/event` is the unified application route.
+   - The final callback address is `http://xxxx.r6.cpolar.top/webhook/event`.
+   
+    4. In the "Bot" section of the Lark bot backend, fill in the request URL for message cards. For example,
+   - `http://xxxx.r6.cpolar.top` is the public address exposed by cpolar.
+   - `/webhook/card` is the unified application route.
+   - The final request URL for message cards is `http://xxxx.r6.cpolar.top/webhook/card`.
+
+    5. In the "Event Subscription" section, search for the three terms: "Bot Join Group," "Receive Messages," and "Messages Read." Check all the permissions behind them.
+   Go to the permission management interface, search for "Image," and check "Get and upload image or file resources."
+   Finally, the following callback events will be added.
+        - im:resource(Read and upload images or other files)
         - im:message
-        - im:message.group_at_msg(获取群组中所有消息)
-        - im:message.group_at_msg:readonly(接收群聊中@机器人消息事件)
-        - im:message.p2p_msg(获取用户发给机器人的单聊消息)
-        - im:message.p2p_msg:readonly(读取用户发给机器人的单聊消息)
-        - im:message:send_as_bot(获取用户在群组中@机器人的消息)
-        - im:chat:readonly(获取群组信息)
-        - im:chat(获取与更新群组信息)
+        - im:message.group_at_msg(Read group chat messages mentioning the bot)
+        - im:message.group_at_msg:readonly(Obtain group messages mentioning the bot)
+        - im:message.p2p_msg(Read private messages sent to the bot)
+        - im:message.p2p_msg:readonly(Obtain private messages sent to the bot)
+        - im:message:send_as_bot(Send messages as an app)
+        - im:chat:readonly(Obtain group information)
+        - im:chat(Obtain and update group information)
 
 
 5. Publish the version and wait for the approval of the enterprise administrator
