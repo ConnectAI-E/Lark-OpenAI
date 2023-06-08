@@ -27,10 +27,11 @@ func (d *dictionary) Lookup(key string) (data string, ok bool) {
 
 func init() {
 	dict := map[string]catalog.Dictionary{
-		"en": &dictionary{index: enIndex, data: enData},
-		"ja": &dictionary{index: jaIndex, data: jaData},
-		"vi": &dictionary{index: viIndex, data: viData},
-		"zh": &dictionary{index: zhIndex, data: zhData},
+		"en":    &dictionary{index: enIndex, data: enData},
+		"ja":    &dictionary{index: jaIndex, data: jaData},
+		"vi":    &dictionary{index: viIndex, data: viData},
+		"zh":    &dictionary{index: zhIndex, data: zhData},
+		"zh_HK": &dictionary{index: zh_HKIndex, data: zh_HKData},
 	}
 	fallback := language.MustParse("zh")
 	cat, err := catalog.NewFromMap(dict, catalog.Fallback(fallback))
@@ -120,18 +121,18 @@ var enIndex = []uint32{ // 66 elements
 	0x00000451, 0x00000466, 0x0000047a, 0x00000486,
 	// Entry 20 - 3F
 	0x0000049a, 0x000004d3, 0x00000565, 0x00000584,
-	0x0000059b, 0x000005da, 0x000005ff, 0x00000658,
-	0x00000667, 0x00000699, 0x000006d7, 0x000006e9,
-	0x00000727, 0x00000766, 0x000007bf, 0x00000807,
-	0x0000084e, 0x00000890, 0x00000908, 0x0000094c,
-	0x00000a13, 0x00000a48, 0x00000a51, 0x00000a69,
-	0x00000a7f, 0x00000a94, 0x00000aae, 0x00000ac6,
-	0x00000ae9, 0x00000b35, 0x00000b44, 0x00000b89,
+	0x0000059b, 0x000005da, 0x000005f5, 0x0000064e,
+	0x0000065d, 0x0000068f, 0x000006cd, 0x000006df,
+	0x0000071d, 0x0000075c, 0x000007b5, 0x000007fd,
+	0x00000844, 0x00000886, 0x000008fe, 0x00000942,
+	0x00000a09, 0x00000a3e, 0x00000a47, 0x00000a5f,
+	0x00000a75, 0x00000a8a, 0x00000aa4, 0x00000abc,
+	0x00000adf, 0x00000b2b, 0x00000b3a, 0x00000b7f,
 	// Entry 40 - 5F
-	0x00000ba0, 0x00000be9,
+	0x00000b96, 0x00000bdf,
 } // Size: 288 bytes
 
-const enData string = "" + // Size: 3049 bytes
+const enData string = "" + // Size: 3039 bytes
 	"\x02Selected AI mode:\x02️🆑 Robot reminder\x02Context information of thi" +
 	"s topic has been deleted\x02We can start a brand new topic, continue tal" +
 	"king to me\x02Context information of this topic is still preserved\x02We" +
@@ -153,30 +154,29 @@ const enData string = "" + // Size: 3049 bytes
 	"t?\x02Please note that this will start a completely new conversation, an" +
 	"d you will not be able to leverage historical information from previous " +
 	"topics.\x02🥷 Entered role-playing mode\x02🖼️ Robot reminder\x02Received " +
-	"image, would you like to enter picture creation mode?\x02👻️ New topic ha" +
-	"s been initiated\x02Reminder: Click the dialog box to participate in the" +
-	" reply and maintain topic continuity\x02🎒Need help?\x02**I am an intelli" +
-	"gent chatBot based on chatGpt!**\x02** 🆑 Clear topic context **\x0aReply" +
-	" with *clear* or */clear*\x02Clear immediately\x02🤖 **AI mode selection*" +
-	"*\x0aReply with *AI mode* or */ai_mode*\x02🛖 **Built-in role list**\x0aR" +
-	"eply with *role list* or */roles*\x02🥷 **Role-playing mode**\x0aReply wi" +
-	"th *role-playing* or */system*+space+role information\x02🎤 **AI voice co" +
-	"nversation**\x0aSend voice directly in private chat mode\x02🎨 **Image cr" +
-	"eation mode**\x0aReply with *image creation* or */picture*\x02🎰 **Token " +
-	"balance inquiry**\x0aReply with *balance* or */balance*\x02🔃️ **Historic" +
-	"al topic rollback** 🚧\x0aGo to the reply details page of the topic, repl" +
-	"y with *restore* or */reload*\x02📤 **Export topic content** 🚧\x0aReply w" +
-	"ith *export* or */export*\x02🎰 **Continuous conversation and multi-topic" +
-	" mode**\x0aClick the dialog box to participate in the reply and maintain" +
-	" topic continuity. Also, asking separate questions can start a completel" +
-	"y new topic\x02🎒 **Need more help**\x0aReply with *help* or */help*\x02O" +
-	"ne more\x02🎰️ Balance inquiry\x02Total limit: %.2[1]f$\x02Used limit: %." +
-	"2[1]f$\x02Available limit: %.2[1]f$\x02Validity: %[1]s - %[2]s\x02🛖 Plea" +
-	"se select a role category\x02Reminder: Select the category of the role t" +
-	"o receive more recommended roles\x02🛖 Role list\x02Reminder: Select a bu" +
-	"ilt-in scene to quickly enter role-playing mode\x02🤖 AI mode selection" +
-	"\x02Reminder: Select a built-in mode to help AI better understand your n" +
-	"eeds"
+	"image, would you like to enter picture creation mode?\x02👻️ Start a new " +
+	"topic \x02Reminder: Click the dialog box to participate in the reply and" +
+	" maintain topic continuity\x02🎒Need help?\x02**I am an intelligent chatB" +
+	"ot based on chatGpt!**\x02** 🆑 Clear topic context **\x0aReply with *cle" +
+	"ar* or */clear*\x02Clear immediately\x02🤖 **AI mode selection**\x0aReply" +
+	" with *AI mode* or */ai_mode*\x02🛖 **Built-in role list**\x0aReply with " +
+	"*role list* or */roles*\x02🥷 **Role-playing mode**\x0aReply with *role-p" +
+	"laying* or */system*+space+role information\x02🎤 **AI voice conversation" +
+	"**\x0aSend voice directly in private chat mode\x02🎨 **Image creation mod" +
+	"e**\x0aReply with *image creation* or */picture*\x02🎰 **Token balance in" +
+	"quiry**\x0aReply with *balance* or */balance*\x02🔃️ **Historical topic r" +
+	"ollback** 🚧\x0aGo to the reply details page of the topic, reply with *re" +
+	"store* or */reload*\x02📤 **Export topic content** 🚧\x0aReply with *expor" +
+	"t* or */export*\x02🎰 **Continuous conversation and multi-topic mode**" +
+	"\x0aClick the dialog box to participate in the reply and maintain topic " +
+	"continuity. Also, asking separate questions can start a completely new t" +
+	"opic\x02🎒 **Need more help**\x0aReply with *help* or */help*\x02One more" +
+	"\x02🎰️ Balance inquiry\x02Total limit: %.2[1]f$\x02Used limit: %.2[1]f$" +
+	"\x02Available limit: %.2[1]f$\x02Validity: %[1]s - %[2]s\x02🛖 Please sel" +
+	"ect a role category\x02Reminder: Select the category of the role to rece" +
+	"ive more recommended roles\x02🛖 Role list\x02Reminder: Select a built-in" +
+	" scene to quickly enter role-playing mode\x02🤖 AI mode selection\x02Remi" +
+	"nder: Select a built-in mode to help AI better understand your needs"
 
 var jaIndex = []uint32{ // 66 elements
 	// Entry 0 - 1F
@@ -348,4 +348,49 @@ const zhData string = "" + // Size: 2769 bytes
 	"\x02有效期: %[1]s - %[2]s\x02🛖 请选择角色类别\x02提醒：选择角色所属分类，以便我们为您推荐更多相关角色。\x02🛖 " +
 	"角色列表\x02提醒：选择内置场景，快速进入角色扮演模式。\x02🤖 AI模式选择\x02提醒：选择内置模式，让AI更好的理解您的需求。"
 
-	// Total table size 15691 bytes (15KiB); checksum: D9152031
+var zh_HKIndex = []uint32{ // 66 elements
+	// Entry 0 - 1F
+	0x00000000, 0x00000013, 0x0000002b, 0x00000050,
+	0x00000090, 0x000000b8, 0x0000013a, 0x00000156,
+	0x0000017a, 0x000001b9, 0x000001d1, 0x00000217,
+	0x00000238, 0x0000023f, 0x0000024c, 0x00000253,
+	0x0000025a, 0x00000267, 0x00000270, 0x000002bc,
+	0x000002c9, 0x00000310, 0x00000357, 0x0000039d,
+	0x000003b4, 0x000003c1, 0x000003ce, 0x000003db,
+	0x000003eb, 0x000003fe, 0x00000411, 0x0000041e,
+	// Entry 20 - 3F
+	0x00000433, 0x0000045b, 0x000004b9, 0x000004db,
+	0x000004f3, 0x00000524, 0x00000542, 0x0000057f,
+	0x00000596, 0x000005e1, 0x00000624, 0x00000631,
+	0x00000672, 0x000006b9, 0x00000712, 0x0000074c,
+	0x0000078c, 0x000007c5, 0x0000082f, 0x00000875,
+	0x00000905, 0x00000943, 0x00000950, 0x00000965,
+	0x00000979, 0x00000990, 0x000009a7, 0x000009c0,
+	0x000009db, 0x00000a2d, 0x00000a3f, 0x00000a7f,
+	// Entry 40 - 5F
+	0x00000a93, 0x00000ad5,
+} // Size: 288 bytes
+
+const zh_HKData string = "" + // Size: 2773 bytes
+	"\x02已選擇AI模式:\x02️🆑 機器人提醒\x02已刪除此話題的上下文信息\x02我們可以開始一個全新的話題，繼續找我聊天吧\x02依舊保" +
+	"留此話題的上下文信息\x02我們可以繼續探討這個話題，期待和您聊天。如果您有其他問題或者想要討論的話題，請告訴我哦\x02已更新圖片分辨率為" +
+	"\x02🖼️ 已進入圖片創作模式\x02提醒：回覆文字或圖片，讓AI生成相關的圖片。\x02️🎒 機器人提醒\x02🤖️：語音轉換失敗，請稍後再" +
+	"試～\x0a錯誤信息: %[1]v\x02🤖️：你想知道什麼呢~\x02清除\x02角色扮演\x02幫助\x02餘額\x02角色列表\x02" +
+	"AI模式\x02🤖️：消息機器人摆烂了，请稍後再試～\x0a錯誤信息: %[1]v\x02圖片創作\x02🤖️：圖片下載失敗，請稍後再試～" +
+	"\x0a 錯誤信息: %[1]v\x02🤖️：無法解析圖片，請發送原圖並嘗試重新操作～\x02🤖️：圖片生成失敗，請稍後再試～\x0a錯誤信息:" +
+	" %[1]v\x02🤖️機器人提醒\x02確認清除\x02我再想想\x02切換模式\x02默認分辨率\x02選擇角色分類\x02查看內置角色" +
+	"\x02選擇模式\x02🆑 機器人提醒\x02您確定要清除對話上下文嗎？\x02請注意，這將開始一個全新的對話，您將無法利用之前話題的歷史信息" +
+	"\x02🥷  已進入角色扮演模式\x02🖼️ 機器人提醒\x02收到圖片，是否進入圖片創作模式？\x02👻️ 已開啟新的話題\x02提醒：點擊對" +
+	"話框參與回覆，可保持話題連貫\x02🎒需要幫助嗎？\x02**我是小飛機，一款基於chatGpt技術的智能聊天機器人！**\x02** 🆑 " +
+	"清除話題上下文**\x0a文本回覆 *清除* 或 */clear*\x02立刻清除\x02🤖 **AI模式選擇** \x0a 文本回覆 *A" +
+	"I模式* 或 */ai_mode*\x02🛖 **內置角色列表** \x0a 文本回覆 *角色列表* 或 */roles*\x02🥷 **角色扮" +
+	"演模式**\x0a文本回覆*角色扮演* 或 */system*+空格+角色信息\x02🎤 **AI語音對話**\x0a私聊模式下直接發送語音" +
+	"\x02🎨 **圖片創作模式**\x0a回覆*圖片創作* 或 */picture*\x02🎰 **Token餘額查詢**\x0a回覆*餘額* 或" +
+	" */balance*\x02🔃️ **歷史話題回档** 🚧\x0a 進入話題的回覆詳情頁，文字回覆 *恢復* 或 */reload*\x02📤" +
+	" **話題內容導出** 🚧\x0a 文本回覆 *導出* 或 */export*\x02🎰 **連續對話與多話題模式**\x0a 點擊對話框參與回" +
+	"覆，可保持話題連貫。同時，單獨提問即可開啟全新新話題\x02🎒 **需要更多幫助**\x0a文本回覆 *幫助* 或 */help*\x02再" +
+	"來一張\x02🎰️ 餘額查詢\x02總額度: %.2[1]f$\x02已用額度: %.2[1]f$\x02可用額度: %.2[1]f$" +
+	"\x02有效期: %[1]s - %[2]s\x02🛖 請選擇角色類別\x02提醒：選擇角色所屬分類，以便我們為您推薦更多相關角色。\x02🛖 " +
+	"角色列表\x02提醒：選擇內置場景，快速進入角色扮演模式。\x02🤖 AI模式選擇\x02提醒：選擇內置模式，讓AI更好的理解您的需求。"
+
+	// Total table size 18742 bytes (18KiB); checksum: 97ADD103

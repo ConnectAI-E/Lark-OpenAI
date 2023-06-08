@@ -1,4 +1,5 @@
-//go:generate gotext -srclang=zh update -out=catalog_gen.go -lang=zh,vi,en,ja
+//补充繁体中文
+//go:generate gotext -srclang=zh update -out=catalog_gen.go -lang=zh,vi,en,ja,zh-hk
 
 package main
 
