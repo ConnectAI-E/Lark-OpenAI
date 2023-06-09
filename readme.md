@@ -43,43 +43,43 @@
 
 ## 👻 Feature
 
-🗣Voice Communication: Private Direct Says with Robots
+🗣 Voice Communication: Private Direct Says with Robots
 
-💬Multi-topic dialogue: support private and group chat multi-topic discussion, efficient and coherent
+💬 Multi-topic dialogue: support private and group chat multi-topic discussion, efficient and coherent
 
-🖼Text graph: supports text graph and graph search
+🖼 Text graph: supports text graph and graph search
 
-🛖Scene preset: built-in rich scene list, one-click switch AI role
+🛖 Scene preset: built-in rich scene list, one-click switch AI role
 
-🎭Role play: Support scene mode, add fun and creative discussion
+🎭 Role play: Support scene mode, add fun and creative discussion
 
-🤖AI mode: Built-in 4 AI modes, feel the wisdom and creativity of AI
+🤖 AI mode: Built-in 4 AI modes, feel the wisdom and creativity of AI
 
-🔄Context preservation: reply dialog to continue the same topic discussion
+🔄 Context preservation: reply dialog to continue the same topic discussion
 
-⏰Automatic end: timeout automatically end the dialogue, support to clear the discussion history
+⏰ Automatic end: timeout automatically end the dialogue, support to clear the discussion history
 
-📝Rich text card: support rich text card reply, more colorful information
+📝 Rich text card: support rich text card reply, more colorful information
 
-👍Interactive Feedback: Instant access to robot processing results
+👍 Interactive Feedback: Instant access to robot processing results
 
-🎰Balance query: obtain token consumption in real time
+🎰 Balance query: obtain token consumption in real time
 
-🔙History Back to File: Easily Back to File History Dialogue and Continue Topic Discussion🚧
+🔙 History Back to File: Easily Back to File History Dialogue and Continue Topic Discussion🚧
 
-🔒Administrator mode: built-in administrator mode, use more secure and reliable🚧
+🔒 Administrator mode: built-in administrator mode, use more secure and reliable🚧
 
-🌐Multi-token load balancing: Optimizing high-frequency call scenarios at the production level
+🌐 Multi-token load balancing: Optimizing high-frequency call scenarios at the production level
 
-↩️ Support reverse proxy: provide faster and more stable access experience for users in different regions
+↩️  Support reverse proxy: provide faster and more stable access experience for users in different regions
 
-📚Interact with Flying Book Documents: Become a Super Assistant for Enterprise Employees🚧
+📚 Interact with Flying Book Documents: Become a Super Assistant for Enterprise Employees🚧
 
-🎥Topic Content Seconds to PPT: Make Your Report Simpler from Now on🚧
+🎥 Topic Content Seconds to PPT: Make Your Report Simpler from Now on🚧
 
-📊Table Analysis: Easily import flying book tables to improve data analysis efficiency🚧
+📊 Table Analysis: Easily import flying book tables to improve data analysis efficiency🚧
 
-🍊Private data training: use the company's product information for GPT secondary training to better meet the individual needs of customers.🚧
+🍊 Private data training: use the company's product information for GPT secondary training to better meet the individual needs of customers.🚧
 
 
 
@@ -91,7 +91,6 @@
 
 ## 🛵 Development
 
-###### Description of configuration files for lark，**[➡︎ see more](#Detailed configuration steps)**
 
 <details>
     <summary>Local Development</summary>
