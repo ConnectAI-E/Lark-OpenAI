@@ -35,7 +35,7 @@
 <strong align="center">
 <samp>
 
-[**English**](./code/locales/en) · [**简体中文**](./code/locales/zh)· [**日本語**](./code/locales/ja)· [**Tiếng Việt**](./code/locales/vi)
+[**English**](./readme.md) · [**简体中文**](./readme_zh.md)· [**繁體中文**](./readme_zh-hk.md) · [**日本語**](./readme_jp.md) · [**Tiếng Việt**](./readme_vi.md)
 
 </samp>
 </strong>
