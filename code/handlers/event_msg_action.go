@@ -1,8 +1,8 @@
 package handlers
 
 import (
-	"start-feishubot/services/openai"
-	"start-feishubot/utils"
+	"lark-openai/services/openai"
+	"lark-openai/utils"
 )
 
 type MessageAction struct { /*消息*/

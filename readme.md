@@ -7,10 +7,10 @@
     <summary> 📷 Click to expand the full function of Connect-AI</summary>
     <br>
     <p align='center'>
-    <img src='https://github.com/ConnectAI-E/Lark-OpenAI/assets/50035229/b993c610-1c91-40dd-bdcd-85a992c17b74' alt='语音对话' width='800'/>
-    <img src='https://github.com/ConnectAI-E/Lark-OpenAI/assets/50035229/149f5fda-3fc4-49fa-8132-4825edfece1f' alt='角色扮演' width='800'/>
-    <img src='https://github.com/ConnectAI-E/Lark-OpenAI/assets/50035229/7dae5661-2d4c-4584-934c-747a8c68d3e9' alt='角色扮演' width='800'/>
-    <img src='https://github.com/ConnectAI-E/Lark-OpenAI/assets/50035229/942ffb30-fb48-4de4-a696-e0903a691665' alt='角色列表' width='800'/>
+    <img src='https://github.com/ConnectAI-E/Lark-OpenAI/assets/50035229/b993c610-1c91-40dd-bdcd-85a992c17b74' alt='' width='800'/>
+    <img src='https://github.com/ConnectAI-E/Lark-OpenAI/assets/50035229/149f5fda-3fc4-49fa-8132-4825edfece1f' alt='' width='800'/>
+    <img src='https://github.com/ConnectAI-E/Lark-OpenAI/assets/50035229/7dae5661-2d4c-4584-934c-747a8c68d3e9' alt='' width='800'/>
+    <img src='https://github.com/ConnectAI-E/Lark-OpenAI/assets/50035229/942ffb30-fb48-4de4-a696-e0903a691665' alt='' width='800'/>
     </p>
 </details>
 
@@ -86,12 +86,10 @@
 ## 🌟 Base
 
 - 🍏 The dialogue is based on OpenAI-[GPT4](https://platform.openai.com/account/api-keys) and [Lark](https://www.larksuite.com/)
-- 🥒 support [Serverless ](https://github.com/serverless-devs/serverless-devs)、[local](https://dashboard.cpolar.com/login)、[Docker](https://www.docker.com/)、[binary package](https://github.com/Leizhenpeng/feishu-chatgpt/releases/)
+- 🥒 support [Serverless](https://github.com/serverless-devs/serverless-devs)、[local](https://dashboard.cpolar.com/login)、[Docker](https://www.docker.com/)、[binary package](https://github.com/Leizhenpeng/feishu-chatgpt/releases/)
 
 
 ## 🛵 Development
-
-###### Description of configuration files for lark，**[➡︎ see more](#Detailed configuration steps)**
 
 <details>
     <summary>Local Development</summary>
@@ -114,7 +112,7 @@ The server of Flying Book is very slow to access ngrok in China, so it is recomm
 mv config.example.yaml config.yaml
 
 // Testing deployment.
-go run main.go
+go run ./
 cpolar http 9000
 
 //Production deployment
@@ -198,7 +196,7 @@ name: lark-openai
 access: "aliyun" #  Modify the custom key alias
 
 vars: # Global variables
-  region: "cn-hongkong" # Modify the desired deployment region for the cloud functions
+  region: "ap-southeast-1" # Modify the desired deployment region for the cloud functions
 
 ```
 
@@ -209,7 +207,7 @@ vars: # Global variables
         - run: go mod tidy
           path: ./code
         - run: go build -o
-            target/main main.go  # 删除GO111MODULE=on GOOS=linux GOARCH=amd64 CGO_ENABLED=0
+            target/main main.go  # del GO111MODULE=on GOOS=linux GOARCH=amd64 CGO_ENABLED=0
           path: ./code
 
 ```
@@ -273,8 +271,9 @@ docker run -d --name lark-openai -p 9000:9000 \
 feishu-chatgpt:latest
 ```
 
-注意:
+Attention:
 
+- `APP_LANG` is the language of the Lark bot, for example, `en`,`ja`, `vi`.
 - `BOT_NAME` is the name of the Lark bot, for example, `chatGpt`.
 - `OPENAI_KEY` is the OpenAI key. If you have multiple keys, separate them with commas, for example, `sk-xxx1,sk-xxx2,sk-xxx3`.
 - `HTTP_PROXY` is the proxy address of the host machine, for example, `http://host.docker.internal:7890`. If you don't have a proxy, you can leave this unset.
@@ -303,6 +302,7 @@ feishu-chatgpt:latest
     
 Note:
 
+- `APP_LANG` is the language of the Lark bot, for example, `en`,`ja`, `vi`.
 - `BOT_NAME` is the name of the Lark bot, for example, `chatGpt`.
 - `AZURE_ON` indicates whether to use Azure. Please set it to `true`.
 - `AZURE_API_VERSION` is the Azure API version, for example, `2023-03-15-preview`.
@@ -360,13 +360,12 @@ Card callback address: http://IP:9000/webhook/card
 
 - Get [OpenAI](https://platform.openai.com/account/api-keys) KEY( 🙉 Below are free keys available for everyone to test deployment )
 - Create [lark](https://open.larksuit.com/) Bot
-    1. Go [Feishu Open Platform](https://open.feishu.cn/?lang=en-US) creat app , get APPID and Secret
+    1. Go [Lark Open Platform](https://open.larksuite.com/?lang=en-US) creat app , get APPID and Secret
     2. Go `Features-Bot` , creat bot
     3. Obtain the public address from cpolar, serverless, or Railway, and fill it in the "Event Subscription" section of the Lark bot backend. For example,
    - `http://xxxx.r6.cpolar.top` is the public address exposed by cpolar.
    - `/webhook/event` is the unified application route.
    - The final callback address is `http://xxxx.r6.cpolar.top/webhook/event`.
-   
     4. In the "Bot" section of the Lark bot backend, fill in the request URL for message cards. For example,
    - `http://xxxx.r6.cpolar.top` is the public address exposed by cpolar.
    - `/webhook/card` is the unified application route.

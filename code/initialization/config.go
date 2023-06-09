@@ -2,8 +2,8 @@ package initialization
 
 import (
 	"fmt"
+	"lark-openai/utils"
 	"os"
-	"start-feishubot/utils"
 	"strconv"
 	"strings"
 

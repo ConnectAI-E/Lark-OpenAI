@@ -7,10 +7,10 @@ import (
 	"errors"
 	"fmt"
 
-	"start-feishubot/initialization"
-	"start-feishubot/services"
-	"start-feishubot/services/openai"
-	"start-feishubot/utils"
+	"lark-openai/initialization"
+	"lark-openai/services"
+	"lark-openai/services/openai"
+	"lark-openai/utils"
 
 	"github.com/google/uuid"
 	larkcard "github.com/larksuite/oapi-sdk-go/v3/card"

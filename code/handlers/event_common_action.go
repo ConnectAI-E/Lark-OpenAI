@@ -3,9 +3,9 @@ package handlers
 import (
 	"context"
 
-	"start-feishubot/initialization"
-	"start-feishubot/services/openai"
-	"start-feishubot/utils"
+	"lark-openai/initialization"
+	"lark-openai/services/openai"
+	"lark-openai/utils"
 
 	larkim "github.com/larksuite/oapi-sdk-go/v3/service/im/v1"
 )

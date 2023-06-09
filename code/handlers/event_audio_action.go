@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"os"
 
-	"start-feishubot/initialization"
-	"start-feishubot/utils"
-	"start-feishubot/utils/audio"
+	"lark-openai/initialization"
+	"lark-openai/utils"
+	"lark-openai/utils/audio"
 
 	larkim "github.com/larksuite/oapi-sdk-go/v3/service/im/v1"
 )
