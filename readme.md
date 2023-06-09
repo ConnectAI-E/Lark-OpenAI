@@ -35,7 +35,7 @@
 <strong align="center">
 <samp>
 
-[**English**](./code/locales/en) · [**简体中文**](./code/locales/zh)· [**繁體中文**](./code/locales/zh-hk) · [**日本語**](./code/locales/ja) · [**Tiếng Việt**](./code/locales/vi)
+[**English**](./readme.md) · [**简体中文**](./readme_zh.md)· [**繁體中文**](./readme_zh-hk.md) · [**日本語**](./readme_jp.md) · [**Tiếng Việt**](./readme_vi.md)
 
 </samp>
 </strong>
@@ -272,7 +272,7 @@ docker run -d --name lark-openai -p 9000:9000 \
 feishu-chatgpt:latest
 ```
 
-注意:
+notice:
 
 - `BOT_NAME` is the name of the Lark bot, for example, `chatGpt`.
 - `OPENAI_KEY` is the OpenAI key. If you have multiple keys, separate them with commas, for example, `sk-xxx1,sk-xxx2,sk-xxx3`.
