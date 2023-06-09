@@ -1,23 +1,25 @@
-# 国际化语言支持 en, zh, ja, vi, zh-hk
+# now support: en, zh, ja, vi, zh-hk
 APP_LANG: ja
-#  飞书k
+#  lark config
 APP_ID: cli_axxx
 APP_SECRET: xxx
 APP_ENCRYPT_KEY: xxx
 APP_VERIFICATION_TOKEN: xxx
-# 请确保和飞书应用管理平台中的设置一致
+# Please make sure that the settings in the application management platform of the lark are consistent.
 BOT_NAME: chatGpt
-# openAI key 支持负载均衡 可以填写多个key 用逗号分隔
+# OpenAI key
+# Support load balancing can fill in multiple keys separated by commas.
 OPENAI_KEY: sk-xxx,sk-xxx,sk-xxx
-# 服务器配置
+# Server Configuration
 HTTP_PORT: 9000
 HTTPS_PORT: 9001
 USE_HTTPS: false
 CERT_FILE: cert.pem
 KEY_FILE: key.pem
-# openai 地址, 一般不需要修改, 除非你有自己的反向代理
+# The OpenAI Base URL
+# Generally does not need to be modified unless you have your own reverse proxy.
 API_URL: https://api.openai.com
-# 代理设置, 例如 "http://127.0.0.1:7890", ""代表不使用代理
+# Proxy Settings, like "http://127.0.0.1:7890", "" means no proxy
 HTTP_PROXY: ""
 
 # AZURE OPENAI

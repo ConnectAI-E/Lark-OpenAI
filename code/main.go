@@ -1,4 +1,3 @@
-//补充繁体中文
 //go:generate gotext -srclang=zh update -out=catalog_gen.go -lang=zh,vi,en,ja,zh-hk
 
 package main
@@ -7,9 +6,9 @@ import (
 	"context"
 	"log"
 
-	"start-feishubot/handlers"
-	"start-feishubot/initialization"
-	"start-feishubot/services/openai"
+	"lark-openai/handlers"
+	"lark-openai/initialization"
+	"lark-openai/services/openai"
 
 	"github.com/gin-gonic/gin"
 	sdkginext "github.com/larksuite/oapi-sdk-gin"

@@ -30,7 +30,7 @@ config.yaml
 
 
 /code/target/
-start-feishubot
+lark-openai
 .env
 
 docker.md

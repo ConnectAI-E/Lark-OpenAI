@@ -1,4 +1,4 @@
-module start-feishubot
+module lark-openai
 
 go 1.18
 

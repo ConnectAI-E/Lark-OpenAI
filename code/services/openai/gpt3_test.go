@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"start-feishubot/initialization"
+	"lark-openai/initialization"
 )
 
 func TestCompletions(t *testing.T) {

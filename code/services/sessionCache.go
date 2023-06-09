@@ -1,7 +1,7 @@
 package services
 
 import (
-	"start-feishubot/services/openai"
+	"lark-openai/services/openai"
 	"time"
 
 	"github.com/patrickmn/go-cache"

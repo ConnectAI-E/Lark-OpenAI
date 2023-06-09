@@ -12,8 +12,8 @@ import (
 	"strings"
 	"time"
 
-	"start-feishubot/initialization"
-	"start-feishubot/services/loadbalancer"
+	"lark-openai/initialization"
+	"lark-openai/services/loadbalancer"
 )
 
 type PlatForm string
