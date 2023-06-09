@@ -38,14 +38,6 @@
 </strong>
 
 
-<strong align="center">
-<samp>
-
-[**English**](./code/locales/en) · [**简体中文**](./code/locales/zh)· [**繁體中文**](./code/locales/zh-hk) · [**日本語**](./code/locales/ja) · [**Tiếng Việt**](./code/locales/vi)
-
-</samp>
-</strong>
-
 
 ロボットの機能
 

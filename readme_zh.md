@@ -465,19 +465,4 @@ docker compose down
 
 
 
-开源社区：https://github.com/ConnectAI-E
-
-产品日志：https://www.qiniai.com/logger
-
-需求追踪：[为更好的「企联AI」~ ](https://fork-way.feishu.cn/base/CvaNbmt1KaUIIOsU8xiciqylnTd)
-
-bug反馈：https://fork-way.feishu.cn/share/base/form/shrcnYcag9Jvp71dUWKkBe3wPQd
-
-企业咨询：15623677720
-
-<img width="400" src="https://www.qiniai.com/assets/contact-15c00beb.png">
-
-
-
-
 
