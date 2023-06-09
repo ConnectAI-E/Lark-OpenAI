@@ -249,7 +249,7 @@
         {
             "id": "** 🆑 清除话题上下文**\n文本回复 *清除* 或 */clear*",
             "message": "** 🆑 清除话题上下文**\n文本回复 *清除* 或 */clear*",
-            "translation": "** 🆑 Xóa bỏ ngữ cảnh chủ đề**\nPhản hồi bằng văn bản *清除* hoặc */clear*"
+            "translation": "** 🆑 Xóa bỏ ngữ cảnh chủ đề**\nPhản hồi bằng văn bản *Xóa bỏ* hoặc */clear*"
         },
         {
             "id": "立刻清除",
@@ -259,17 +259,17 @@
         {
             "id": "🤖 **AI模式选择** \n 文本回复 *AI模式* 或 */ai_mode*",
             "message": "🤖 **AI模式选择** \n 文本回复 *AI模式* 或 */ai_mode*",
-            "translation": "🤖 **Chế độ AI** \n Phản hồi văn bản *AI模式* hoặc */ai_mode*"
+            "translation": "🤖 **Chế độ AI** \n Phản hồi văn bản *Chế độ trí tuệ nhân tạo (AI)* hoặc */ai_mode*"
         },
         {
             "id": "🛖 **内置角色列表** \n 文本回复 *角色列表* 或 */roles*",
             "message": "🛖 **内置角色列表** \n 文本回复 *角色列表* 或 */roles*",
-            "translation": "🛖 **Danh sách vai trò tích hợp** \n Phản hồi văn bản *角色列表* hoặc */roles*"
+            "translation": "🛖 **Danh sách vai trò tích hợp** \n Phản hồi văn bản *Danh sách nhân vật* hoặc */roles*"
         },
         {
             "id": "🥷 **角色扮演模式**\n文本回复*角色扮演* 或 */system*+空格+角色信息",
             "message": "🥷 **角色扮演模式**\n文本回复*角色扮演* 或 */system*+空格+角色信息",
-            "translation": "🥷 **Chế độ đóng vai**\nPhản hồi văn bản *角色扮演* hoặc */system*+ dấu cách + thông tin vai trò"
+            "translation": "🥷 **Chế độ đóng vai**\nPhản hồi văn bản *Trò chơi vai trò* hoặc */system*+ dấu cách + thông tin vai trò"
         },
         {
             "id": "🎤 **AI语音对话**\n私聊模式下直接发送语音",
@@ -279,22 +279,22 @@
         {
             "id": "🎨 **图片创作模式**\n回复*图片创作* 或 */picture*",
             "message": "🎨 **图片创作模式**\n回复*图片创作* 或 */picture*",
-            "translation": "🎨 **Chế độ tạo ảnh**\nPhản hồi *图片创作* hoặc */picture*"
+            "translation": "🎨 **Chế độ tạo ảnh**\nPhản hồi *Tạo hình ảnh* hoặc */picture*"
         },
         {
             "id": "🎰 **Token余额查询**\n回复*余额* 或 */balance*",
             "message": "🎰 **Token余额查询**\n回复*余额* 或 */balance*",
-            "translation": "🎰 **Tra cứu số dư Token**\nPhản hồi *余额* hoặc */balance*"
+            "translation": "🎰 **Tra cứu số dư Token**\nPhản hồi *Số dư* hoặc */balance*"
         },
         {
             "id": "🔃️ **历史话题回档** 🚧\n 进入话题的回复详情页,文本回复 *恢复* 或 */reload*",
             "message": "🔃️ **历史话题回档** 🚧\n 进入话题的回复详情页,文本回复 *恢复* 或 */reload*",
-            "translation": "🔃️ **Lưu trữ chủ đề trước đó** 🚧\n Vào trang chi tiết phản hồi của chủ đề, phản hồi văn bản *恢复* hoặc */reload*"
+            "translation": "🔃️ **Lưu trữ chủ đề trước đó** 🚧\n Vào trang chi tiết phản hồi của chủ đề, phản hồi văn bản *Khôi phục* hoặc */reload*"
         },
         {
             "id": "📤 **话题内容导出** 🚧\n 文本回复 *导出* 或 */export*",
             "message": "📤 **话题内容导出** 🚧\n 文本回复 *导出* 或 */export*",
-            "translation": "📤 **Xuất nội dung chủ đề** 🚧\n Phản hồi văn bản *导出* hoặc */export*"
+            "translation": "📤 **Xuất nội dung chủ đề** 🚧\n Phản hồi văn bản *Xuất khẩu* hoặc */export*"
         },
         {
             "id": "🎰 **连续对话与多话题模式**\n 点击对话框参与回复，可保持话题连贯。同时，单独提问即可开启全新新话题",
@@ -304,7 +304,7 @@
         {
             "id": "🎒 **需要更多帮助**\n文本回复 *帮助* 或 */help*",
             "message": "🎒 **需要更多帮助**\n文本回复 *帮助* 或 */help*",
-            "translation": "🎒 **Cần thêm trợ giúp**\nPhản hồi văn bản *帮助* hoặc */help*"
+            "translation": "🎒 **Cần thêm trợ giúp**\nPhản hồi văn bản *Trợ giúp* hoặc */help*"
         },
         {
             "id": "再来一张",

@@ -193,15 +193,15 @@ var jaIndex = []uint32{ // 66 elements
 	0x000007e4, 0x00000830, 0x00000866, 0x000008f1,
 	0x00000911, 0x00000974, 0x000009db, 0x000009ee,
 	0x00000a5d, 0x00000af0, 0x00000b90, 0x00000bfa,
-	0x00000c59, 0x00000cb5, 0x00000d57, 0x00000de6,
-	0x00000ee8, 0x00000f5d, 0x00000f6a, 0x00000f7f,
-	0x00000f90, 0x00000fa7, 0x00000fbe, 0x00000fda,
-	0x00001019, 0x000010a7, 0x000010c8, 0x00001135,
+	0x00000c5c, 0x00000cb8, 0x00000d5a, 0x00000de9,
+	0x00000eeb, 0x00000f60, 0x00000f6d, 0x00000f82,
+	0x00000f93, 0x00000faa, 0x00000fc1, 0x00000fdd,
+	0x0000101c, 0x000010aa, 0x000010cb, 0x00001138,
 	// Entry 40 - 5F
-	0x0000114f, 0x000011bb,
+	0x00001152, 0x000011be,
 } // Size: 288 bytes
 
-const jaData string = "" + // Size: 4539 bytes
+const jaData string = "" + // Size: 4542 bytes
 	"\x02AIモードが選択されました:\x02️🆑 ロボットのリマインダー\x02このトピックのコンテキスト情報が削除されました\x02新しいトピ" +
 	"ックを始めて、私とのチャットを続けることができます\x02このトピックのコンテキスト情報を保持します\x02このトピックをさらに議論し、チャ" +
 	"ットを楽しみにしています。他の質問や話題がある場合は、教えてください\x02画像の解像度が更新されました\x02🖼️ 画像作成モードに入りま" +
@@ -221,9 +221,9 @@ const jaData string = "" + // Size: 4539 bytes
 	"/ai_mode* を返信してください\x02🛖 **組み込みのキャラクターリスト** \x0a テキストに *キャラクターリスト* または *" +
 	"/roles* を返信してください\x02🥷 **ロールプレイモード**\x0aテキストに *ロールプレイ* または */system*+スペー" +
 	"ス+キャラクター情報 を返信してください\x02🎤 **AI音声会話**\x0aプライベートチャットモードで直接音声を送信してください" +
-	"\x02🎨 **画像作成モード**\x0a*图片创作* または */picture* と返信してください\x02🎰 **トークン残高照会**" +
-	"\x0a*余额* または */balance* と返信してください\x02🔃️ **過去のトピックの巻き戻し** 🚧\x0aトピックの返信の詳細" +
-	"ページに入り、*恢复* または */reload* と返信してください\x02📤 **トピックの内容をエクスポート** 🚧\x0a テキスト" +
+	"\x02🎨 **画像作成モード**\x0a*画像の作成* または */picture* と返信してください\x02🎰 **トークン残高照会**" +
+	"\x0a*残高* または */balance* と返信してください\x02🔃️ **過去のトピックの巻き戻し** 🚧\x0aトピックの返信の詳細" +
+	"ページに入り、*回復* または */reload* と返信してください\x02📤 **トピックの内容をエクスポート** 🚧\x0a テキスト" +
 	"で *エクスポート* または */export* を返信してください\x02🎰 **連続対話とマルチトピックモード**\x0a ダイアログボ" +
 	"ックスをクリックして参加すると、トピックを継続させることができます。同時に、個別の質問をすると新しいトピックが開始されます\x02🎒 **さ" +
 	"らなる支援が必要です**\x0aテキストで *ヘルプ* または */help* を返信してください\x02もう一枚\x02🎰️ 残高照会" +
@@ -245,17 +245,17 @@ var viIndex = []uint32{ // 66 elements
 	// Entry 20 - 3F
 	0x00000641, 0x0000069a, 0x00000755, 0x0000077b,
 	0x0000079a, 0x000007f3, 0x00000817, 0x0000088a,
-	0x000008ae, 0x00000918, 0x0000097d, 0x00000993,
-	0x000009e2, 0x00000a44, 0x00000abf, 0x00000b2b,
-	0x00000b7a, 0x00000bc4, 0x00000c63, 0x00000cc2,
-	0x00000dcb, 0x00000e1c, 0x00000e33, 0x00000e4e,
-	0x00000e73, 0x00000e8d, 0x00000eab, 0x00000ecc,
-	0x00000ef2, 0x00000f73, 0x00000f8c, 0x00000fde,
+	0x000008ae, 0x00000918, 0x00000980, 0x00000996,
+	0x00000a04, 0x00000a70, 0x00000af2, 0x00000b5e,
+	0x00000bb2, 0x00000bfe, 0x00000ca3, 0x00000d09,
+	0x00000e12, 0x00000e68, 0x00000e7f, 0x00000e9a,
+	0x00000ebf, 0x00000ed9, 0x00000ef7, 0x00000f18,
+	0x00000f3e, 0x00000fbf, 0x00000fd8, 0x0000102a,
 	// Entry 40 - 5F
-	0x00000ff9, 0x00001056,
+	0x00001045, 0x000010a2,
 } // Size: 288 bytes
 
-const viData string = "" + // Size: 4182 bytes
+const viData string = "" + // Size: 4258 bytes
 	"\x02Đã chọn chế độ AI:\x02️🆑 Nhắc nhở robot\x02Đã xóa thông tin bối cảnh" +
 	" của chủ đề này\x02Chúng ta có thể bắt đầu một chủ đề hoàn toàn mới, tiế" +
 	"p tục tìm tôi để trò chuyện nhé\x02Vẫn giữ thông tin bối cảnh của chủ đề" +
@@ -282,26 +282,28 @@ const viData string = "" + // Size: 4182 bytes
 	"vào hộp thoại để tham gia trả lời và duy trì sự liên tục của chủ đề\x02🎒" +
 	"Bạn cần giúp đỡ không?\x02**Tôi là máy bay nhỏ, một trò chuyện trí tuệ n" +
 	"hân tạo dựa trên công nghệ chatGpt!**\x02** 🆑 Xóa bỏ ngữ cảnh chủ đề**" +
-	"\x0aPhản hồi bằng văn bản *清除* hoặc */clear*\x02Xóa ngay lập tức\x02🤖 **" +
-	"Chế độ AI** \x0a Phản hồi văn bản *AI模式* hoặc */ai_mode*\x02🛖 **Danh sác" +
-	"h vai trò tích hợp** \x0a Phản hồi văn bản *角色列表* hoặc */roles*\x02🥷 **C" +
-	"hế độ đóng vai**\x0aPhản hồi văn bản *角色扮演* hoặc */system*+ dấu cách + t" +
-	"hông tin vai trò\x02🎤 **Trò chuyện giọng nói AI**\x0aGửi trực tiếp âm th" +
-	"anh trong chế độ trò chuyện riêng\x02🎨 **Chế độ tạo ảnh**\x0aPhản hồi *图" +
-	"片创作* hoặc */picture*\x02🎰 **Tra cứu số dư Token**\x0aPhản hồi *余额* hoặ" +
-	"c */balance*\x02🔃️ **Lưu trữ chủ đề trước đó** 🚧\x0a Vào trang chi tiết " +
-	"phản hồi của chủ đề, phản hồi văn bản *恢复* hoặc */reload*\x02📤 **Xuất nộ" +
-	"i dung chủ đề** 🚧\x0a Phản hồi văn bản *导出* hoặc */export*\x02🎰 **Chế độ" +
-	" trò chuyện liên tục và đa chủ đề**\x0aNhấp vào hộp thoại để tham gia tr" +
-	"ả lời và duy trì sự liên tục của chủ đề. Đồng thời, đặt câu hỏi riêng " +
-	"có thể khởi động chủ đề mới hoàn toàn\x02🎒 **Cần thêm trợ giúp**\x0aPhản" +
-	" hồi văn bản *帮助* hoặc */help*\x02Gửi thêm một cái\x02🎰️ Tra cứu số dư" +
-	"\x02Giới hạn tổng cộng: %.2[1]f$\x02Số dùng đã: %.2[1]f$\x02Số dùng được" +
-	": %.2[1]f$\x02Hạn sử dụng: %[1]s - %[2]s\x02🛖 Vui lòng chọn loại vai trò" +
-	"\x02Lưu ý: Chọn danh mục thuộc tính của vai trò để chúng tôi có thể đề x" +
-	"uất thêm các vai trò liên quan.\x02🛖 Danh sách vai trò\x02Lưu ý: Chọn cả" +
-	"nh nội bộ để nhanh chóng vào chế độ đóng vai.\x02🤖 Chọn chế độ AI\x02Lưu" +
-	" ý: Chọn chế độ nội bộ để cho AI hiểu nhu cầu của bạn tốt hơn."
+	"\x0aPhản hồi bằng văn bản *Xóa bỏ* hoặc */clear*\x02Xóa ngay lập tức\x02" +
+	"🤖 **Chế độ AI** \x0a Phản hồi văn bản *Chế độ trí tuệ nhân tạo (AI)* " +
+	"hoặc */ai_mode*\x02🛖 **Danh sách vai trò tích hợp** \x0a Phản hồi văn bả" +
+	"n *Danh sách nhân vật* hoặc */roles*\x02🥷 **Chế độ đóng vai**\x0aPhản hồ" +
+	"i văn bản *Trò chơi vai trò* hoặc */system*+ dấu cách + thông tin vai tr" +
+	"ò\x02🎤 **Trò chuyện giọng nói AI**\x0aGửi trực tiếp âm thanh trong chế " +
+	"độ trò chuyện riêng\x02🎨 **Chế độ tạo ảnh**\x0aPhản hồi *Tạo hình ảnh* " +
+	"hoặc */picture*\x02🎰 **Tra cứu số dư Token**\x0aPhản hồi *Số dư* hoặc */" +
+	"balance*\x02🔃️ **Lưu trữ chủ đề trước đó** 🚧\x0a Vào trang chi tiết phản" +
+	" hồi của chủ đề, phản hồi văn bản *Khôi phục* hoặc */reload*\x02📤 **Xuất" +
+	" nội dung chủ đề** 🚧\x0a Phản hồi văn bản *Xuất khẩu* hoặc */export*\x02" +
+	"🎰 **Chế độ trò chuyện liên tục và đa chủ đề**\x0aNhấp vào hộp thoại đ" +
+	"ể tham gia trả lời và duy trì sự liên tục của chủ đề. Đồng thời, đặt c" +
+	"âu hỏi riêng có thể khởi động chủ đề mới hoàn toàn\x02🎒 **Cần thêm trợ " +
+	"giúp**\x0aPhản hồi văn bản *Trợ giúp* hoặc */help*\x02Gửi thêm một cái" +
+	"\x02🎰️ Tra cứu số dư\x02Giới hạn tổng cộng: %.2[1]f$\x02Số dùng đã: %.2[" +
+	"1]f$\x02Số dùng được: %.2[1]f$\x02Hạn sử dụng: %[1]s - %[2]s\x02🛖 Vui lò" +
+	"ng chọn loại vai trò\x02Lưu ý: Chọn danh mục thuộc tính của vai trò để c" +
+	"húng tôi có thể đề xuất thêm các vai trò liên quan.\x02🛖 Danh sách vai t" +
+	"rò\x02Lưu ý: Chọn cảnh nội bộ để nhanh chóng vào chế độ đóng vai.\x02🤖 C" +
+	"họn chế độ AI\x02Lưu ý: Chọn chế độ nội bộ để cho AI hiểu nhu cầu của bạ" +
+	"n tốt hơn."
 
 var zhIndex = []uint32{ // 66 elements
 	// Entry 0 - 1F
@@ -393,4 +395,4 @@ const zh_HKData string = "" + // Size: 2773 bytes
 	"\x02有效期: %[1]s - %[2]s\x02🛖 請選擇角色類別\x02提醒：選擇角色所屬分類，以便我們為您推薦更多相關角色。\x02🛖 " +
 	"角色列表\x02提醒：選擇內置場景，快速進入角色扮演模式。\x02🤖 AI模式選擇\x02提醒：選擇內置模式，讓AI更好的理解您的需求。"
 
-	// Total table size 18742 bytes (18KiB); checksum: 97ADD103
+	// Total table size 18821 bytes (18KiB); checksum: E74A9371
