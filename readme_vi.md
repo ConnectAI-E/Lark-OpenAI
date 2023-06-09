@@ -35,7 +35,7 @@
 <strong align="center">
 <samp>
 
-[**English**](./readme.md) · [**简体中文**](./readme_zh.md)· [**繁體中文**](./readme_zh-hk.md) · [**日本語**](./readme_jp.md) · [**Tiếng Việt**](./readme_vi.md)
+[**English**](./readme.md) · [**简体中文**](https://github.com/ConnectAI-E/Feishu-OpenAI)· [**繁體中文**](./readme_zh-hk.md) · [**日本語**](./readme_jp.md) · [**Tiếng Việt**](./readme_vi.md)
 
 </samp>
 </strong>
@@ -272,7 +272,7 @@ docker run -d --name lark-openai -p 9000:9000 \
 feishu-chatgpt:latest
 ```
 Lưu ý:
-
+- `APP_LANG` là ngôn ngữ của bot Lark, ví dụ như `en`,`ja`,`vi`,`zh-hk` và các ngôn ngữ khác.
 - `BOT_NAME` là tên của bot Lark, ví dụ: `chatGpt`.
 - `OPENAI_KEY` là mã OpenAI. Nếu bạn có nhiều mã, hãy phân tách chúng bằng dấu phẩy, ví dụ: `sk-xxx1,sk-xxx2,sk-xxx3`.
 - `HTTP_PROXY` là địa chỉ proxy của máy chủ, ví dụ: `http://host.docker.internal:7890`. Nếu bạn không có proxy, bạn có thể để trống phần này.
@@ -301,6 +301,7 @@ feishu-chatgpt:latest
     
 Chú ý:
 
+- `APP_LANG` là ngôn ngữ của bot Lark, ví dụ như `en`,`ja`,`vi`,`zh-hk` và các ngôn ngữ khác.
 - `BOT_NAME` là tên của bot Lark, ví dụ: `chatGpt`.
 - `AZURE_ON` chỉ ra liệu có sử dụng Azure hay không. Vui lòng đặt giá trị là `true`.
 - `AZURE_API_VERSION` là phiên bản API Azure, ví dụ: `2023-03-15-preview`.

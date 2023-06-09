@@ -32,14 +32,13 @@
 <strong align="center">
 <samp>
 
-[**English**](./readme.md) · [**简体中文**](./readme_zh.md)· [**繁體中文**](./readme_zh-hk.md) · [**日本語**](./readme_jp.md) · [**Tiếng Việt**](./readme_vi.md)
+[**English**](./readme.md) · [**简体中文**](https://github.com/ConnectAI-E/Feishu-OpenAI)· [**繁體中文**](./readme_zh-hk.md) · [**日本語**](./readme_jp.md) · [**Tiếng Việt**](./readme_vi.md)
 
 </samp>
 </strong>
 
 
-
-ロボットの機能
+## 👻ロボットの機能
 
 🗣 音声コミュニケーション：個人的な会話ができる
 
@@ -274,6 +273,7 @@ feishu-chatgpt:latest
 
 注意：
 
+- `APP_LANG` はLarkボットの言語です。例えば,`en`,`ja`,`vi`,`zh-hk`.
 - `BOT_NAME` はLarkボットの名前です。例えば、`chatGpt`です。
 - `OPENAI_KEY` はOpenAIのキーです。複数のキーを持っている場合は、カンマで区切って指定します。例えば、`sk-xxx1,sk-xxx2,sk-xxx3`です。
 - `HTTP_PROXY` はホストマシンのプロキシアドレスです。例えば、`http://host.docker.internal:7890`です。プロキシを使用していない場合は、これを未設定のままにすることができます。
@@ -301,7 +301,7 @@ lark-openai:latest
 ```
 
 注意：
-
+- `APP_LANG` はLarkボットの言語です。例えば,`en`,`ja`,`vi`,`zh-hk`.
 - `BOT_NAME` はLarkボットの名前です。例えば、`chatGpt`です。
 - `AZURE_ON` はAzureを使用するかどうかを示します。`true`に設定してください。
 - `AZURE_API_VERSION` はAzureのAPIバージョンです。例えば、`2023-03-15-preview`です。

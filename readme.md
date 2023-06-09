@@ -35,7 +35,7 @@
 <strong align="center">
 <samp>
 
-[**English**](./readme.md) · [**简体中文**](./readme_zh.md)· [**繁體中文**](./readme_zh-hk.md) · [**日本語**](./readme_jp.md) · [**Tiếng Việt**](./readme_vi.md)
+[**English**](./readme.md) · [**简体中文**](https://github.com/ConnectAI-E/Feishu-OpenAI)· [**繁體中文**](./readme_zh-hk.md) · [**日本語**](./readme_jp.md) · [**Tiếng Việt**](./readme_vi.md)
 
 </samp>
 </strong>
@@ -273,7 +273,7 @@ feishu-chatgpt:latest
 
 Attention:
 
-- `APP_LANG` is the language of the Lark bot, for example, `en`,`ja`, `vi`.
+- `APP_LANG` is the language of the Lark bot, for example, `en`,`ja`, `vi`,`zh-hk`.
 - `BOT_NAME` is the name of the Lark bot, for example, `chatGpt`.
 - `OPENAI_KEY` is the OpenAI key. If you have multiple keys, separate them with commas, for example, `sk-xxx1,sk-xxx2,sk-xxx3`.
 - `HTTP_PROXY` is the proxy address of the host machine, for example, `http://host.docker.internal:7890`. If you don't have a proxy, you can leave this unset.
@@ -300,9 +300,9 @@ docker run -d --name lark-openai -p 9000:9000 \
 feishu-chatgpt:latest
 ```
     
-Note:
+Attention:
 
-- `APP_LANG` is the language of the Lark bot, for example, `en`,`ja`, `vi`.
+- `APP_LANG` is the language of the Lark bot, for example, `en`,`ja`, `vi`,`zh-hk`.
 - `BOT_NAME` is the name of the Lark bot, for example, `chatGpt`.
 - `AZURE_ON` indicates whether to use Azure. Please set it to `true`.
 - `AZURE_API_VERSION` is the Azure API version, for example, `2023-03-15-preview`.
