@@ -100,7 +100,7 @@ y thành PPT: Làm báo cáo của bạn đơn giản hơn từ bây giờ trở
 
 ```bash
 git clone git@github.com:ConnectAI-E/lark-openai.git
-cd feishu-chatgpt/code
+cd Lark-OpenAI/code
 ```
 
 Nếu máy chủ của bạn không có địa chỉ IP mạng công khai, bạn có thể sử dụng proxy ngược.
