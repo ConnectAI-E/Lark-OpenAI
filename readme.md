@@ -97,7 +97,7 @@
 
 ```bash
 git clone git@github.com:ConnectAI-E/lark-openai.git
-cd feishu-chatgpt/code
+cd Lark-OpenAI/code
 ```
 
 If your server does not have a public network IP, you can use a reverse proxy.
