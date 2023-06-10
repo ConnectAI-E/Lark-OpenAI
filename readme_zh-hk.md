@@ -6,15 +6,12 @@
     <summary> 📷 點擊展開企聯AI完整功能</summary>
     <br>
     <p align='center'>
-        <img src='https://github.com/ConnectAI-E/Feishu-OpenAI/assets/110169811/b3543ae5-23cc-4fd7-829b-74656a300901' width='800'/>
-        <img src='https://github.com/ConnectAI-E/Feishu-OpenAI/assets/110169811/948b051a-c25a-4825-8a18-5b72f6660b87' width='800'/>
-        <img src='https://github.com/ConnectAI-E/Feishu-OpenAI/assets/110169811/a2139cc3-021e-4820-8e95-53a70541f136' width='800'/>
-        <img src='https://github.com/ConnectAI-E/Feishu-OpenAI/assets/110169811/8e700709-ec0d-4c5e-b4af-710e42a0ba69' width='800'/>
-        <img src='https://github.com/ConnectAI-E/Feishu-OpenAI/assets/110169811/001cb314-5fe2-4c93-86a7-66ea747b7855' width='800'/>
-        <img src='https://github.com/ConnectAI-E/Feishu-OpenAI/assets/110169811/4dc12ca6-5305-4bc5-bf1a-40354c17ef29' width='800'/>
-        <img src='https://github.com/ConnectAI-E/Feishu-OpenAI/assets/110169811/0c3178a0-e648-4013-a042-c1f83dbbe847' width='800'/>   
+        <img src='https://github.com/ConnectAI-E/Lark-OpenAI/assets/110169811/a081676b-5e3b-4da1-83ae-94004bbbaa49' width='800'/>
+        <img src='https://github.com/ConnectAI-E/Lark-OpenAI/assets/110169811/de0e87c0-6997-4872-8794-f61f9b179b13' width='800'/>
+        <img src='https://github.com/ConnectAI-E/Lark-OpenAI/assets/110169811/35057110-2f86-448c-b899-413e95e661da' width='800'/> 
     </p>
 </details>
+
 
 <br>
 
