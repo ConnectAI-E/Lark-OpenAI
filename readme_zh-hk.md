@@ -131,7 +131,7 @@ kill -9 PID
 
 ```bash
 git clone git@github.com:ConnectAI/lark-openai.git
-cd feishu-chatgpt/code
+cd Lark-OpenAI/code
 ```
 
 安裝[severless](https://docs.serverless-devs.com/serverless-devs/quick_start)工具

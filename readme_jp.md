@@ -110,7 +110,7 @@ Flying Bookのサーバーは中国からngrokにアクセスするのが非常�
 mv config.example.yaml config.yaml
 
 // デプロイのテスト
-go run main.go
+go run ./
 cpolar http 9000
 
 // 本番デプロイ
@@ -134,7 +134,7 @@ kill -9 PID
 
 ```bash
 git clone git@github.com:ConnectAI/lark-openai.git
-cd feishu-chatgpt/code
+cd Lark-OpenAI/code
 ```
 
 [severless](https://docs.serverless-devs.com/serverless-devs/quick_start)ツールをインストールする

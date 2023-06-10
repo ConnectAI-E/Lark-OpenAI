@@ -115,7 +115,7 @@ Máy chủ của Flying Book rất chậm khi truy cập ngrok tại Trung Quố
 mv config.example.yaml config.yaml
 
 // Testing deployment.
-go run main.go
+go run ./
 cpolar http 9000
 
 //Production deployment
@@ -139,7 +139,7 @@ kill -9 PID
 
 ```bash
 git clone git@github.com:ConnectAI/lark-openai.git
-cd feishu-chatgpt/code
+cd Lark-OpenAI/code
 ```
 
 Cài đặt [severless](https://docs.serverless-devs.com/serverless-devs/quick_start)tool
