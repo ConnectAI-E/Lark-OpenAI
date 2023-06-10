@@ -7,14 +7,11 @@
     <summary> 📷 Nhấp để mở rộng chức năng đầy đủ của Connect-AI</summary>
     <br>
     <p align='center'>
-    <img src='https://github.com/ConnectAI-E/Lark-OpenAI/assets/50035229/b993c610-1c91-40dd-bdcd-85a992c17b74' alt='语音对话' width='800'/>
-    <img src='https://github.com/ConnectAI-E/Lark-OpenAI/assets/50035229/149f5fda-3fc4-49fa-8132-4825edfece1f' alt='角色扮演' width='800'/>
-    <img src='https://github.com/ConnectAI-E/Lark-OpenAI/assets/50035229/7dae5661-2d4c-4584-934c-747a8c68d3e9' alt='角色扮演' width='800'/>
-    <img src='https://github.com/ConnectAI-E/Lark-OpenAI/assets/50035229/942ffb30-fb48-4de4-a696-e0903a691665' alt='角色列表' width='800'/>
+    <img src='https://github.com/ConnectAI-E/Lark-OpenAI/assets/110169811/d201db16-3082-48dd-aadf-5633356035f9' alt='语音对话' width='800'/>
+    <img src='https://github.com/ConnectAI-E/Lark-OpenAI/assets/110169811/18109051-7a5d-4021-850c-22b9537749a4' alt='角色扮演' width='800'/>
+    <img src='https://github.com/ConnectAI-E/Lark-OpenAI/assets/110169811/71253391-143d-4dd1-89f8-4adc5505757e' alt='角色扮演' width='800'/>
     </p>
 </details>
-
-
 
 <br>
 
