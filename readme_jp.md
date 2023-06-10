@@ -95,7 +95,7 @@
 
 ```bash
 git clone git@github.com:ConnectAI-E/lark-openai.git
-cd feishu-chatgpt/code
+cd Lark-OpenAI/code
 ```
 
 サーバーがパブリックネットワークIPを持っていない場合は、リバースプロキシを使用できます。
