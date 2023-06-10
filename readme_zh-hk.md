@@ -93,7 +93,7 @@
 
 ```bash
 git clone git@github.com:ConnectAI-E/lark-openai.git
-cd feishu-chatgpt/code
+cd Lark-OpenAI/code
 ```
 如果你的伺服器沒有公網IP，可以使用反向代理的方式。
 
