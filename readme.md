@@ -1,5 +1,7 @@
 <p align='center'>
+    <a href='https://www.qiniai.com' target="_blank" rel="noopener noreferrer">
     <img src='https://github.com/ConnectAI-E/Lark-OpenAI/assets/50035229/421327a5-1cf1-46ad-93b1-15c9c9d36490' alt='' width='800'/>
+    </a>
 </p>
 
 
