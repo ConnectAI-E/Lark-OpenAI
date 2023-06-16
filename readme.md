@@ -1,5 +1,5 @@
 <p align='center'>
-    <a href='https://www.qiniai.com' target="_blank" rel="noopener noreferrer">
+    <a href='https://www.connectai-e.com' target="_blank" rel="noopener noreferrer">
     <img src='https://github-production-user-asset-6210df.s3.amazonaws.com/50035229/243593939-421327a5-1cf1-46ad-93b1-15c9c9d36490.png' alt='' width='800'/>
     </a>
 </p>
