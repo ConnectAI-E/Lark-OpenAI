@@ -103,8 +103,7 @@ The fastest way to deploy the lark-openai to `repl.it` is to click the `Use Temp
   <img alt="Run on Repl.it" src="https://repl.it/badge/github/alist-org/alist-replit" style="height: 40px; width: 190px;" />
 </a>
 
-
-Remember add env variable in `Secrets` page.
+Remember switch to `secrets` tab then edit `System environment variables`.You can also edit raw json:
 
 ```json
 {
