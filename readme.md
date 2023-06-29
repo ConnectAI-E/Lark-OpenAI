@@ -117,6 +117,13 @@ Remember switch to `secrets` tab then edit `System environment variables`.You ca
   "APP_LANG": "en"
 }
 ```
+
+Final callback addresses are
+```
+https://xxxxxx.repl.co/webhook/event
+https://xxxxxx.repl.co/webhook/card
+
+```
 <br>
 
 </details>
