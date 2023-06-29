@@ -30,6 +30,8 @@ type Config struct {
 	AzureDeploymentName        string
 	AzureResourceName          string
 	AzureOpenaiToken           string
+	OpenaiModel                string
+	OpenaiMaxTokens            int
 }
 
 func LoadConfig(cfg string) *Config {
@@ -50,6 +52,8 @@ func LoadConfig(cfg string) *Config {
 		FeishuAppVerificationToken: getViperStringValue("APP_VERIFICATION_TOKEN", ""),
 		FeishuBotName:              getViperStringValue("BOT_NAME", ""),
 		OpenaiApiKeys:              getViperStringArray("OPENAI_KEY", nil),
+		OpenaiModel:                getViperStringValue("OPENAI_MODEL", "gpt-3.5-turbo"),
+		OpenaiMaxTokens:            getViperIntValue("OPENAI_MAX_TOKENS", 2000),
 		HttpPort:                   getViperIntValue("HTTP_PORT", 9000),
 		HttpsPort:                  getViperIntValue("HTTPS_PORT", 9001),
 		UseHttps:                   getViperBoolValue("USE_HTTPS", false),
