@@ -120,9 +120,8 @@ Remember switch to `secrets` tab then edit `System environment variables`.You ca
 
 Final callback addresses are
 ```
-https://xxxxxx.repl.co/webhook/event
-https://xxxxxx.repl.co/webhook/card
-
+https://YOUR_ADDRESS.repl.co/webhook/event
+https://YOUR_ADDRESS.repl.co/webhook/card
 ```
 <br>
 
