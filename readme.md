@@ -224,7 +224,7 @@ s deploy
 <br>
 </details>
 
-<!-- <details>
+<details>
     <summary>Railway Deployment </summary>
 
 
@@ -252,7 +252,7 @@ Uncertainty about success or failure of self-determination，can be passed throu
 
 ，The result returned `pong`，The description department succeeded.。
 
-</details> -->
+</details> 
 
 <details>
     <summary>Docker Development</summary>
