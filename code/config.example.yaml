@@ -10,6 +10,12 @@ BOT_NAME: chatGpt
 # OpenAI key
 # Support load balancing can fill in multiple keys separated by commas.
 OPENAI_KEY: sk-xxx,sk-xxx,sk-xxx
+# openAI model ，default: gpt-3.5-turbo
+# support： "gpt-4-0314", "gpt-4", "gpt-3.5-turbo-0301","gpt-3.5-turbo-16k", "gpt-3.5-turbo"
+# if you use gpt-4, please confirm whether you have an interface call whitelist
+OPENAI_MODEL: gpt-3.5-turbo
+# openAI Max tokens default:2000
+OPENAI_MAX_TOKENS: 2000
 # Server Configuration
 HTTP_PORT: 9000
 HTTPS_PORT: 9001

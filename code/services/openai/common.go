@@ -41,6 +41,8 @@ type ChatGPT struct {
 	HttpProxy   string
 	Platform    PlatForm
 	AzureConfig AzureConfig
+	Model       string
+	MaxTokens   int
 }
 type requestBodyType int
 
@@ -212,6 +214,8 @@ func NewChatGPT(config initialization.Config) *ChatGPT {
 		ApiUrl:    config.OpenaiApiUrl,
 		HttpProxy: config.HttpProxy,
 		Platform:  platform,
+		Model:     config.OpenaiModel,
+		MaxTokens: config.OpenaiMaxTokens,
 		AzureConfig: AzureConfig{
 			BaseURL:        AzureApiUrlV1,
 			ResourceName:   config.AzureResourceName,

@@ -75,9 +75,9 @@ func (msg *Messages) CalculateTokenLength() int {
 func (gpt *ChatGPT) Completions(msg []Messages, aiMode AIMode) (resp Messages,
 	err error) {
 	requestBody := ChatGPTRequestBody{
-		Model:            engine,
+		Model:            gpt.Model,
 		Messages:         msg,
-		MaxTokens:        maxTokens,
+		MaxTokens:        gpt.MaxTokens,
 		Temperature:      aiMode,
 		TopP:             1,
 		FrequencyPenalty: 0,
