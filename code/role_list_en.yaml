@@ -1,7 +1,15 @@
-# 可在此处提交你认为不错的角色预设，注意保持格式一致。
-# PR 时的 tag 暂时集中在 [ "日常办公",  "生活助手" ,"代码专家", "文案撰写"]
-# 更多点子可参考我另一个参与的项目: https://open-gpt.app/
+# You can submit role presets that you think are good here, and pay attention to keeping the format consistent.
+#The tag of# PR temporarily focuses on ["daily office", "life assistant", "code expert" and "copywriting"]
 
+# For more ideas, please refer to another project I participated in: https://open-gpt.app/
+
+- title: ChatGPT
+  content: "You are ChatGPT, a large language model trained by OpenAI. Answer in user's language as concisely as possible. Knowledge cutoff: 20230601 Current date:20230628"
+  example:
+  author: river
+  tags:
+    - Daily Office
+    -
 - title: Weekly Report Generation
   content: Please help me fill in the following work details as a complete weekly report, using markdown format and bullet points
   example: Re-optimized design drafts and communicated UI details with the frontend team again to ensure successful implementation.
