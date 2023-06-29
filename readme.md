@@ -94,6 +94,37 @@
 ## 🛵 Development
 
 <details>
+    <summary>Run On Replit</summary>
+<br>
+
+The fastest way to deploy the lark-openai to `repl.it` is to click the `Use Template` button below.
+
+<a href="https://replit.com/@Leizhenpeng/Lark-OpenAI?v=1">
+  <img alt="Run on Repl.it" src="https://repl.it/badge/github/alist-org/alist-replit" style="height: 40px; width: 190px;" />
+</a>
+
+
+Remember add env variable in `Secrets` page.
+
+```json
+{
+  "BOT_NAME": "Lark-OpenAI",
+  "APP_ID": "",
+  "APP_SECRET": "",
+  "APP_ENCRYPT_KEY": "",
+  "APP_VERIFICATION_TOKEN": "",
+  "OPENAI_KEY": "sk-xx",
+  "OPENAI_MODEL": "gpt-3.5-turbo",
+  "APP_LANG": "en"
+}
+```
+<br>
+
+</details>
+
+
+
+<details>
     <summary>Local Development</summary>
 <br>
 
