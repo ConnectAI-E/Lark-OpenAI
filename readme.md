@@ -425,6 +425,13 @@ Card callback address: http://IP:9000/webhook/card
 
 5. Publish the version and wait for the approval of the enterprise administrator
 
+
+## Community
+
+If you encounter problems, you can join the Lark group to communicate~
+
+<img src='https://github.com/ConnectAI-E/Lark-OpenAI/assets/50035229/3422da69-e19f-43b2-aee4-b14ea22039ca' alt='' width='200'/>
+
 ## Connect-AI More
 
 | <div style="width:200px">AI</div> |             <img width=120> SDK <img width=120>              |                         Application                          |
