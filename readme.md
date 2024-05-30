@@ -430,7 +430,8 @@ Card callback address: http://IP:9000/webhook/card
 
 If you encounter problems, you can join the Lark group to communicate~
 
-<img src='https://github.com/ConnectAI-E/Lark-OpenAI/assets/50035229/3422da69-e19f-43b2-aee4-b14ea22039ca' alt='' width='200'/>
+<img src='https://github.com/ConnectAI-E/Lark-OpenAI/assets/110169811/060947ba-f6a2-4425-9075-98b10abdc10e' alt='' width='300'/>
+
 
 ## Connect-AI More
 
